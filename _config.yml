@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Jiaqi Li"
-description              : "description"
+description              : "MSc Computer Science"
 repository               : "JiaqiLi404/JiaqiLi404.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -26,18 +26,18 @@ author:
   bio              : "The University of Hong Kong"
   location         : "Hong Kong"
   employer         :
-  pubmed           : "pubmed"
+  pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=ru2ps-0AAAAJ"
   email            : "li1962279338@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri              :  "uri"
+  uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/JiaqiLi404"
+  github           : "JiaqiLi404"
   google_plus      :
   keybase          :
   instagram        :
