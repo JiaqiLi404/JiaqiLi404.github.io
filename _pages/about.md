@@ -29,6 +29,8 @@ In conclusion, I have faith in my academic success in the upcoming doctorate res
 
 For now, my research includes computer vision, semi-supervised learning, multi-model fusion. I am looking for a PhD opportunity in deep learning and willing to devote myself into new areas. As the first author, I have completed <a href='https://scholar.google.com/citations?user=ru2ps-0AAAAJ'><strong><span id='total_cit'>4</span></strong> papers </a>with team members while one SCI paper is under review, which is about Time Series Clustering using the DTW distance. In the meanwhile, I have three patents and four software copyrights.
 
+You can also get my CV <a href='https://drive.google.com/file/d/1-jXP9oqiqYmgW3ODOyw7qs5Zhvn28TEK/view?usp=share_link'>here</a>.
+
 
 # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Received the offer from the University of Hong Kong
@@ -38,7 +40,7 @@ For now, my research includes computer vision, semi-supervised learning, multi-m
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/image_gmm_dtw.png' alt="sym" width="300px" height="500px"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Hot Topics Clustering based on Gaussian Mixture Model built-in DTW](https://github.com/JiaqiLi404/gmm_dtw)
+[**Hot Topics Clustering based on Gaussian Mixture Model built-in DTW**](https://github.com/JiaqiLi404/gmm_dtw)
 
 **Jiaqi Li**, Chenggang Lu, Qingyue Wang
 
@@ -49,13 +51,13 @@ For now, my research includes computer vision, semi-supervised learning, multi-m
 </div>
 
 
- <br />
+
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal</div><img src='images/enterprise credit loan.png' alt="sym" width="300px" height="500px"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Research on Credit Loan Decision Model of Enterprises in the Context of Emergencies](https://github.com)
+[**Research on Credit Loan Decision Model of Enterprises in the Context of Emergencies**](https://github.com/JiaqiLi404/Enterprise_Credit_Loan_Evaluation)
 
 **Gansu Finance, 2022(12)**
 
@@ -65,13 +67,13 @@ For now, my research includes computer vision, semi-supervised learning, multi-m
 </div>
 
 
-<br />
+
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal</div><img src='images/pinewood_image.png' alt="sym" width="300px" height="500px"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Establishing a Monitoring Model of Pine Wood Nematode Based on UAV Spectral Remote Sensing and AI Technology](https://scholar.google.com/citations?view_op=view_citation&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:u-x6o8ySG0sC)
+[**Establishing a Monitoring Model of Pine Wood Nematode Based on UAV Spectral Remote Sensing and AI Technology**](https://scholar.google.com/citations?view_op=view_citation&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:u-x6o8ySG0sC)
 
 **Electronic Technology & Software Engineering, 2021(8):4**
 
@@ -81,20 +83,34 @@ For now, my research includes computer vision, semi-supervised learning, multi-m
 </div>
 
 
- <br />
 
 
-[E-commerce Platform Intellectual Property Monitoring System Based on Algorithm Engine and Big Data Technology](https://scholar.google.com/citations?view_op=view_citation&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:u5HHmVD_uO8C), **Journal of Shanghai University of Engineering Science, 35 (3), 285-289**
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal</div><img src='images/image_lda_clustering.png' alt="sym" width="300px" height="500px"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**E-commerce Platform Intellectual Property Monitoring System Based on Algorithm Engine and Big Data Technology**](https://scholar.google.com/citations?view_op=view_citation&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:u5HHmVD_uO8C)
+
+ **Journal of Shanghai University of Engineering Science, 35 (3), 285-289**
 
 **Jiaqi Li**, Yunxia Li, Xiangxu Li
 
-# 🎖 Projects & Competitions
+</div>
+</div>
+
+
+
+
+
+
+# 🎖 Projects/Competitions
+
 - *2022.12* [**A Trustworthy Semi-supervised Model for Archaeological Sites Detection based on Mean Teacher and CycleGAN**](https://github.com/JiaqiLi404/SemiSupervisedObjectDetection)
   - keep secret because I am writing the paper
  
  <br />
 
-- *2021.03* [**Identification platform of diseased wood in aerial image of pine wood nematode**](https://github.com/JiaqiLi404/piex2gps_by_sift)
+- *2022.03* [**Identification platform of diseased wood in aerial image of pine wood nematode**](https://github.com/JiaqiLi404/piex2gps_by_sift)
   - The detection model was based on Faster-RCNN with FPN, and the use of DETR and attempts were made to use DETR and YOLO instead of RCNN to draw relevant conclusions
   - Matching the adjacent aerial images by SIFT to determine the GPS coordinates of pixels
 
@@ -112,7 +128,7 @@ for feature extraction and classification using CNN.
 
  <br />
 
-- *2020.09* **Second Prize in Zhejiang Province**, **2020 National College Student Mathematical Contest in Modeling - Credit Risk Assessment Model for Small and Medium-sized Enterprises Based on Analytic Hierarchy Process and Decision Tree**
+- *2020.09* **Second Prize in Zhejiang Province**, [**2020 National College Student Mathematical Contest in Modeling - Credit Risk Assessment Model for Small and Medium-sized Enterprises Based on Analytic Hierarchy Process and Decision Tree**](https://github.com/JiaqiLi404/Enterprise_Credit_Loan_Evaluation)
   - Used the analytic hierarchy process to analyze the fundamentals and capital flows of enterprises, a corporate capital information scoring model is obtained and further combined with a decision tree to build an enterprise credit risk assessment model.
 
  <br />
@@ -123,6 +139,12 @@ for feature extraction and classification using CNN.
 
 <br />
 
+- *2021.05* **2021 National College Student Innovation and Entrepreneurship Competition - Returned and Overseas Chinese Capital Comprehensive Service Cloud Platform**
+
+  - Formed two databases for talents and projects as well as four functional systems for information release, project services, network roadshows, and data centers.
+  - Aimed at Chinese and overseas Chinese who have returned to China to start their businesses
+
+<br />
 
 # 📖 Educations
 - *2022.09 - 2023.09 (now)*, The University of Hong Kong. 
