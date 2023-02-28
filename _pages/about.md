@@ -110,7 +110,7 @@ You can also get my CV <a href='https://drive.google.com/file/d/1-jXP9oqiqYmgW3O
  
  <br />
 
-- *2022.03* [**Identification platform of diseased wood in aerial image of pine wood nematode**](https://github.com/JiaqiLi404/piex2gps_by_sift)
+- *2022.03* [**Detection Platform of Diseased Wood in Aerial Image of Pine Wood Nematode**](https://github.com/JiaqiLi404/piex2gps_by_sift)
   - The detection model was based on Faster-RCNN with FPN, and the use of DETR and attempts were made to use DETR and YOLO instead of RCNN to draw relevant conclusions
   - Matching the adjacent aerial images by SIFT to determine the GPS coordinates of pixels
 
@@ -157,7 +157,7 @@ for feature extraction and classification using CNN.
   - Majored in Imformation & Computing Science
   - Minored in Computer Science
   - Dissertation Grade: Excellent
-  - Average Score:81.4%
+  - Average Score: 81.4%
 
 # 💬 Patents
 
