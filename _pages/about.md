@@ -58,7 +58,7 @@ You can also get my CV <a href='https://drive.google.com/file/d/1-jXP9oqiqYmgW3O
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal</div><img src='images/enterprise credit loan.png' alt="sym" width="300px" height="500px"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**Research on Credit Loan Decision Model of Enterprises in the Context of Emergencies**](https://github.com/JiaqiLi404/Enterprise_Credit_Loan_Evaluation)
+[**Research on Credit Loan Decision Model of Enterprises in the Context of Emergencies**](https://qikan.cqvip.com/Qikan/Article/Detail?id=7108822036)
 
 **Gansu Finance, 2022(12)**
 
