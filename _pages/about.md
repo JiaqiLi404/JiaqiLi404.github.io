@@ -40,7 +40,7 @@ You can also get my CV <a href='https://drive.google.com/file/d/1-jXP9oqiqYmgW3O
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/image_gmm_dtw.png' alt="sym" width="300px" height="500px"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**Hot Topics Clustering based on Gaussian Mixture Model built-in DTW**](https://github.com/JiaqiLi404/gmm_dtw)
+[**Hot Topics Clustering based on Gaussian Mixture Model with built-in DTW**](https://github.com/JiaqiLi404/gmm_dtw)
 
 **Jiaqi Li**, Chenggang Lu, Qingyue Wang
 
@@ -79,6 +79,12 @@ You can also get my CV <a href='https://drive.google.com/file/d/1-jXP9oqiqYmgW3O
 
 **Jiaqi Li**, Kaihua Wu, Yao Zhang, Dalong Zhao
 
+[**Project**](https://github.com/JiaqiLi404/diseased_pinewood_detection) <strong><span class='show_paper_citations' data='ru2ps-0AAAAJ:u5HHmVD_uO8C'></span></strong>
+
+- The detection model was based on Faster-RCNN with FPN, and the use of DETR and attempts were made to use DETR and YOLO instead of RCNN to draw relevant conclusions
+
+- Matching the adjacent aerial images by SIFT to determine the GPS coordinates of pixels
+
 </div>
 </div>
 
@@ -110,7 +116,7 @@ You can also get my CV <a href='https://drive.google.com/file/d/1-jXP9oqiqYmgW3O
  
  <br />
 
-- *2022.03* [**Detection Platform of Diseased Wood in Aerial Image of Pine Wood Nematode**](https://github.com/JiaqiLi404/piex2gps_by_sift)
+- *2022.03* [**Detection Platform of Diseased Wood in Aerial Image of Pine Wood Nematode**](https://github.com/JiaqiLi404/diseased_pinewood_detection)
   - The detection model was based on Faster-RCNN with FPN, and the use of DETR and attempts were made to use DETR and YOLO instead of RCNN to draw relevant conclusions
   - Matching the adjacent aerial images by SIFT to determine the GPS coordinates of pixels
 
@@ -133,7 +139,7 @@ for feature extraction and classification using CNN.
 
  <br />
 
-- *2020.05* **2020 National College Student Innovation and Entrepreneurship Competition - A Raspberry Pi Face Monitoring System Based on OpenCV and Deep Learning**
+- *2020.05* [**2020 National College Student Innovation and Entrepreneurship Competition - A Raspberry Pi Face Monitoring System Based on OpenCV and Deep Learning**](https://github.com/JiaqiLi404/face-monitoring-raspberry-pi)
 
   - Face images were extracted by OpenCV, which will be trained through TensorFlow to obtain recognition models of different faces. By connecting the Raspberry Pi to server so that the images could be transmitted through web connection.
 
@@ -161,14 +167,14 @@ for feature extraction and classification using CNN.
 
 # 💬 Patents
 
-- Patent for Invention: **A method for calibrating the longitude and latitude of aerial image pixels**, 2022, Public Announcement Period
+- Patent for Invention: [**A method for calibrating the longitude and latitude of aerial image pixels**](https://github.com/JiaqiLi404/piex2gps_by_sift), 2022, Public Announcement Period
 
 - Patent for Utility Model: **A Remote Ischemic Preconditioning Training System and Method**,2021, Patent No.: CN108461158A, Co-inventor
 
 - Patent for Invention: **A Passenger Seat Belt Status Monitoring System**, 2018, Patent No.: CN107512239A
 
 
-- Software Copyright: **RR Interval Extraction Based on Chaos Theory and Heart Disease Diagnosis APP Based on AI Technology**, 2021, No. 7255144, Co-inventor
+- Software Copyright: [**RR Interval Extraction Based on Chaos Theory and Heart Disease Diagnosis APP Based on AI Technology**](https://github.com/JiaqiLi404/Android_openwrt_controller), 2021, No. 7255144, Co-inventor
 
 - Software Copyright: **Meeting Affairs Management Software**, 2021, No. 7278724
 
