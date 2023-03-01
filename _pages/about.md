@@ -44,7 +44,7 @@ You can also get my CV <a href='https://drive.google.com/file/d/1-jXP9oqiqYmgW3O
 
 **Jiaqi Li**, Chenggang Lu, Qingyue Wang
 
-[**Project**](https://github.com/JiaqiLi404/gmm_dtw) <strong><span class='show_paper_citations' data='ru2ps-0AAAAJ:u5HHmVD_uO8C'></span></strong>
+[**Project**](https://github.com/JiaqiLi404/gmm_dtw) <strong><span class='show_paper_citations' data=''></span></strong>
 - Time series clustering algorithms, like K-Shape and DTW-KMeans, have accuracy gap in many datasets. However, combining the DTW with GMM is rarely researched. 
 - This paper demostrates an improved GMM with built-in DTW, without dimension explosion.
 </div>
@@ -63,6 +63,8 @@ You can also get my CV <a href='https://drive.google.com/file/d/1-jXP9oqiqYmgW3O
 
 **Jiaqi Li**, Yunxia Li, Xiangxu Li
 
+[**Project**](https://github.com/JiaqiLi404/Enterprise_Credit_Loan_Evaluation) <strong><span class='show_paper_citations' data=''></span></strong>
+
 </div>
 </div>
 
@@ -79,7 +81,7 @@ You can also get my CV <a href='https://drive.google.com/file/d/1-jXP9oqiqYmgW3O
 
 **Jiaqi Li**, Kaihua Wu, Yao Zhang, Dalong Zhao
 
-[**Project**](https://github.com/JiaqiLi404/diseased_pinewood_detection) <strong><span class='show_paper_citations' data='ru2ps-0AAAAJ:u5HHmVD_uO8C'></span></strong>
+[**Project**](https://github.com/JiaqiLi404/diseased_pinewood_detection) <strong><span class='show_paper_citations' data='ru2ps-0AAAAJ:u-x6o8ySG0sC'></span></strong>
 
 - The detection model was based on Faster-RCNN with FPN, and the use of DETR and attempts were made to use DETR and YOLO instead of RCNN to draw relevant conclusions
 
@@ -100,6 +102,8 @@ You can also get my CV <a href='https://drive.google.com/file/d/1-jXP9oqiqYmgW3O
  **Journal of Shanghai University of Engineering Science, 35 (3), 285-289**
 
 **Jiaqi Li**, Yunxia Li, Xiangxu Li
+
+[**Project**](https://github.com/JiaqiLi404/E-commerce-Property-Monitoring-LDA) <strong><span class='show_paper_citations' data='ru2ps-0AAAAJ:u5HHmVD_uO8C'></span></strong>
 
 </div>
 </div>
