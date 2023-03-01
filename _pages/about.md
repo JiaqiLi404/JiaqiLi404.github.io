@@ -19,7 +19,7 @@ redirect_from:
 
 I'm Jiaqi Li, a graduate student pursuing an Master of science degree in Computer Science at the University of Hong Kong.
 
-Since I majored in Information and computing Science and minored in Computer Science, I am familiar with data mining technologies and devoted myself to researching related topics from my undergraduate years. By applying them into real-life data, my groupmates and I participated in many competitions and won the second prize in the National College Mathematical Modeling Contest. During which period I have written more than twenty thousand lines of code in python, which strongly improved my programming skill. It was also my first time summarizing the research experience into a paper and published. 
+Since I was majored in Information & computing Science and minored in Computer Science, I am familiar with data mining technologies and devoted myself to researching related topics from my undergraduate years. By applying them into real-life data, my groupmates and I participated in many competitions and won the second prize in the National College Mathematical Modeling Contest. During which period I have written more than twenty thousand lines of code in python, which strongly improved my programming skill. It was also my first time summarizing the research experience into a paper and published. 
 
 In addition, my internships allowed me to complete and summarize projects under the guidance of the experts from companies and cooperative universities, greatly enriched my cooperative research capability. I participated into a project establishing a Detection Model of diseased Pine Wood Based on UAV Multispectral Remote Sensing. During which period I learnt the feature extraction, classification and encoding of an image. Under the guidance of my supervisor, I effectively completed the detection model based on Faster R-CNN and DETR. Eventually, our model got a 0.6 AP score by adding the FPN structure into the RCNN model. The success of this project led my research paper that was published in a journal Electronic Technology & Software Engineering. When receiving the offer notices from the journals, I knew our team's efforts were recognized and rewarded. 
 
@@ -27,13 +27,14 @@ These experiences have greatly enriched my knowledge and helped develop my teamw
 
 In conclusion, I have faith in my academic success in the upcoming doctorate research because I am a fast learner with sufficient research, coordination and cooperation ability. My excellent time management skills and anti-pressure ability have made me achieve good results so far. Moreover, I love academic research and constantly pursue self-breakthrough and innovation.
 
-For now, my research includes computer vision, semi-supervised learning, multi-model fusion. I am looking for a PhD opportunity in deep learning and willing to devote myself into new areas. As the first author, I have completed <a href='https://scholar.google.com/citations?user=ru2ps-0AAAAJ'><strong><span id='total_cit'>4</span></strong> papers </a>with team members while one SCI paper is under review, which is about Time Series Clustering using the DTW distance. In the meanwhile, I have three patents and four software copyrights.
+For now, my research includes computer vision, semi-supervised learning, multi-model fusion. I am looking for a PhD opportunity in deep learning and willing to devote myself into new areas. As the first author, I have completed <a href='https://scholar.google.com/citations?user=ru2ps-0AAAAJ'><strong><span id='total_cit'>4</span></strong> papers </a>with team members while one SCI paper is under review, which is about Time Series Clustering using the DTW distance. In the meanwhile, I have 3 patents and 4 software copyrights.
 
 You can also get my CV <a href='https://drive.google.com/file/d/1-jXP9oqiqYmgW3ODOyw7qs5Zhvn28TEK/view?usp=share_link'>here</a>.
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Received the offer from the University of Hong Kong
+- *2022.07*: &nbsp;🎉🎉 Received the offer from the University of Hong Kong
+- *2022.05*: &nbsp;Got Excellent grade in undergraduate dissertation
 
 # 📝 Publications 
 
@@ -81,7 +82,8 @@ You can also get my CV <a href='https://drive.google.com/file/d/1-jXP9oqiqYmgW3O
 
 **Jiaqi Li**, Kaihua Wu, Yao Zhang, Dalong Zhao
 
-[**Project**](https://github.com/JiaqiLi404/diseased_pinewood_detection) <strong><span class='show_paper_citations' data='ru2ps-0AAAAJ:u-x6o8ySG0sC'></span></strong>
+[**Project**](https://github.com/JiaqiLi404/diseased_pinewood_detection) <strong><span class='show_paper_citations' data='ru2ps-0AAAAJ:u-x6o8ySG0sC'></span></strong> &nbsp;
+[**Pix2GPS**](https://github.com/JiaqiLi404/piex2gps_by_sift) <strong><span class='show_paper_citations' data=''></span></strong>
 
 - The detection model was based on Faster-RCNN with FPN, and the use of DETR and attempts were made to use DETR and YOLO instead of RCNN to draw relevant conclusions
 
@@ -171,11 +173,11 @@ for feature extraction and classification using CNN.
 
 # 💬 Patents
 
-- Patent for Invention: [**A method for calibrating the longitude and latitude of aerial image pixels**](https://github.com/JiaqiLi404/piex2gps_by_sift), 2022, Public Announcement Period
+- Patent for Invention: [**A method for calibrating the longitude and latitude of aerial image pixels**](https://patents.google.com/patent/CN115457124A), 2022, Patent No.: CN115457124A
 
-- Patent for Utility Model: **A Remote Ischemic Preconditioning Training System and Method**,2021, Patent No.: CN108461158A, Co-inventor
+- Patent for Utility Model: [**A Remote Ischemic Preconditioning Training System and Method**](https://patents.google.com/patent/CN108461158A), 2021, Patent No.: CN108461158A, Co-inventor
 
-- Patent for Invention: **A Passenger Seat Belt Status Monitoring System**, 2018, Patent No.: CN107512239A
+- Patent for Invention: [**A Passenger Seat Belt Status Monitoring System**](https://patents.google.com/patent/CN107512239A), 2018, Patent No.: CN107512239A
 
 
 - Software Copyright: [**RR Interval Extraction Based on Chaos Theory and Heart Disease Diagnosis APP Based on AI Technology**](https://github.com/JiaqiLi404/Android_openwrt_controller), 2021, No. 7255144, Co-inventor
