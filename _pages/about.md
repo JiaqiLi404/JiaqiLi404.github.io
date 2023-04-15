@@ -19,15 +19,9 @@ redirect_from:
 
 I'm Jiaqi Li, a graduate student pursuing an Master of science degree in Computer Science at the University of Hong Kong.
 
-Since I was majored in Information & computing Science and minored in Computer Science, I am familiar with data mining technologies and devoted myself to researching related topics from my undergraduate years. By applying them into real-life data, my groupmates and I participated in many competitions and won the second prize in the National College Mathematical Modeling Contest. During which period I have written more than twenty thousand lines of code in python, which strongly improved my programming skill. It was also my first time summarizing the research experience into a paper and published. 
+I was majored in Mathematics and minor in Computer Science as an undergraduate, participated in 4 national AI competitions and won the second prize in the National College Mathematical Modeling Contest, during which period my groupmates and I studied over 100 papers and completed 20 machine learning related projects with more than 20,000 lines of code. 
 
-In addition, my internships allowed me to complete and summarize projects under the guidance of the experts from companies and cooperative universities, greatly enriched my cooperative research capability. I participated into a project establishing a Detection Model of diseased Pine Wood Based on UAV Multispectral Remote Sensing. During which period I learnt the feature extraction, classification and encoding of an image. Under the guidance of my supervisor, I effectively completed the detection model based on Faster R-CNN and DETR. Eventually, our model got a 0.6 AP score by adding the FPN structure into the RCNN model. The success of this project led my research paper that was published in a journal Electronic Technology & Software Engineering. When receiving the offer notices from the journals, I knew our team's efforts were recognized and rewarded. 
-
-These experiences have greatly enriched my knowledge and helped develop my teamwork and problem-solving skills, and also made me find my interest in deep learning and multi-model fusion, so I became obsessed with those fields. As semi-supervised learning and trustworthy AI are quite famous those days, I invested quite a lot of research into the Archaeological site detection project. In this project, I introduced the mean teacher model to better train our U-Net model. As a representative model focusing on the model consistency, the mean teacher uses the teacher model to supervise the student. However, the teacher is not always trustworthy which may mislead the student. So I measured the uncertainty of the teacher through task-level consistency and random dropout, resulting in a more intelligent student only learning trustworthy knowledge from the teacher. On the other hand, considering the image quantity is insufficient, a cycle GAN was proposed to allow domain transformation, changing those specific images into general images and generating more training data by it.
-
-In conclusion, I have faith in my academic success in the upcoming doctorate research because I am a fast learner with sufficient research, coordination and cooperation ability. My excellent time management skills and anti-pressure ability have made me achieve good results so far. Moreover, I love academic research and constantly pursue self-breakthrough and innovation.
-
-For now, my research includes computer vision, semi-supervised learning, multi-model fusion. I am looking for a PhD opportunity in deep learning and willing to devote myself into new areas. As the first author, I have completed <a href='https://scholar.google.com/citations?user=ru2ps-0AAAAJ'><strong><span id='total_cit'>4</span></strong> papers </a>with team members while one SCI paper is under review, which is about Time Series Clustering using the DTW distance. In the meanwhile, I have 3 patents and 4 software copyrights.
+My recent interests lies on deep learning, computer vision, transfer learning, generative model, self-supervised learning, semi-supervised learning and multi-model fusion. I am looking for a PhD opportunity in deep learning and willing to devote myself into new fields. As the first author, I have completed <a href='https://scholar.google.com/citations?user=ru2ps-0AAAAJ'><strong><span id='total_cit'>4</span></strong> papers </a>with team members while one SCI paper is under review, which is about Time Series Clustering using the DTW distance. In the meanwhile, I have 3 patents and 4 software copyrights.
 
 You can also get my CV <a href='https://drive.google.com/file/d/1-jXP9oqiqYmgW3ODOyw7qs5Zhvn28TEK/view?usp=share_link'>here</a>.
 
@@ -117,8 +111,17 @@ You can also get my CV <a href='https://drive.google.com/file/d/1-jXP9oqiqYmgW3O
 
 # 🎖 Projects/Competitions
 
-- *2022.12* [**A Trustworthy Semi-supervised Model for Archaeological Sites Detection based on Mean Teacher and CycleGAN**](https://github.com/JiaqiLi404/SemiSupervisedObjectDetection)
-  - keep secret because I am writing the paper
+- *2023.02* [**A Semi-supervised Archaeological Site Detection Model based on Transfer Learning**](https://github.com/JiaqiLi404/SemiSupervisedObjectDetection)
+  - Investigating using unsupervised or few-shot semantic segmentation models like MaskDistill and SAM to transfer the bounding boxes into mask
+  - Tring to apply Visual Prompt Tuning into semi-supervised learning to tuning the decoder and applying it into DeepLab or Mask R-CNN model
+
+ 
+ <br />
+
+- *2022.12* [**A Trustworthy Model for Archaeological Site Detection based on Mean Teacher and CycleGAN**](https://github.com/JiaqiLi404/SemiSupervisedObjectDetection)
+  - By measuring the uncertainty of teacher through task-level consistency and random dropout, resulting in a more intelligent student only learns trustworthy knowledge from teacher
+  - CycleGAN was introduced to allow image domain transformation and data generation
+
  
  <br />
 
