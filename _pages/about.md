@@ -111,7 +111,8 @@ You can also get my CV <a href='https://drive.google.com/file/d/1-jXP9oqiqYmgW3O
 
 # 🎖 Projects/Competitions
 
-- *2023.02* [**A Semi-supervised Archaeological Site Detection Model based on Transfer Learning**](https://github.com/JiaqiLi404/SemiSupervisedObjectDetection)
+- *2023.02* [**A Semi-supervised Archaeological Site Detection Model based on Transfer Learning**](https://github.com/JiaqiLi404/Super_resolution_DINO)
+  - Investigating using GAN to achieve Super_resolution without pair-supervised training data
   - Investigating using unsupervised or few-shot semantic segmentation models like MaskDistill and SAM to transfer the bounding boxes into mask
   - Tring to apply Visual Prompt Tuning into semi-supervised learning to tuning the decoder and applying it into DeepLab or Mask R-CNN model
 
