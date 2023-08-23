@@ -19,7 +19,7 @@ redirect_from:
 
 I'm Jiaqi Li, a graduate student pursuing an Master of science degree in Computer Science at the University of Hong Kong.
 
-I was majored in Mathematics and minor in Computer Science as an undergraduate, participated in 4 national AI competitions and won the second prize in the National College Mathematical Modeling Contest, during which period my groupmates and I studied over 100 papers and completed 20 machine learning related projects with more than 20,000 lines of code. 
+I was majored in Mathematics and minor in Computer Science as an undergraduate, participated in 4 national AI competitions and won the second prize in the National College Mathematical Modeling Contest, during which period my groupmates and I studied over 100 papers and completed 20 machine learning related projects with more than 30,000 lines of code. 
 
 My recent interests lies on deep learning, computer vision, transfer learning, generative model, self-supervised learning, semi-supervised learning and multi-model fusion. I am looking for a PhD opportunity in deep learning and willing to devote myself into new fields. As the first author, I have completed <a href='https://scholar.google.com/citations?user=ru2ps-0AAAAJ'><strong><span id='total_cit'>4</span></strong> papers </a>with team members while one SCI paper is under review, which is about Time Series Clustering using the DTW distance. In the meanwhile, I have 3 patents and 4 software copyrights.
 
@@ -113,8 +113,7 @@ You can also get my CV <a href='https://drive.google.com/file/d/1-jXP9oqiqYmgW3O
 
 - *2023.02* [**A Semi-supervised Archaeological Site Detection Model based on Transfer Learning**](https://github.com/JiaqiLi404/Super_resolution_DINO)
   - Investigating using GAN to achieve Super_resolution without pair-supervised training data
-  - Investigating using unsupervised or few-shot semantic segmentation models like MaskDistill and SAM to transfer the bounding boxes into mask
-  - Tring to apply Visual Prompt Tuning into semi-supervised learning to tuning the decoder and applying it into DeepLab or Mask R-CNN model
+  - Tring to apply Visual Prompt Tuning into semi-supervised learning to tuning pre-trained SegFormer. Meanwhile, an improved SegFormer with domain prompt idea is also proposed.
 
  
  <br />
@@ -193,6 +192,18 @@ for feature extraction and classification using CNN.
 - Software Copyright: **Electric Power Monitoring Software**, 2021, No. 7278722
 
 # 💻 Internships
+- *Aug. 2023 - now*, The Hong Kong University of Science and Technology
+
+  - Research Assistant, Develop online experiment platform for human-GPT interaction, aiming to improve the ability of GPT agents by applying techniques, e.g. LangChain.
+
+ <br />
+
+- *Oct. 2021 – June 2022*, Hangzhou Markov Technology Co., Ltd.
+
+  - R & D Department, Develop WeChat apps for city volunteer services as a full-stack engineer work with team.
+
+ <br />
+
 - *Sep. 2020 - Feb. 2021*, Hangzhou Fenghui Information Technology Co., Ltd.
 
   - R & D Department, Assist colleagues in testing hardware and software products and applying for patents.
