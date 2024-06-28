@@ -17,31 +17,52 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm Jiaqi Li, a graduate student pursuing an Master of science degree in Computer Science at the University of Hong Kong.
+I am Jiaqi Li, a master student in Computer Science at the University of Hong Kong. 
 
-I was majored in Mathematics and minor in Computer Science as an undergraduate, participated in 4 national AI competitions and won the second prize in the National College Mathematical Modeling Contest, during which period my groupmates and I studied over 100 papers and completed 20 machine learning related projects with more than 30,000 lines of code. 
+I majored in Mathematics and minor in Computer Science as an undergraduate.
+Throughout my academic journey, I participated in 5 national competitions, 
+earning accolades and completed over 20 mathematical and machine learning related papers and projects, 
+exemplified by more than 20,000 lines of code. 
 
-My recent interests lies on deep learning, computer vision, transfer learning, generative model, self-supervised learning, semi-supervised learning and multi-model fusion. I am looking for a PhD opportunity in deep learning and willing to devote myself into new fields. As the first author, I have completed <a href='https://scholar.google.com/citations?user=ru2ps-0AAAAJ'><strong><span id='total_cit'>4</span></strong> papers </a>with team members while one SCI paper is under review, which is about Time Series Clustering using the DTW distance. In the meanwhile, I have 3 patents and 4 software copyrights.
+To date, I have authored 5 papers, secured 5 internships, obtained 3 patents, and earned 4 software copyrights.
 
-You can also get my CV <a href='https://drive.google.com/file/d/1-jXP9oqiqYmgW3ODOyw7qs5Zhvn28TEK/view?usp=share_link'>here</a>.
+[//]: # (You can also get my CV <a href='https://drive.google.com/file/d/1-jXP9oqiqYmgW3ODOyw7qs5Zhvn28TEK/view?usp=share_link'>here</a>.)
 
 
 # 🔥 News
+- *2024.06*: &nbsp;🎉🎉 Paper **Know the Unknown: An Uncertainty-Sensitive Method for LLM Instruction Tuning**
+  is available at arxiv
+- *2023.12*: &nbsp;🎉🎉 Paper **Hot Topics Clustering based on Gaussian Mixture Model with built-in DTW**
+being accepted by 2023 IEEE 4th International Conference on Pattern Recognition and Machine Learning (PRML)
 - *2022.07*: &nbsp;🎉🎉 Received the offer from the University of Hong Kong
 - *2022.05*: &nbsp;Got Excellent grade in undergraduate dissertation
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/image_gmm_dtw.png' alt="sym" width="300px" height="500px"></div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/know_the_unknow.png' alt="sym" width="300px" height="500px"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**Know the Unknown: An Uncertainty-Sensitive Method for LLM Instruction Tuning**](https://arxiv.org/abs/2406.10099)
+
+**Jiaqi Li**, Yixuan Tang, Yi Yang
+
+[**Project**](https://github.com/JiaqiLi404/gmm_dtw) <strong><span class='show_paper_citations' data=''></span></strong>
+- A novel fine-tuning framework to automatically synthesize training data tailored for rejecting the questions exceeds the knowledge without compromising on other tasks.
+</div>
+</div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE International Conference</div><img src='images/image_gmm_dtw.png' alt="sym" width="300px" height="500px"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**Hot Topics Clustering based on Gaussian Mixture Model with built-in DTW**](https://github.com/JiaqiLi404/gmm_dtw)
 
-**Jiaqi Li**, Chenggang Lu, Qingyue Wang
+Chenggang Lu, **Jiaqi Li**
 
 [**Project**](https://github.com/JiaqiLi404/gmm_dtw) <strong><span class='show_paper_citations' data=''></span></strong>
-- Time series clustering algorithms, like K-Shape and DTW-KMeans, have accuracy gap in many datasets. However, combining the DTW with GMM is rarely researched. 
-- This paper demostrates an improved GMM with built-in DTW, without dimension explosion.
+- This paper demostrates an improved GMM clustering algorithms with built-in DTW, without dimension explosion.
 </div>
 </div>
 
@@ -162,7 +183,7 @@ for feature extraction and classification using CNN.
 <br />
 
 # 📖 Educations
-- *2022.09 - 2023.09 (now)*, The University of Hong Kong. 
+- *2022.09 - 2023.12*, The University of Hong Kong. 
   - Master of Science in Computer Science
 
  <br />
@@ -172,7 +193,6 @@ for feature extraction and classification using CNN.
   - Majored in Imformation & Computing Science
   - Minored in Computer Science
   - Dissertation Grade: Excellent
-  - Average Score: 81.4%
 
 # 💬 Patents
 
@@ -192,13 +212,13 @@ for feature extraction and classification using CNN.
 - Software Copyright: **Electric Power Monitoring Software**, 2021, No. 7278722
 
 # 💻 Internships
-- *Aug. 2023 - now*, The Hong Kong University of Science and Technology
+- *Aug. 2023 - Jun. 2024*, The Hong Kong University of Science and Technology
 
   - Research Assistant, Develop online experiment platform for human-GPT interaction, aiming to improve the ability of GPT agents by applying techniques, e.g. LangChain.
 
  <br />
 
-- *Oct. 2021 – June 2022*, Hangzhou Markov Technology Co., Ltd.
+- *Oct. 2021 – Jun. 2022*, Hangzhou Markov Technology Co., Ltd.
 
   - R & D Department, Develop WeChat apps for city volunteer services as a full-stack engineer work with team.
 
