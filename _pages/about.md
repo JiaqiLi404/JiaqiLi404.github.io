@@ -132,10 +132,8 @@ Chenggang Lu, **Jiaqi Li**
 
 # 🎖 Projects/Competitions
 
-- *2024.02* [**I AM DIRECTOR**](https://github.com/JiaqiLi404/Super_resolution_DINO)
-  - Investigating using GAN to achieve Super_resolution without pair-supervised training data
-  - Tring to apply Visual Prompt Tuning into semi-supervised learning to tuning pre-trained SegFormer. Meanwhile, an improved SegFormer with domain prompt idea is also proposed.
-
+- *2024.02* [**I AM DIRECTOR**](https://github.com/JiaqiLi404/IAmDirector-Text2Video-NextJS-Client)
+  - An AI driven platform for automatic movie/video scripts generation.
 
  <br />
 
