@@ -132,8 +132,9 @@ Chenggang Lu, **Jiaqi Li**
 
 # 🎖 Projects/Competitions
 
-- *2024.02* [**I AM DIRECTOR**](https://github.com/JiaqiLi404/IAmDirector-Text2Video-NextJS-Client)
-  - An AI driven platform for automatic movie/video scripts generation.
+- *2024.02* [**I AM DIRECTOR**](https://www.iamdirector.cn/home)
+    - [**Code**](https://github.com/JiaqiLi404/IAmDirector-Text2Video-NextJS-Client)
+    - An AI driven platform for automatic movie/video scripts generation.
 
  <br />
 
