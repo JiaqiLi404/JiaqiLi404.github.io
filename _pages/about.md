@@ -47,7 +47,7 @@ being accepted by 2023 IEEE 4th International Conference on Pattern Recognition 
 
 **Jiaqi Li**, Yixuan Tang, Yi Yang
 
-[**Project**](https://github.com/JiaqiLi404/gmm_dtw) <strong><span class='show_paper_citations' data=''></span></strong>
+[**Project**](https://github.com/JiaqiLi404/TrustworthyRAG) <strong><span class='show_paper_citations' data=''></span></strong>
 - A novel fine-tuning framework to automatically synthesize training data tailored for rejecting the questions exceeds the knowledge without compromising on other tasks.
 </div>
 </div>
@@ -57,7 +57,7 @@ being accepted by 2023 IEEE 4th International Conference on Pattern Recognition 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE International Conference</div><img src='images/image_gmm_dtw.png' alt="sym" width="300px" height="500px"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**Hot Topics Clustering based on Gaussian Mixture Model with built-in DTW**](https://github.com/JiaqiLi404/gmm_dtw)
+[**Hot Topics Clustering based on Gaussian Mixture Model with built-in DTW**](https://ieeexplore.ieee.org/abstract/document/10348277)
 
 Chenggang Lu, **Jiaqi Li**
 
@@ -131,6 +131,13 @@ Chenggang Lu, **Jiaqi Li**
 
 
 # 🎖 Projects/Competitions
+
+- *2024.02* [**I AM DIRECTOR**](https://github.com/JiaqiLi404/Super_resolution_DINO)
+  - Investigating using GAN to achieve Super_resolution without pair-supervised training data
+  - Tring to apply Visual Prompt Tuning into semi-supervised learning to tuning pre-trained SegFormer. Meanwhile, an improved SegFormer with domain prompt idea is also proposed.
+
+
+ <br />
 
 - *2023.02* [**A Semi-supervised Archaeological Site Detection Model based on Transfer Learning**](https://github.com/JiaqiLi404/Super_resolution_DINO)
   - Investigating using GAN to achieve Super_resolution without pair-supervised training data
