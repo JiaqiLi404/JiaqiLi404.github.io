@@ -45,6 +45,8 @@ being accepted by 2023 IEEE 4th International Conference on Pattern Recognition 
 
 [**Know the Unknown: An Uncertainty-Sensitive Method for LLM Instruction Tuning**](https://arxiv.org/abs/2406.10099)
 
+**Arxiv preprint**
+
 **Jiaqi Li**, Yixuan Tang, Yi Yang
 
 [**Project**](https://github.com/JiaqiLi404/TrustworthyRAG) <strong><span class='show_paper_citations' data=''></span></strong>
@@ -58,6 +60,8 @@ being accepted by 2023 IEEE 4th International Conference on Pattern Recognition 
 <div class='paper-box-text' markdown="1">
 
 [**Hot Topics Clustering based on Gaussian Mixture Model with built-in DTW**](https://ieeexplore.ieee.org/abstract/document/10348277)
+
+**IEEE International Conference on Pattern Recognition and Machine Learning (PRML2023)**
 
 Chenggang Lu, **Jiaqi Li**
 
