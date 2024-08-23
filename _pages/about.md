@@ -32,7 +32,8 @@ To date, I have authored 5 papers, secured 5 internships, obtained 3 patents, an
 # 🔥 News
 - *2024.06*: &nbsp;🎉🎉 Paper **Know the Unknown: An Uncertainty-Sensitive Method for LLM Instruction Tuning**
   is available at arxiv
-- *2023.12*: &nbsp;🎉🎉 Paper **Hot Topics Clustering based on Gaussian Mixture Model with built-in DTW**
+- *2024.05*: &nbsp;Project [**I AM DIRECTOR**](https://www.iamdirector.cn/home) got 100+ starts on GitHub
+- *2023.11*: &nbsp;🎉🎉 Paper **Hot Topics Clustering based on Gaussian Mixture Model with built-in DTW**
 being accepted by 2023 IEEE 4th International Conference on Pattern Recognition and Machine Learning (PRML)
 - *2022.07*: &nbsp;🎉🎉 Received the offer from the University of Hong Kong
 - *2022.05*: &nbsp;Got Excellent grade in undergraduate dissertation
