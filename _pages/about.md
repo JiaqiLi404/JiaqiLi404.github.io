@@ -58,19 +58,27 @@ being accepted by 2023 IEEE 4th International Conference on Pattern Recognition 
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SCI 2nd Tier Journals</div><img src='images/RMFDnet.png' alt="sym" width="300px" height="500px"></div></div>
-<div class='paper-box-text' markdown="1">
+[//]: # (<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SCI 2nd Tier Journals</div><img src='images/RMFDnet.png' alt="sym" width="300px" height="500px"></div></div>)
 
-[**RMFDnet: Redundant and Missing Feature Decoupling Network for Salient Object Detection**]()
+[//]: # (<div class='paper-box-text' markdown="1">)
 
-**Engineering Applications of Artificial Intelligence**
+[//]: # ()
+[//]: # ([**RMFDnet: Redundant and Missing Feature Decoupling Network for Salient Object Detection**]&#40;&#41;)
 
-Qianwei Zhou, Jintao Wang, **Jiaqi Li**, Chen Zhou, Haigen Hu, Keli Hu
+[//]: # ()
+[//]: # (**Engineering Applications of Artificial Intelligence**)
 
-<strong><span class='show_paper_citations' data=''></span></strong>
-- This paper proposes carefully devised auxiliary decoders to decouple the redundant and missing features, which utilized for further refining and prediction.
-</div>
-</div>
+[//]: # ()
+[//]: # (Qianwei Zhou, Jintao Wang, **Jiaqi Li**, Chen Zhou, Haigen Hu, Keli Hu)
+
+[//]: # ()
+[//]: # (<strong><span class='show_paper_citations' data=''></span></strong>)
+
+[//]: # (- This paper proposes carefully devised auxiliary decoders to decouple the redundant and missing features, which utilized for further refining and prediction.)
+
+[//]: # (</div>)
+
+[//]: # (</div>)
 
 
 
