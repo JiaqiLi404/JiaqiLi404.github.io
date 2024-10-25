@@ -63,7 +63,7 @@ being accepted by 2023 IEEE 4th International Conference on Pattern Recognition 
 <div class='paper-box-text' markdown="1">
 
 
-[**RMFDnet: Redundant and Missing Feature Decoupling Network for Salient Object Detection**]()
+[**RMFDnet: Redundant and Missing Feature Decoupling Network for Salient Object Detection**](https://authors.elsevier.com/c/1j~wP3OWJ98gqo)
 
 
 **Engineering Applications of Artificial Intelligence**
