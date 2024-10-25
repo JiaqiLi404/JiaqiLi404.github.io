@@ -72,7 +72,7 @@ being accepted by 2023 IEEE 4th International Conference on Pattern Recognition 
 Qianwei Zhou, Jintao Wang, **Jiaqi Li**, Chen Zhou, Haigen Hu, Keli Hu
 
 
-<strong><span class='show_paper_citations' data=''></span></strong>
+[//]: # (<strong><span class='show_paper_citations' data=''></span></strong>)
 
 - This paper proposes carefully devised auxiliary decoders to decouple the redundant and missing features, which utilized for further refining and prediction.
 
@@ -128,7 +128,7 @@ Chenggang Lu, **Jiaqi Li**
 **Jiaqi Li**, Kaihua Wu, Yao Zhang, Dalong Zhao
 
 [**Project**](https://github.com/JiaqiLi404/diseased_pinewood_detection) <strong><span class='show_paper_citations' data='ru2ps-0AAAAJ:u-x6o8ySG0sC'></span></strong> &nbsp;
-[**Pix2GPS**](https://github.com/JiaqiLi404/piex2gps_by_sift) <strong><span class='show_paper_citations' data=''></span></strong>
+[**Pix2GPS**](https://github.com/JiaqiLi404/piex2gps_by_sift) 
 
 - A Faster-RCNN object detection model, and SIFT algorithm based GPS determination approach.
 
