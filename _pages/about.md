@@ -24,7 +24,7 @@ Throughout my academic journey, I participated in 5 national competitions,
 earning accolades and completed over 20 mathematical and machine learning related papers and projects, 
 exemplified by more than 20,000 lines of code. 
 
-To date, I have authored 5 papers, secured 5 internships, obtained 3 patents, and earned 4 software copyrights.
+To date, I have authored 6 papers, secured 5 work experiences, obtained 3 patents, and earned 4 software copyrights.
 
 [//]: # (You can also get my CV <a href='https://drive.google.com/file/d/1-jXP9oqiqYmgW3ODOyw7qs5Zhvn28TEK/view?usp=share_link'>here</a>.)
 
@@ -50,7 +50,7 @@ being accepted by 2023 IEEE 4th International Conference on Pattern Recognition 
 
 **Jiaqi Li**, Yixuan Tang, Yi Yang
 
-[**Project**](https://github.com/JiaqiLi404/TrustworthyRAG) <strong><span class='show_paper_citations' data=''></span></strong>
+[**Project**](https://github.com/JiaqiLi404/TrustworthyRAG) <strong><span class='show_paper_citations' data='ru2ps-0AAAAJ:L8Ckcad2t8MC'></span></strong>
 - A novel fine-tuning framework to automatically synthesize training data tailored for rejecting the questions exceeds the knowledge without compromising on other tasks.
 </div>
 </div>
@@ -58,27 +58,27 @@ being accepted by 2023 IEEE 4th International Conference on Pattern Recognition 
 
 
 
-[//]: # (<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SCI 2nd Tier Journals</div><img src='images/RMFDnet.png' alt="sym" width="300px" height="500px"></div></div>)
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SCI 2nd Tier Journals</div><img src='images/RMFDnet.png' alt="sym" width="300px" height="500px"></div></div>
 
-[//]: # (<div class='paper-box-text' markdown="1">)
+<div class='paper-box-text' markdown="1">
 
-[//]: # ()
-[//]: # ([**RMFDnet: Redundant and Missing Feature Decoupling Network for Salient Object Detection**]&#40;&#41;)
 
-[//]: # ()
-[//]: # (**Engineering Applications of Artificial Intelligence**)
+[**RMFDnet: Redundant and Missing Feature Decoupling Network for Salient Object Detection**]()
 
-[//]: # ()
-[//]: # (Qianwei Zhou, Jintao Wang, **Jiaqi Li**, Chen Zhou, Haigen Hu, Keli Hu)
 
-[//]: # ()
-[//]: # (<strong><span class='show_paper_citations' data=''></span></strong>)
+**Engineering Applications of Artificial Intelligence**
 
-[//]: # (- This paper proposes carefully devised auxiliary decoders to decouple the redundant and missing features, which utilized for further refining and prediction.)
 
-[//]: # (</div>)
+Qianwei Zhou, Jintao Wang, **Jiaqi Li**, Chen Zhou, Haigen Hu, Keli Hu
 
-[//]: # (</div>)
+
+<strong><span class='show_paper_citations' data=''></span></strong>
+
+- This paper proposes carefully devised auxiliary decoders to decouple the redundant and missing features, which utilized for further refining and prediction.
+
+</div>
+
+</div>
 
 
 
@@ -91,8 +91,8 @@ being accepted by 2023 IEEE 4th International Conference on Pattern Recognition 
 
 Chenggang Lu, **Jiaqi Li**
 
-[**Project**](https://github.com/JiaqiLi404/gmm_dtw) <strong><span class='show_paper_citations' data=''></span></strong>
-- This paper demostrates an improved GMM clustering algorithms with built-in DTW, without dimension explosion.
+[**Project**](https://github.com/JiaqiLi404/gmm_dtw) <strong><span class='show_paper_citations' data='ru2ps-0AAAAJ:7PzlFSSx8tAC'></span></strong>
+- A GMM with improved built-in DTW algorithm without dimensional explosion for length-varying time-series clustering.
 </div>
 </div>
 
@@ -109,7 +109,7 @@ Chenggang Lu, **Jiaqi Li**
 
 **Jiaqi Li**, Yunxia Li, Xiangxu Li
 
-[**Project**](https://github.com/JiaqiLi404/Enterprise_Credit_Loan_Evaluation) <strong><span class='show_paper_citations' data=''></span></strong>
+[**Project**](https://github.com/JiaqiLi404/Enterprise_Credit_Loan_Evaluation) <strong><span class='show_paper_citations' data='ru2ps-0AAAAJ:d1gkVwhDpl0C'></span></strong>
 
 </div>
 </div>
@@ -130,9 +130,7 @@ Chenggang Lu, **Jiaqi Li**
 [**Project**](https://github.com/JiaqiLi404/diseased_pinewood_detection) <strong><span class='show_paper_citations' data='ru2ps-0AAAAJ:u-x6o8ySG0sC'></span></strong> &nbsp;
 [**Pix2GPS**](https://github.com/JiaqiLi404/piex2gps_by_sift) <strong><span class='show_paper_citations' data=''></span></strong>
 
-- The detection model was based on Faster-RCNN with FPN, and the use of DETR and attempts were made to use DETR and YOLO instead of RCNN to draw relevant conclusions
-
-- Matching the adjacent aerial images by SIFT to determine the GPS coordinates of pixels
+- A Faster-RCNN object detection model, and SIFT algorithm based GPS determination approach.
 
 </div>
 </div>
@@ -162,59 +160,60 @@ Chenggang Lu, **Jiaqi Li**
 
 # 🎖 Projects/Competitions
 
+- *2024.10* **A Human-AI Interaction Platform for Co-speech Gesture Understanding in Business Pitches**
+  - An automated and scalable co-speech gesture recognition and understanding platform leveraging AI and behavior psychology for understanding the role of co-speech gestures in business pitches. 
+  - The human-AI interaction aims at accelerating the training with the least annotation effort.
+
+ <br />
+
 - *2024.02* [**I AM DIRECTOR**](https://www.iamdirector.cn/home)
     - [**Code**](https://github.com/JiaqiLi404/IAmDirector-Text2Video-NextJS-Client)
     - An AI driven platform for automatic movie/video scripts generation.
 
  <br />
 
-- *2023.02* [**A Semi-supervised Archaeological Site Detection Model based on Transfer Learning**](https://github.com/JiaqiLi404/Super_resolution_DINO)
-  - Investigating using GAN to achieve Super_resolution without pair-supervised training data
-  - Tring to apply Visual Prompt Tuning into semi-supervised learning to tuning pre-trained SegFormer. Meanwhile, an improved SegFormer with domain prompt idea is also proposed.
+- *2024.09* **RoomAssignment: A gaming platform for Human-LLM interaction**
+  - Tailored memory and prompt modules, for compressing the game information for GPT agents.
+  - Agents with various responsibility prompts for observing their cooperation with human.
 
- 
  <br />
 
-- *2022.12* [**A Trustworthy Model for Archaeological Site Detection based on Mean Teacher and CycleGAN**](https://github.com/JiaqiLi404/SemiSupervisedObjectDetection)
-  - By measuring the uncertainty of teacher through task-level consistency and random dropout, resulting in a more intelligent student only learns trustworthy knowledge from teacher
+- *2023.02* [**A Semi-supervised Archaeological Site Segmentation Model based on Transfer Learning**](https://github.com/JiaqiLi404/Super_resolution_DINO) [**A Trustworthy Model for Archaeological Site Detection based on Mean Teacher and CycleGAN**](https://github.com/JiaqiLi404/SemiSupervisedObjectDetection)
+  - A novel semi-supervised training method integrated with capable of uncertain knowledge screening based on teacher-student structure, and label denoising for weakly-supervised dataset.
+  - A tailored SegFormer for remote sensing with CLS token prompting the domain information.
+  - Visual Prompt Tuning for adapting pre-trained SegFormer.
   - CycleGAN was introduced to allow image domain transformation and data generation
-
  
  <br />
+
 
 - *2022.03* [**Detection Platform of Diseased Wood in Aerial Image of Pine Wood Nematode**](https://github.com/JiaqiLi404/diseased_pinewood_detection)
-  - The detection model was based on Faster-RCNN with FPN, and the use of DETR and attempts were made to use DETR and YOLO instead of RCNN to draw relevant conclusions
-  - Matching the adjacent aerial images by SIFT to determine the GPS coordinates of pixels
+  - A Faster-RCNN object detection model, and SIFT algorithm based GPS determination approach.
 
  <br />
 
 - *2020.12* [**2020 China University Computer Contest - Artificial Intelligence Creativity Competition Project: A Cardiovascular Disease Diagnosis System Based on Neural Network**](https://github.com/JiaqiLi404/ECG_diagnostician_android)
-  - Feature images of ECG data were extracted by data mining technology, which will be used
-for feature extraction and classification using CNN. 
-  - The mobile gets the probability of illness based on the ECG data collected by the wearable device and transmitted to the server.
+  - Extraction of specialized ECG images using wearable devices, followed by image classification using CNN to ascertain the probability of illness.
 
  <br />
 
-- *2020.11* [**2020 National College Students Robot Competition - The Invention of Motion Ball Grasping Robot and Medicine Box Sorting Robot Based on Computer Vision**](https://github.com/JiaqiLi404/catch-ball-robot-raspberry-pi)
-  - Applied CV and DL for object recognition and trajectory prediction of moving objects, and controlled the steering engine for capture.
+- *2020.11* [**2020 National College Students Robot Competition - Motion Ball Grasping and Box Sorting Robot Based on Computer Vision**](https://github.com/JiaqiLi404/catch-ball-robot-raspberry-pi)
+  - Object recognition and trajectory prediction with computer vision.
 
  <br />
 
 - *2020.09* **Second Prize in Zhejiang Province**, [**2020 National College Student Mathematical Contest in Modeling - Credit Risk Assessment Model for Small and Medium-sized Enterprises Based on Analytic Hierarchy Process and Decision Tree**](https://github.com/JiaqiLi404/Enterprise_Credit_Loan_Evaluation)
-  - Used the analytic hierarchy process to analyze the fundamentals and capital flows of enterprises, a corporate capital information scoring model is obtained and further combined with a decision tree to build an enterprise credit risk assessment model.
+  - Classifying the enterprise credit risk by analyzing their fundamentals with machine learning.
 
  <br />
 
 - *2020.05* [**2020 National College Student Innovation and Entrepreneurship Competition - A Raspberry Pi Face Monitoring System Based on OpenCV and Deep Learning**](https://github.com/JiaqiLi404/face-monitoring-raspberry-pi)
-
-  - Face images were extracted by OpenCV, which will be trained through TensorFlow to obtain recognition models of different faces. By connecting the Raspberry Pi to server so that the images could be transmitted through web connection.
+  - A Raspberry Pi extracting the faces by OpenCV, and uploading them to the server for recognition.
 
 <br />
 
 - *2021.05* **2021 National College Student Innovation and Entrepreneurship Competition - Returned and Overseas Chinese Capital Comprehensive Service Cloud Platform**
-
-  - Formed two databases for talents and projects as well as four functional systems for information release, project services, network roadshows, and data centers.
-  - Aimed at Chinese and overseas Chinese who have returned to China to start their businesses
+  - A big data platform for returned and overseas Chinese starting their own businesses.
 
 <br />
 
@@ -248,9 +247,9 @@ for feature extraction and classification using CNN.
 - Software Copyright: **Electric Power Monitoring Software**, 2021, No. 7278722
 
 # 💻 Internships
-- *Aug. 2023 - Jun. 2024*, The Hong Kong University of Science and Technology
+- *Aug. 2023 - May 2024*, The Hong Kong University of Science and Technology
 
-  - Research Assistant, Develop online experiment platform for human-GPT interaction, aiming to improve the ability of GPT agents by applying techniques, e.g. LangChain.
+  - Research Assistant, Investigate methods to mitigate hallucinations in LLMs and develop an investment report analysis platform.
 
  <br />
 
@@ -268,10 +267,10 @@ for feature extraction and classification using CNN.
 
 - *July 2020 - Sep. 2020*, Lishui Honeycomb Network Technology Co., Ltd.
 
-  - Technical Department, Cooperated with colleagues to complete Jiayibao – an electronic stethoscope system based on artificial intelligence which won the third prize in 2020 Maker China Zhejiang Good Project Lishui Small and Micro Enterprises Innovation and Entrepreneurship Competition.
+  - Technical Department, Develop an electronic stethoscope system based on AI.
 
  <br />
 
 - *Dec. 2019 - Jan. 2020*, Zhejiang Red Dot Intelligent Technology Co., Ltd.
 
-  - Academician Workstation, Participated in the practice of developing a monitoring data model of pine wood nematode by using unmanned aerial vehicle mapping, spectral remote sensing technology and neural network, and assisted in developing the big data model and smart defense platform
+  - Academician Workstation, Develop a pine wood nematode monitoring system by UAV, spectral remote sensing and neural network, and assist in training the detection model. 
