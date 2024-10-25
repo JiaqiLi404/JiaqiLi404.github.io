@@ -158,7 +158,7 @@ Chenggang Lu, **Jiaqi Li**
 
 
 
-# 🎖 Projects/Competitions
+# 🎖 Projects
 
 - *2024.10* **A Human-AI Interaction Platform for Co-speech Gesture Understanding in Business Pitches**
   - An automated and scalable co-speech gesture recognition and understanding platform leveraging AI and behavior psychology for understanding the role of co-speech gestures in business pitches. 
