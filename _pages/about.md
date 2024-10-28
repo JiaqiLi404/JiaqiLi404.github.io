@@ -72,7 +72,7 @@ being accepted by 2023 IEEE 4th International Conference on Pattern Recognition 
 Qianwei Zhou, Jintao Wang, **Jiaqi Li**, Chen Zhou, Haigen Hu, Keli Hu
 
 
-[//]: # (<strong><span class='show_paper_citations' data=''></span></strong>)
+<strong><span class='show_paper_citations' data='ru2ps-0AAAAJ:ZeXyd9-uunAC'></span></strong>
 
 - This paper proposes carefully devised auxiliary decoders to decouple the redundant and missing features, which utilized for further refining and prediction.
 
