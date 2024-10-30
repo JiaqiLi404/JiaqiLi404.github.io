@@ -14,6 +14,7 @@
             var citationEles = document.getElementsByClassName('show_paper_citations')
             Array.prototype.forEach.call(citationEles, element => {
                 var paperId = element.getAttribute('data')
+                console.log(paperId)
                 var numCitations = data['publications'][paperId]['num_citations']
                 if(numCitations&&numCitations>0){
                     element.innerHTML = '| Citations: ' + numCitations;
