@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec3aad24-84ce-4ca9-bfa3-fc93bb05461f" name="Changes" comment="241028">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ec3aad24-84ce-4ca9-bfa3-fc93bb05461f" name="Changes" comment="241030" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,12 +22,12 @@
     &quot;assignee&quot;: &quot;JiaqiLi404&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/JiaqiLi404/JiaqiLi404.github.io.git&quot;,
-    &quot;accountId&quot;: &quot;0c3af208-e1d3-4942-8c5c-ddd89aeaa67a&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/JiaqiLi404/JiaqiLi404.github.io.git",
+    "accountId": "0c54ee59-6ccc-4910-9724-e85bc2d7c078"
   }
-}</component>
+}]]></component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -100,6 +98,7 @@
       <workItem from="1729868206830" duration="2664000" />
       <workItem from="1729880174008" duration="103000" />
       <workItem from="1730207296806" duration="3000" />
+      <workItem from="1730282288131" duration="461000" />
     </task>
     <task id="LOCAL-00001" summary="240824">
       <option name="closed" value="true" />
@@ -173,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730120680821</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="241030">
+      <option name="closed" value="true" />
+      <created>1730282571633</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730282571633</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +202,8 @@
     <MESSAGE value="241012" />
     <MESSAGE value="241025" />
     <MESSAGE value="241028" />
-    <option name="LAST_COMMIT_MESSAGE" value="241028" />
+    <MESSAGE value="241030" />
+    <option name="LAST_COMMIT_MESSAGE" value="241030" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
