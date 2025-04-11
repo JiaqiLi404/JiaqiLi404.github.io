@@ -50,7 +50,7 @@ being accepted by 2023 IEEE 4th International Conference on Pattern Recognition 
 
 **Jiaqi Li**, Yixuan Tang, Yi Yang
 
-[**Project**](https://github.com/JiaqiLi404/TrustworthyRAG) <strong><span class='show_paper_citations' data='ru2ps-0AAAAJ:L8Ckcad2t8MC'></span></strong>
+[**Project**](https://github.com/JiaqiLi404/Know_the_Unknown) <strong><span class='show_paper_citations' data='ru2ps-0AAAAJ:L8Ckcad2t8MC'></span></strong>
 - A novel fine-tuning framework to automatically synthesize training data tailored for rejecting the questions exceeds the knowledge without compromising on other tasks.
 </div>
 </div>
@@ -72,7 +72,7 @@ being accepted by 2023 IEEE 4th International Conference on Pattern Recognition 
 Qianwei Zhou, Jintao Wang, **Jiaqi Li**, Chen Zhou, Haigen Hu, Keli Hu
 
 
-[//]: # (<strong><span class='show_paper_citations' data=''></span></strong>)
+<strong><span class='show_paper_citations' data='ru2ps-0AAAAJ:ZeXyd9-uunAC'></span></strong>
 
 - This paper proposes carefully devised auxiliary decoders to decouple the redundant and missing features, which utilized for further refining and prediction.
 
