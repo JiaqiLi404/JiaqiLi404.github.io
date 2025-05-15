@@ -31,7 +31,7 @@ To date, I have authored 6 papers, secured 5 work experiences, obtained 3 patent
 
 # 🔥 News
 - *2025.05*: &nbsp;🎉🎉 Paper **Know the Unknown: An Uncertainty-Sensitive Method for LLM Instruction Tuning**
-  is accepted by ACL 2025 Findings
+  being accepted by ACL 2025 Findings
 - *2024.05*: &nbsp;Project [**I AM DIRECTOR**](https://www.iamdirector.cn/home) got 100+ starts on GitHub
 - *2023.11*: &nbsp;🎉🎉 Paper **Hot Topics Clustering based on Gaussian Mixture Model with built-in DTW**
 being accepted by 2023 IEEE 4th International Conference on Pattern Recognition and Machine Learning (PRML)
@@ -218,6 +218,11 @@ Chenggang Lu, **Jiaqi Li**
 <br />
 
 # 📖 Educations
+- *2024.09 - Now*, University of Warwick.
+  - PhD in Computer Science
+
+ <br />
+
 - *2022.09 - 2023.12*, The University of Hong Kong. 
   - Master of Science in Computer Science
 
