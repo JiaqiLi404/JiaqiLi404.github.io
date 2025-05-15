@@ -30,8 +30,8 @@ To date, I have authored 6 papers, secured 5 work experiences, obtained 3 patent
 
 
 # 🔥 News
-- *2024.06*: &nbsp;🎉🎉 Paper **Know the Unknown: An Uncertainty-Sensitive Method for LLM Instruction Tuning**
-  is available at arxiv
+- *2025.05*: &nbsp;🎉🎉 Paper **Know the Unknown: An Uncertainty-Sensitive Method for LLM Instruction Tuning**
+  is accepted by ACL 2025 Findings
 - *2024.05*: &nbsp;Project [**I AM DIRECTOR**](https://www.iamdirector.cn/home) got 100+ starts on GitHub
 - *2023.11*: &nbsp;🎉🎉 Paper **Hot Topics Clustering based on Gaussian Mixture Model with built-in DTW**
 being accepted by 2023 IEEE 4th International Conference on Pattern Recognition and Machine Learning (PRML)
@@ -41,7 +41,7 @@ being accepted by 2023 IEEE 4th International Conference on Pattern Recognition 
 # 📝 Publications 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/know_the_unknow.png' alt="sym" width="300px" height="500px"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL25</div><img src='images/know_the_unknow.png' alt="sym" width="300px" height="500px"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**Know the Unknown: An Uncertainty-Sensitive Method for LLM Instruction Tuning**](https://arxiv.org/abs/2406.10099)
