@@ -46,7 +46,7 @@ being accepted by 2023 IEEE 4th International Conference on Pattern Recognition 
 
 [**Know the Unknown: An Uncertainty-Sensitive Method for LLM Instruction Tuning**](https://arxiv.org/abs/2406.10099)
 
-**Arxiv preprint**
+**ACL25 Findings**
 
 **Jiaqi Li**, Yixuan Tang, Yi Yang
 
