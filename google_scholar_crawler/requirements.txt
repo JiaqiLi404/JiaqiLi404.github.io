@@ -1,2 +1,2 @@
 jsonpickle==4.0.5
-scholarly-scraper
+scholarly
