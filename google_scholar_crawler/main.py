@@ -50,6 +50,8 @@ if len(author.get("articles", {}))>0:
 else:
     author["publications"] = {}
 
+author['citedby']= author.get('cited_by', {})['table'][0]['citations']['all']
+
 # 保存原始数据
 os.makedirs("results", exist_ok=True)
 with open("results/gs_data.json", "w", encoding="utf-8") as f:
