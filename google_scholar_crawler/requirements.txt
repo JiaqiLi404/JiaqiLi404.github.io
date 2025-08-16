@@ -1,2 +1,3 @@
 jsonpickle==4.0.5
 scholarly
+serpapi
