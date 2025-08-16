@@ -100,58 +100,83 @@ Chenggang Lu, **Jiaqi Li**
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal</div><img src='images/enterprise credit loan.png' alt="sym" width="300px" height="500px"></div></div>
-<div class='paper-box-text' markdown="1">
+[//]: # (<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal</div><img src='images/enterprise credit loan.png' alt="sym" width="300px" height="500px"></div></div>)
 
-[**Research on Credit Loan Decision Model of Enterprises in the Context of Emergencies**](https://qikan.cqvip.com/Qikan/Article/Detail?id=7108822036)
+[//]: # (<div class='paper-box-text' markdown="1">)
 
-**Gansu Finance, 2022(12)**
+[//]: # ()
+[//]: # ([**Research on Credit Loan Decision Model of Enterprises in the Context of Emergencies**]&#40;https://qikan.cqvip.com/Qikan/Article/Detail?id=7108822036&#41;)
 
-**Jiaqi Li**, Yunxia Li, Xiangxu Li
+[//]: # ()
+[//]: # (**Gansu Finance, 2022&#40;12&#41;**)
 
-[**Project**](https://github.com/JiaqiLi404/Enterprise_Credit_Loan_Evaluation) <strong><span class='show_paper_citations' data='ru2ps-0AAAAJ:d1gkVwhDpl0C'></span></strong>
+[//]: # ()
+[//]: # (**Jiaqi Li**, Yunxia Li, Xiangxu Li)
 
-</div>
-</div>
+[//]: # ()
+[//]: # ([**Project**]&#40;https://github.com/JiaqiLi404/Enterprise_Credit_Loan_Evaluation&#41; <strong><span class='show_paper_citations' data='ru2ps-0AAAAJ:d1gkVwhDpl0C'></span></strong>)
 
+[//]: # ()
+[//]: # (</div>)
 
+[//]: # (</div>)
 
+[//]: # ()
+[//]: # ()
+[//]: # ()
+[//]: # ()
+[//]: # ()
+[//]: # (<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal</div><img src='images/pinewood_image.png' alt="sym" width="300px" height="500px"></div></div>)
 
+[//]: # (<div class='paper-box-text' markdown="1">)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal</div><img src='images/pinewood_image.png' alt="sym" width="300px" height="500px"></div></div>
-<div class='paper-box-text' markdown="1">
+[//]: # ()
+[//]: # ([**Establishing a Monitoring Model of Pine Wood Nematode Based on UAV Spectral Remote Sensing and AI Technology**]&#40;https://scholar.google.com/citations?view_op=view_citation&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:u-x6o8ySG0sC&#41;)
 
-[**Establishing a Monitoring Model of Pine Wood Nematode Based on UAV Spectral Remote Sensing and AI Technology**](https://scholar.google.com/citations?view_op=view_citation&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:u-x6o8ySG0sC)
+[//]: # ()
+[//]: # (**Electronic Technology & Software Engineering, 2021&#40;8&#41;:4**)
 
-**Electronic Technology & Software Engineering, 2021(8):4**
+[//]: # ()
+[//]: # (**Jiaqi Li**, Kaihua Wu, Yao Zhang, Dalong Zhao)
 
-**Jiaqi Li**, Kaihua Wu, Yao Zhang, Dalong Zhao
+[//]: # ()
+[//]: # ([**Project**]&#40;https://github.com/JiaqiLi404/diseased_pinewood_detection&#41; <strong><span class='show_paper_citations' data='ru2ps-0AAAAJ:u-x6o8ySG0sC'></span></strong> &nbsp;)
 
-[**Project**](https://github.com/JiaqiLi404/diseased_pinewood_detection) <strong><span class='show_paper_citations' data='ru2ps-0AAAAJ:u-x6o8ySG0sC'></span></strong> &nbsp;
-[**Pix2GPS**](https://github.com/JiaqiLi404/piex2gps_by_sift) 
+[//]: # ([**Pix2GPS**]&#40;https://github.com/JiaqiLi404/piex2gps_by_sift&#41; )
 
-- A Faster-RCNN object detection model, and SIFT algorithm based GPS determination approach.
+[//]: # ()
+[//]: # (- A Faster-RCNN object detection model, and SIFT algorithm based GPS determination approach.)
 
-</div>
-</div>
+[//]: # ()
+[//]: # (</div>)
 
+[//]: # (</div>)
 
+[//]: # ()
+[//]: # ()
+[//]: # ()
+[//]: # ()
+[//]: # ()
+[//]: # (<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal</div><img src='images/image_lda_clustering.png' alt="sym" width="300px" height="500px"></div></div>)
 
+[//]: # (<div class='paper-box-text' markdown="1">)
 
+[//]: # ()
+[//]: # ([**E-commerce Platform Intellectual Property Monitoring System Based on Algorithm Engine and Big Data Technology**]&#40;https://scholar.google.com/citations?view_op=view_citation&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:u5HHmVD_uO8C&#41;)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal</div><img src='images/image_lda_clustering.png' alt="sym" width="300px" height="500px"></div></div>
-<div class='paper-box-text' markdown="1">
+[//]: # ()
+[//]: # ( **Journal of Shanghai University of Engineering Science, 35 &#40;3&#41;, 285-289**)
 
-[**E-commerce Platform Intellectual Property Monitoring System Based on Algorithm Engine and Big Data Technology**](https://scholar.google.com/citations?view_op=view_citation&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:u5HHmVD_uO8C)
+[//]: # ()
+[//]: # (**Jiaqi Li**, Yunxia Li, Xiangxu Li)
 
- **Journal of Shanghai University of Engineering Science, 35 (3), 285-289**
+[//]: # ()
+[//]: # ([**Project**]&#40;https://github.com/JiaqiLi404/E-commerce-Property-Monitoring-LDA&#41; <strong><span class='show_paper_citations' data='ru2ps-0AAAAJ:u5HHmVD_uO8C'></span></strong>)
 
-**Jiaqi Li**, Yunxia Li, Xiangxu Li
+[//]: # ()
+[//]: # (</div>)
 
-[**Project**](https://github.com/JiaqiLi404/E-commerce-Property-Monitoring-LDA) <strong><span class='show_paper_citations' data='ru2ps-0AAAAJ:u5HHmVD_uO8C'></span></strong>
-
-</div>
-</div>
+[//]: # (</div>)
 
 
 
