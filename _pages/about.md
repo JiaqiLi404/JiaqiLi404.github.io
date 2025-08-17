@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am Jiaqi Li, currently pursuing a PhD in Computer Science at the University of Warwick.
-I obtained my Master’s degree in Computer Science from the University of Hong Kong,
-and my Bachelor’s degree in Mathematics with a minor in Computer Science.
+I am Jiaqi Li, a PhD student in Computer Science at the University of Warwick.
+I completed my Master’s degree in Computer Science at the University of Hong Kong,
+and earned my Bachelor’s degree in Mathematics with a minor in Computer Science.
 
 
 [//]: # (You can also get my CV <a href='https://drive.google.com/file/d/1-jXP9oqiqYmgW3ODOyw7qs5Zhvn28TEK/view?usp=share_link'>here</a>.)
