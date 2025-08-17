@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec3aad24-84ce-4ca9-bfa3-fc93bb05461f" name="Changes" comment="250816" />
+    <list default="true" id="ec3aad24-84ce-4ca9-bfa3-fc93bb05461f" name="Changes" comment="250816">
+      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,12 +24,12 @@
     &quot;assignee&quot;: &quot;JiaqiLi404&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/JiaqiLi404/JiaqiLi404.github.io.git",
-    "accountId": "0c54ee59-6ccc-4910-9724-e85bc2d7c078"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JiaqiLi404/JiaqiLi404.github.io.git&quot;,
+    &quot;accountId&quot;: &quot;0c54ee59-6ccc-4910-9724-e85bc2d7c078&quot;
   }
-}]]></component>
+}</component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -146,6 +148,7 @@
       <workItem from="1747316624678" duration="4220000" />
       <workItem from="1749726592244" duration="202000" />
       <workItem from="1755350343727" duration="1666000" />
+      <workItem from="1755428424723" duration="725000" />
     </task>
     <task id="LOCAL-00001" summary="240824">
       <option name="closed" value="true" />
@@ -283,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755352021844</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="250816">
+      <option name="closed" value="true" />
+      <created>1755428508237</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1755428508237</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

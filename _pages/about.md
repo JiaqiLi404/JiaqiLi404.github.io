@@ -17,14 +17,10 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am Jiaqi Li, a master student in Computer Science at the University of Hong Kong. 
+I am Jiaqi Li, currently pursuing a PhD in Computer Science at the University of Warwick.
+I obtained my Master’s degree in Computer Science from the University of Hong Kong,
+and my Bachelor’s degree in Mathematics with a minor in Computer Science.
 
-I majored in Mathematics and minor in Computer Science as an undergraduate.
-Throughout my academic journey, I participated in 5 national competitions, 
-earning accolades and completed over 20 mathematical and machine learning related papers and projects, 
-exemplified by more than 20,000 lines of code. 
-
-To date, I have authored 6 papers, secured 5 work experiences, obtained 3 patents, and earned 4 software copyrights.
 
 [//]: # (You can also get my CV <a href='https://drive.google.com/file/d/1-jXP9oqiqYmgW3ODOyw7qs5Zhvn28TEK/view?usp=share_link'>here</a>.)
 
