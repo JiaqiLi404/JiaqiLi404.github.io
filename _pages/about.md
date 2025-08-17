@@ -44,7 +44,7 @@ being accepted by 2023 IEEE 4th International Conference on Pattern Recognition 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL25</div><img src='images/know_the_unknow.png' alt="sym" width="300px" height="500px"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**Know the Unknown: An Uncertainty-Sensitive Method for LLM Instruction Tuning**](https://arxiv.org/abs/2406.10099)
+[**Know the Unknown: An Uncertainty-Sensitive Method for LLM Instruction Tuning**](https://aclanthology.org/2025.findings-acl.153)
 
 **ACL25 Findings**
 

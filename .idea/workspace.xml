@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec3aad24-84ce-4ca9-bfa3-fc93bb05461f" name="Changes" comment="250816">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/google_scholar_crawler.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/google_scholar_crawler.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ec3aad24-84ce-4ca9-bfa3-fc93bb05461f" name="Changes" comment="250816" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,7 +145,7 @@
       <workItem from="1744995391940" duration="1000" />
       <workItem from="1747316624678" duration="4220000" />
       <workItem from="1749726592244" duration="202000" />
-      <workItem from="1755350343727" duration="1203000" />
+      <workItem from="1755350343727" duration="1666000" />
     </task>
     <task id="LOCAL-00001" summary="240824">
       <option name="closed" value="true" />
@@ -278,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755350871761</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="250816">
+      <option name="closed" value="true" />
+      <created>1755352021844</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1755352021844</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
