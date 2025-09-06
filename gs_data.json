@@ -1,0 +1,169 @@
+{
+  "search_metadata": {
+    "id": "68bbc5fe4707f15d77eb519f",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/1320c80f36cbda33/68bbc5fe4707f15d77eb519f.json",
+    "created_at": "2025-09-06 05:26:22 UTC",
+    "processed_at": "2025-09-06 05:26:22 UTC",
+    "google_scholar_author_url": "https://scholar.google.com/citations?user=ru2ps-0AAAAJ&hl=en",
+    "raw_html_file": "https://serpapi.com/searches/1320c80f36cbda33/68bbc5fe4707f15d77eb519f.html",
+    "total_time_taken": 0.46
+  },
+  "search_parameters": {
+    "engine": "google_scholar_author",
+    "author_id": "ru2ps-0AAAAJ",
+    "hl": "en"
+  },
+  "author": {
+    "name": "Jiaqi Li",
+    "affiliations": "University of Warwick",
+    "email": "Verified email at warwick.ac.uk",
+    "website": "https://jiaqili404.github.io/",
+    "interests": [
+      {
+        "title": "Multi-Modality",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:multi_modality",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Amulti_modality"
+      },
+      {
+        "title": "Video Understanding",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:video_understanding",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Avideo_understanding"
+      },
+      {
+        "title": "Human Action Analysis",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:human_action_analysis",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Ahuman_action_analysis"
+      }
+    ],
+    "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=ru2ps-0AAAAJ&citpid=3"
+  },
+  "articles": [
+    {
+      "title": "Know the unknown: An uncertainty-sensitive method for llm instruction tuning",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:L8Ckcad2t8MC",
+      "citation_id": "ru2ps-0AAAAJ:L8Ckcad2t8MC",
+      "authors": "J Li, Y Tang, Y Yang",
+      "publication": "Findings of the Association for Computational Linguistics: ACL 2025, 2972–2989, 2024",
+      "cited_by": {
+        "value": 7,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16406322670717607058,11141058214859375398",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16406322670717607058%2C11141058214859375398&engine=google_scholar&hl=en",
+        "cites_id": "16406322670717607058,11141058214859375398"
+      },
+      "year": "2024",
+      "num_citations": 7
+    },
+    {
+      "title": "RMFDNet: Redundant and Missing Feature Decoupling Network for salient object detection",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:ZeXyd9-uunAC",
+      "citation_id": "ru2ps-0AAAAJ:ZeXyd9-uunAC",
+      "authors": "Q Zhou, J Wang, J Li, C Zhou, H Hu, K Hu",
+      "publication": "Engineering Applications of Artificial Intelligence 139, 109459, 2025",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8967240130802824932",
+        "serpapi_link": "https://serpapi.com/search.json?cites=8967240130802824932&engine=google_scholar&hl=en",
+        "cites_id": "8967240130802824932"
+      },
+      "year": "2025",
+      "num_citations": 1
+    },
+    {
+      "title": "Hot Topic Clustering based on Gaussian Mixture Model built-in DTW",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:7PzlFSSx8tAC",
+      "citation_id": "ru2ps-0AAAAJ:7PzlFSSx8tAC",
+      "authors": "C Lu, J Li",
+      "publication": "2023 IEEE 4th International Conference on Pattern Recognition and Machine …, 2023",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14966223610775135751",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14966223610775135751&engine=google_scholar&hl=en",
+        "cites_id": "14966223610775135751"
+      },
+      "year": "2023",
+      "num_citations": 1
+    }
+  ],
+  "cited_by": {
+    "table": [
+      {
+        "citations": {
+          "all": 9,
+          "since_2020": 9
+        }
+      },
+      {
+        "h_index": {
+          "all": 1,
+          "since_2020": 1
+        }
+      },
+      {
+        "i10_index": {
+          "all": 0,
+          "since_2020": 0
+        }
+      }
+    ],
+    "graph": [
+      {
+        "year": 2024,
+        "citations": 4
+      },
+      {
+        "year": 2025,
+        "citations": 5
+      }
+    ]
+  },
+  "updated": "2025-09-06 05:26:23.391253",
+  "publications": {
+    "ru2ps-0AAAAJ:L8Ckcad2t8MC": {
+      "title": "Know the unknown: An uncertainty-sensitive method for llm instruction tuning",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:L8Ckcad2t8MC",
+      "citation_id": "ru2ps-0AAAAJ:L8Ckcad2t8MC",
+      "authors": "J Li, Y Tang, Y Yang",
+      "publication": "Findings of the Association for Computational Linguistics: ACL 2025, 2972–2989, 2024",
+      "cited_by": {
+        "value": 7,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16406322670717607058,11141058214859375398",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16406322670717607058%2C11141058214859375398&engine=google_scholar&hl=en",
+        "cites_id": "16406322670717607058,11141058214859375398"
+      },
+      "year": "2024",
+      "num_citations": 7
+    },
+    "ru2ps-0AAAAJ:ZeXyd9-uunAC": {
+      "title": "RMFDNet: Redundant and Missing Feature Decoupling Network for salient object detection",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:ZeXyd9-uunAC",
+      "citation_id": "ru2ps-0AAAAJ:ZeXyd9-uunAC",
+      "authors": "Q Zhou, J Wang, J Li, C Zhou, H Hu, K Hu",
+      "publication": "Engineering Applications of Artificial Intelligence 139, 109459, 2025",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8967240130802824932",
+        "serpapi_link": "https://serpapi.com/search.json?cites=8967240130802824932&engine=google_scholar&hl=en",
+        "cites_id": "8967240130802824932"
+      },
+      "year": "2025",
+      "num_citations": 1
+    },
+    "ru2ps-0AAAAJ:7PzlFSSx8tAC": {
+      "title": "Hot Topic Clustering based on Gaussian Mixture Model built-in DTW",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:7PzlFSSx8tAC",
+      "citation_id": "ru2ps-0AAAAJ:7PzlFSSx8tAC",
+      "authors": "C Lu, J Li",
+      "publication": "2023 IEEE 4th International Conference on Pattern Recognition and Machine …, 2023",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14966223610775135751",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14966223610775135751&engine=google_scholar&hl=en",
+        "cites_id": "14966223610775135751"
+      },
+      "year": "2023",
+      "num_citations": 1
+    }
+  },
+  "citedby": 9
+}
