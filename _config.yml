@@ -23,8 +23,8 @@ repository               : "JiaqiLi404/JiaqiLi404.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : "android-chrome-512x512.png"
+  name             : "Jiaqi Li"
   pronouns         : # example: "she/her"  
   bio              : "University of Warwick"
   location         : "United Kingdom"
