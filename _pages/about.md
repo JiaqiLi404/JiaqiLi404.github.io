@@ -133,7 +133,7 @@ redirect_from:
         <a href="{{ base_path }}{{ post.url }}">Details</a>
         {% if post.paperurl %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}
         {% if post.codeurl %}<a href="{{ post.codeurl }}">Code</a>{% endif %}
-        {% if post.google_scholar_citation_id %}<span class="show_paper_citations" data="{{ post.google_scholar_citation_id }}"></span>{% endif %}
+        <span class="show_paper_citations"{% if post.google_scholar_citation_id %} data="{{ post.google_scholar_citation_id }}"{% endif %} data-title="{{ post.title | escape }}"></span>
       </p>
     </article>
     {% endfor %}

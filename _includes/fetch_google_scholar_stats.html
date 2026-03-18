@@ -1,5 +1,46 @@
 <script>
   document.addEventListener("DOMContentLoaded", function () {
+    function normalizeTitle(title) {
+      return (title || "")
+        .toLowerCase()
+        .replace(/&amp;/g, "and")
+        .replace(/[^a-z0-9]+/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+    }
+
+    function buildTitleIndex(publications) {
+      var index = {};
+      Object.keys(publications || {}).forEach(function (key) {
+        var publication = publications[key] || {};
+        var normalized = normalizeTitle(publication.title);
+        if (normalized && !index[normalized]) {
+          index[normalized] = publication;
+        }
+      });
+      return index;
+    }
+
+    function matchByTitle(titleIndex, rawTitle) {
+      var normalized = normalizeTitle(rawTitle);
+      if (!normalized) {
+        return null;
+      }
+
+      if (titleIndex[normalized]) {
+        return titleIndex[normalized];
+      }
+
+      var keys = Object.keys(titleIndex);
+      for (var i = 0; i < keys.length; i += 1) {
+        if (keys[i].includes(normalized) || normalized.includes(keys[i])) {
+          return titleIndex[keys[i]];
+        }
+      }
+
+      return null;
+    }
+
     {% if site.google_scholar_stats_use_cdn %}
     var gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/{{ site.repository }}@";
     {% else %}
@@ -16,6 +57,8 @@
       .then(function (data) {
         var totalCitation = data.citedby;
         var totalCitElement = document.getElementById("total_cit");
+        var publications = data.publications || {};
+        var titleIndex = buildTitleIndex(publications);
 
         if (totalCitElement && totalCitation !== undefined) {
           totalCitElement.textContent = totalCitation;
@@ -24,11 +67,20 @@
         var citationElements = document.getElementsByClassName("show_paper_citations");
         Array.prototype.forEach.call(citationElements, function (element) {
           var paperId = element.getAttribute("data");
-          if (!paperId || !data.publications || !data.publications[paperId]) {
+          var paperTitle = element.getAttribute("data-title");
+          var publication = null;
+
+          if (paperId && publications[paperId]) {
+            publication = publications[paperId];
+          } else if (paperTitle) {
+            publication = matchByTitle(titleIndex, paperTitle);
+          }
+
+          if (!publication) {
             return;
           }
 
-          var numCitations = data.publications[paperId].num_citations;
+          var numCitations = publication.num_citations;
           if (numCitations && Number(numCitations) > 0) {
             element.textContent = "Citations: " + numCitations;
             element.classList.add("citation-stat");

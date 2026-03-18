@@ -478,6 +478,7 @@ a {
     --custom-page-bg: #f3efe7;
     --custom-page-gradient: radial-gradient(circle at top right, rgba(115, 136, 107, 0.18), transparent 32%),
         linear-gradient(180deg, #f8f4ec 0%, #f3efe7 100%);
+    --custom-nav-bg: rgba(243, 239, 231, 0.9);
     --custom-hero-bg: radial-gradient(circle at top right, rgba(126, 150, 115, 0.22), transparent 28%),
         linear-gradient(135deg, rgba(255, 255, 255, 0.85), rgba(245, 239, 231, 0.95));
     --custom-text: #22302b;
@@ -502,6 +503,7 @@ html[data-theme="dark"] {
     --custom-page-bg: #151918;
     --custom-page-gradient: radial-gradient(circle at top right, rgba(88, 128, 116, 0.24), transparent 30%),
         linear-gradient(180deg, #1b2120 0%, #151918 100%);
+    --custom-nav-bg: rgba(24, 30, 29, 0.9);
     --custom-hero-bg: radial-gradient(circle at top right, rgba(88, 128, 116, 0.28), transparent 26%),
         linear-gradient(135deg, rgba(30, 37, 36, 0.96), rgba(21, 26, 25, 0.98));
     --custom-text: #e5ece8;
@@ -541,8 +543,14 @@ a {
 }
 
 .masthead {
-    background: var(--custom-masthead-bg);
-    border-bottom-color: var(--custom-border);
+    background: transparent !important;
+    border-bottom-color: transparent !important;
+    backdrop-filter: none !important;
+    box-shadow: none !important;
+}
+
+.masthead::after {
+    background: transparent !important;
 }
 
 .masthead__inner-wrap,
@@ -555,15 +563,34 @@ a {
     background: transparent !important;
 }
 
+.masthead__inner-wrap {
+    padding: 0.55rem 1rem !important;
+}
+
 .greedy-nav,
 .greedy-nav button {
-    background: transparent;
+    background: transparent !important;
+}
+
+.greedy-nav {
+    display: inline-flex;
+    align-items: center;
+    min-width: auto;
+    padding: 0 0.35rem;
+    background: var(--custom-nav-bg) !important;
+    border: 1px solid var(--custom-border) !important;
+    border-radius: 18px;
+    box-shadow: 0 10px 28px rgba(34, 48, 43, 0.08);
 }
 
 .greedy-nav a,
 .greedy-nav button,
 .greedy-nav .hidden-links a {
     color: var(--custom-heading);
+}
+
+.greedy-nav .visible-links a {
+    padding: 0.8rem 0.8rem;
 }
 
 .greedy-nav .visible-links #theme-toggle a {
@@ -617,6 +644,7 @@ a {
     width: auto !important;
     background: transparent !important;
     padding: 0 !important;
+    margin: 0 0 1rem !important;
 }
 
 .author__avatar img,
@@ -699,4 +727,9 @@ a {
 .page__footer,
 .page__footer footer {
     background: transparent !important;
+}
+
+.author-profile-card {
+    padding: 1.5rem !important;
+    border-radius: 28px !important;
 }
