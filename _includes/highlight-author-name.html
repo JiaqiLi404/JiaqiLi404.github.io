@@ -1,0 +1,17 @@
+{% assign author_text = include.authors | default: "" %}
+{% assign site_author_name = site.author.name | default: site.name | default: "" %}
+{% assign name_parts = site_author_name | split: " " %}
+{% assign highlighted_authors = author_text %}
+
+{% if site_author_name != "" %}
+  {% assign first_name = name_parts | first %}
+  {% assign last_name = name_parts | last %}
+  {% assign first_initial = first_name | slice: 0 %}
+  {% capture short_name %}{{ first_initial }} {{ last_name }}{% endcapture %}
+  {% capture full_name_markup %}<strong>{{ site_author_name }}</strong>{% endcapture %}
+  {% capture short_name_markup %}<strong>{{ short_name }}</strong>{% endcapture %}
+  {% assign highlighted_authors = highlighted_authors | replace: site_author_name, full_name_markup %}
+  {% assign highlighted_authors = highlighted_authors | replace: short_name, short_name_markup %}
+{% endif %}
+
+{{ highlighted_authors }}

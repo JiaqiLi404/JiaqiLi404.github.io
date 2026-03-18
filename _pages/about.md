@@ -108,7 +108,7 @@ redirect_from:
     <article class="publication-card">
       <div class="publication-card__meta">{{ post.venue }}</div>
       <h3><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h3>
-      {% if post.authors %}<p class="publication-card__authors">{{ post.authors }}</p>{% endif %}
+      {% if post.authors %}<p class="publication-card__authors">{% include highlight-author-name.html authors=post.authors %}</p>{% endif %}
       <p>{{ post.excerpt }}</p>
       <p class="publication-card__links">
         <a href="{{ base_path }}{{ post.url }}">Details</a>
