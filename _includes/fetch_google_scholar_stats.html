@@ -1,0 +1,42 @@
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    {% if site.google_scholar_stats_use_cdn %}
+    var gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/{{ site.repository }}@";
+    {% else %}
+    var gsDataBaseUrl = "https://raw.githubusercontent.com/{{ site.repository }}/";
+    {% endif %}
+
+    fetch(gsDataBaseUrl + "google-scholar-stats/gs_data.json")
+      .then(function (response) {
+        if (!response.ok) {
+          throw new Error("Failed to load Google Scholar stats");
+        }
+        return response.json();
+      })
+      .then(function (data) {
+        var totalCitation = data.citedby;
+        var totalCitElement = document.getElementById("total_cit");
+
+        if (totalCitElement && totalCitation !== undefined) {
+          totalCitElement.textContent = totalCitation;
+        }
+
+        var citationElements = document.getElementsByClassName("show_paper_citations");
+        Array.prototype.forEach.call(citationElements, function (element) {
+          var paperId = element.getAttribute("data");
+          if (!paperId || !data.publications || !data.publications[paperId]) {
+            return;
+          }
+
+          var numCitations = data.publications[paperId].num_citations;
+          if (numCitations && Number(numCitations) > 0) {
+            element.textContent = "Citations: " + numCitations;
+            element.classList.add("citation-stat");
+          }
+        });
+      })
+      .catch(function () {
+        // Ignore missing data before the first workflow run.
+      });
+  });
+</script>
