@@ -468,3 +468,170 @@ a {
         flex-direction: column;
     }
 }
+
+:root {
+    --custom-page-bg: #f3efe7;
+    --custom-page-gradient: radial-gradient(circle at top right, rgba(115, 136, 107, 0.18), transparent 32%),
+        linear-gradient(180deg, #f8f4ec 0%, #f3efe7 100%);
+    --custom-hero-bg: radial-gradient(circle at top right, rgba(126, 150, 115, 0.22), transparent 28%),
+        linear-gradient(135deg, rgba(255, 255, 255, 0.85), rgba(245, 239, 231, 0.95));
+    --custom-text: #22302b;
+    --custom-heading: #18211f;
+    --custom-link: #28584b;
+    --custom-link-hover: #1f463b;
+    --custom-muted: #57685f;
+    --custom-muted-strong: #394943;
+    --custom-masthead-bg: rgba(248, 244, 236, 0.88);
+    --custom-panel-bg: rgba(255, 255, 255, 0.74);
+    --custom-panel-alt-bg: rgba(250, 248, 244, 0.9);
+    --custom-pill-bg: rgba(244, 248, 242, 0.88);
+    --custom-chip-bg: #edf3ea;
+    --custom-chip-text: #315649;
+    --custom-border: rgba(34, 48, 43, 0.1);
+    --custom-shadow: 0 18px 40px rgba(34, 48, 43, 0.08);
+    --custom-accent: #23493f;
+    --custom-accent-contrast: #ffffff;
+}
+
+html[data-theme="dark"] {
+    --custom-page-bg: #151918;
+    --custom-page-gradient: radial-gradient(circle at top right, rgba(88, 128, 116, 0.24), transparent 30%),
+        linear-gradient(180deg, #1b2120 0%, #151918 100%);
+    --custom-hero-bg: radial-gradient(circle at top right, rgba(88, 128, 116, 0.28), transparent 26%),
+        linear-gradient(135deg, rgba(30, 37, 36, 0.96), rgba(21, 26, 25, 0.98));
+    --custom-text: #e5ece8;
+    --custom-heading: #f5f8f6;
+    --custom-link: #8fc8b4;
+    --custom-link-hover: #b7e1d2;
+    --custom-muted: #afbeb6;
+    --custom-muted-strong: #d4ddd8;
+    --custom-masthead-bg: rgba(17, 22, 21, 0.88);
+    --custom-panel-bg: rgba(29, 35, 34, 0.84);
+    --custom-panel-alt-bg: rgba(24, 30, 29, 0.92);
+    --custom-pill-bg: rgba(39, 49, 46, 0.92);
+    --custom-chip-bg: #29423a;
+    --custom-chip-text: #ddf0e8;
+    --custom-border: rgba(221, 240, 232, 0.12);
+    --custom-shadow: 0 18px 40px rgba(0, 0, 0, 0.34);
+    --custom-accent: #8fc8b4;
+    --custom-accent-contrast: #11211c;
+}
+
+body {
+    background: var(--custom-page-gradient);
+    background-color: var(--custom-page-bg);
+    color: var(--custom-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--custom-heading);
+}
+
+a {
+    color: var(--custom-link);
+
+    &:hover {
+        color: var(--custom-link-hover);
+    }
+}
+
+.masthead {
+    background: var(--custom-masthead-bg);
+    border-bottom-color: var(--custom-border);
+}
+
+.greedy-nav,
+.greedy-nav button {
+    background: transparent;
+}
+
+.greedy-nav a,
+.greedy-nav button,
+.greedy-nav .hidden-links a {
+    color: var(--custom-heading);
+}
+
+.greedy-nav .visible-links #theme-toggle a {
+    width: 2.2rem;
+    height: 2.2rem;
+    margin: 0 0 0 0.6rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    background: var(--custom-pill-bg);
+    color: var(--custom-heading);
+
+    &:before {
+        display: none;
+    }
+}
+
+.greedy-nav .hidden-links {
+    background: var(--custom-panel-bg);
+    border-color: var(--custom-border);
+}
+
+.archive__item,
+.home-card,
+.sidebar > div[itemscope] {
+    background: var(--custom-panel-bg);
+    border-color: var(--custom-border);
+    box-shadow: var(--custom-shadow);
+}
+
+.home-hero {
+    background: var(--custom-hero-bg);
+    border-color: var(--custom-border);
+    box-shadow: var(--custom-shadow);
+}
+
+.publication-card,
+.highlight-pill {
+    background: var(--custom-panel-alt-bg);
+    border-color: var(--custom-border);
+}
+
+.home-hero__eyebrow,
+.publication-card__meta,
+.timeline__item p,
+.detail-item span,
+.highlight-pill span,
+.author__bio {
+    color: var(--custom-muted);
+}
+
+.home-hero__lead,
+.publication-card__authors {
+    color: var(--custom-muted-strong);
+}
+
+.detail-item strong,
+.highlight-pill strong,
+.timeline__item strong,
+.section-heading h2 {
+    color: var(--custom-heading);
+}
+
+.author__urls-wrapper .btn,
+.home-btn--primary {
+    background: var(--custom-accent);
+    border-color: var(--custom-accent);
+    color: var(--custom-accent-contrast);
+}
+
+.home-btn {
+    border-color: var(--custom-border);
+    color: var(--custom-heading);
+    background: transparent;
+}
+
+.timeline__item,
+.detail-item {
+    border-bottom-color: var(--custom-border);
+}
+
+.timeline__date,
+.citation-stat {
+    background: var(--custom-chip-bg);
+    color: var(--custom-chip-text);
+}

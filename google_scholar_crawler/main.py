@@ -5,6 +5,16 @@ from datetime import datetime, timezone
 import serpapi
 
 
+def require_env(name):
+    value = os.environ.get(name, "").strip()
+    if not value:
+        raise RuntimeError(
+            f"Missing required environment variable: {name}. "
+            "Set it in GitHub repository Settings -> Secrets and variables -> Actions."
+        )
+    return value
+
+
 def build_publications(author_data):
     publications = {}
     for article in author_data.get("articles", []):
@@ -27,8 +37,8 @@ def extract_total_citations(author_data):
 
 
 def main():
-    scholar_id = os.environ["GOOGLE_SCHOLAR_ID"]
-    serpapi_key = os.environ["SERPAPI_KEY"]
+    scholar_id = require_env("GOOGLE_SCHOLAR_ID")
+    serpapi_key = require_env("SERPAPI_KEY")
 
     search = serpapi.Client(api_key=serpapi_key)
     response = search.search(

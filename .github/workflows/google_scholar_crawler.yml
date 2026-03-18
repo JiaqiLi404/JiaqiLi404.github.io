@@ -24,6 +24,20 @@ jobs:
           cache: "pip"
           cache-dependency-path: google_scholar_crawler/requirements.txt
 
+      - name: Validate required secrets
+        env:
+          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        run: |
+          if [ -z "$GOOGLE_SCHOLAR_ID" ]; then
+            echo "Missing secret: GOOGLE_SCHOLAR_ID"
+            exit 1
+          fi
+          if [ -z "$SERPAPI_KEY" ]; then
+            echo "Missing secret: SERPAPI_KEY"
+            exit 1
+          fi
+
       - name: Fetch Google Scholar data
         env:
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
