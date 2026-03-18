@@ -1,163 +1,215 @@
 ---
 permalink: /
-title: "Jiaqi Li's homepage"
+title: ""
+excerpt: "Jiaqi Li is a PhD student in Computer Science at the University of Warwick."
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+<section class="home-hero">
+  <p class="home-hero__eyebrow">PhD Student in Computer Science - University of Warwick</p>
+  <h1 class="home-hero__title">Jiaqi Li</h1>
+  <p class="home-hero__lead">
+    I work on long video understanding, multimodal models, video temporal grounding,
+    embodied AI, robot task and motion planning, and human pose estimation.
+  </p>
+  <div class="home-hero__actions">
+    <a class="btn home-btn home-btn--primary" href="/Jiaqi_Li_CV.pdf">Download CV</a>
+    <a class="btn home-btn" href="https://scholar.google.com/citations?view_op=list_works&amp;hl=en&amp;user=ru2ps-0AAAAJ">Google Scholar</a>
+    <a class="btn home-btn" href="mailto:jiaqi.li.16@warwick.ac.uk">Email</a>
+  </div>
+</section>
 
+<div class="home-grid">
+  <section class="home-card">
+    <h2>About</h2>
+    <p>
+      I am a PhD student in Computer Science at the <strong>University of Warwick</strong>,
+      supervised by <strong>Yu Guan</strong> and advised by <strong>Victor Sanchez</strong>
+      and <strong>Weiren Yu</strong>. Previously, I completed an MSc in Computer Science
+      at <strong>The University of Hong Kong</strong> and a BSc in Information and Computing Science,
+      with a minor in Computer Science and Technology, at <strong>Zhejiang University of Technology</strong>.
+    </p>
+    <p>
+      My recent work spans multimodal video understanding, trustworthy instruction tuning,
+      temporal grounding, and physics-guided human pose estimation.
+    </p>
+  </section>
 
-<span class='anchor' id='about-me'></span>
-
-I am **Jiaqi Li**, a PhD student in Computer Science at the **University of Warwick**.
-I completed my Master’s degree in Computer Science at the **University of Hong Kong**,
-and earned my Bachelor’s degree in Mathematics with a minor in Computer Science.
-
-# 🔥 News
-- *2025.05*: 🎉 Paper **Know the Unknown: An Uncertainty-Sensitive Method for LLM Instruction Tuning** accepted by **ACL 2025 Findings**
-- *2024.05*: Project [**I AM DIRECTOR**](https://www.iamdirector.cn/home) got 100+ stars on GitHub
-- *2023.11*: 🎉 Paper **Hot Topics Clustering based on Gaussian Mixture Model with built-in DTW** accepted by **PRML 2023**
-- *2022.07*: Received the offer from the University of Hong Kong
-- *2022.05*: Got Excellent grade in undergraduate dissertation
-
-# 📝 Selected Publications
-<div class='paper-box'>
-<div class='paper-box-image'>
-<div>
-<div class="badge">Top-Tier Conference</div>
-<img src='images/know_the_unknow.png' alt="Know the Unknown" width="300px">
-</div>
-</div>
-<div class='paper-box-text' markdown="1">
-
-
-[**Know the Unknown: An Uncertainty-Sensitive Method for LLM Instruction Tuning**](https://aclanthology.org/2025.findings-acl.153)
-
-
-**Findings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025 Findings)**
-
-
-**Jiaqi Li**, Yixuan Tang, Yi Yang
-
-
-[**Project**](https://github.com/JiaqiLi404/Know_the_Unknown) <strong><span class='show_paper_citations' data='ru2ps-0AAAAJ:L8Ckcad2t8MC'></span></strong>
-
-
-- A fine-tuning framework that synthesizes training data to improve rejection of out-of-knowledge questions without compromising other tasks.
-
-
-</div>
+  <section class="home-card">
+    <h2>Research Interests</h2>
+    <ul class="compact-list">
+      <li>Long video understanding</li>
+      <li>Multimodal models</li>
+      <li>Video temporal grounding</li>
+      <li>Embodied AI</li>
+      <li>Robot task and motion planning</li>
+      <li>Human pose estimation</li>
+    </ul>
+  </section>
 </div>
 
+<section class="home-card">
+  <div class="section-heading">
+    <h2>Highlights</h2>
+    <a href="/cv/">View full CV</a>
+  </div>
+  <div class="highlight-grid">
+    <div class="highlight-pill">
+      <strong>ACL Findings 2025</strong>
+      <span>Instruction tuning with uncertainty-sensitive rejection</span>
+    </div>
+    <div class="highlight-pill">
+      <strong>Workshop Chair</strong>
+      <span>CVPR AI4RWC 2026</span>
+    </div>
+    <div class="highlight-pill">
+      <strong>Guest Lecture</strong>
+      <span>Video Forensics and Video Compression, Warwick, March 2026</span>
+    </div>
+    <div class="highlight-pill">
+      <strong>Research Experience</strong>
+      <span>Warwick and HKUST</span>
+    </div>
+  </div>
+</section>
 
-<div class='paper-box'>
-<div class='paper-box-image'>
-<div>
-<div class="badge">SCI 2nd Tier Journals</div>
-<img src='images/RMFDnet.png' alt="RMFDnet" width="300px">
+<section class="home-card">
+  <h2>News</h2>
+  <div class="timeline">
+    <div class="timeline__item">
+      <span class="timeline__date">Mar 2026</span>
+      <div>
+        <strong>Delivered a guest lecture</strong>
+        <p>Invited talk on Video Forensics and Video Compression for CS355 Digital Forensics at the University of Warwick.</p>
+      </div>
+    </div>
+    <div class="timeline__item">
+      <span class="timeline__date">2026</span>
+      <div>
+        <strong>Expanded academic service</strong>
+        <p>Serving as Workshop Program Chair for CVPR AI4RWC 2026 and reviewer for ICML, ACL ARR, and IJCAI.</p>
+      </div>
+    </div>
+    <div class="timeline__item">
+      <span class="timeline__date">May 2025</span>
+      <div>
+        <strong>ACL Findings paper accepted</strong>
+        <p><em>Know the Unknown: An Uncertainty-Sensitive Method for LLM Instruction Tuning</em> was accepted to ACL Findings 2025.</p>
+      </div>
+    </div>
+    <div class="timeline__item">
+      <span class="timeline__date">2024-2025</span>
+      <div>
+        <strong>Research assistantship at Warwick</strong>
+        <p>Worked with Yu Guan on multimodal and video understanding research in Coventry.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="home-card">
+  <div class="section-heading">
+    <h2>Selected Publications</h2>
+    <a href="/publications/">All publications</a>
+  </div>
+  <div class="publication-list">
+    <article class="publication-card">
+      <div class="publication-card__meta">ACL Findings 2025</div>
+      <h3>Know the Unknown: An Uncertainty-Sensitive Method for LLM Instruction Tuning</h3>
+      <p class="publication-card__authors"><strong>Jiaqi Li</strong>, Yixuan Tang, Yi Yang</p>
+      <p>
+        A fine-tuning framework that synthesizes training data to improve rejection of out-of-knowledge
+        questions without sacrificing in-domain instruction-following ability.
+      </p>
+      <p class="publication-card__links">
+        <a href="https://aclanthology.org/2025.findings-acl.153">Paper</a>
+        <a href="https://github.com/JiaqiLi404/Know_the_Unknown">Code</a>
+      </p>
+    </article>
+
+    <article class="publication-card">
+      <div class="publication-card__meta">Engineering Applications of Artificial Intelligence, 2025</div>
+      <h3>RMFDNet: Redundant and Missing Feature Decoupling Network for Salient Object Detection</h3>
+      <p class="publication-card__authors">Qianwei Zhou, Jintao Wang, <strong>Jiaqi Li</strong>, Chen Zhou, Haigen Hu, Keli Hu</p>
+      <p>
+        A salient object detection framework that decouples redundant and missing features through auxiliary decoders
+        for improved refinement and prediction.
+      </p>
+      <p class="publication-card__links">
+        <a href="https://authors.elsevier.com/c/1j~wP3OWJ98gqo">Paper</a>
+      </p>
+    </article>
+
+    <article class="publication-card">
+      <div class="publication-card__meta">PRML 2023</div>
+      <h3>Hot Topic Clustering based on Gaussian Mixture Model built-in DTW</h3>
+      <p class="publication-card__authors">Chenggang Lu, <strong>Jiaqi Li</strong></p>
+      <p>
+        A Gaussian mixture model with built-in DTW for clustering variable-length time-series without dimensional explosion.
+      </p>
+      <p class="publication-card__links">
+        <a href="https://ieeexplore.ieee.org/abstract/document/10348277">Paper</a>
+        <a href="https://github.com/JiaqiLi404/gmm_dtw">Code</a>
+      </p>
+    </article>
+  </div>
+</section>
+
+<div class="home-grid">
+  <section class="home-card">
+    <h2>Education</h2>
+    <div class="detail-stack">
+      <div class="detail-item">
+        <strong>University of Warwick</strong>
+        <span>PhD in Computer Science, 2024 - present</span>
+      </div>
+      <div class="detail-item">
+        <strong>The University of Hong Kong</strong>
+        <span>MSc in Computer Science, 2022 - 2023</span>
+      </div>
+      <div class="detail-item">
+        <strong>Zhejiang University of Technology</strong>
+        <span>BSc in Information and Computing Science, minor in Computer Science and Technology, 2018 - 2022</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-card">
+    <h2>Research and Service</h2>
+    <div class="detail-stack">
+      <div class="detail-item">
+        <strong>Research Assistant, University of Warwick</strong>
+        <span>Dec 2024 - Mar 2025</span>
+      </div>
+      <div class="detail-item">
+        <strong>Research Assistant, HKUST</strong>
+        <span>Oct 2023 - May 2024</span>
+      </div>
+      <div class="detail-item">
+        <strong>Conference Reviewing</strong>
+        <span>IJCAI 2025/2026, ICCV 2025, AAAI 2025, ICML 2026, ACL ARR 2026</span>
+      </div>
+    </div>
+  </section>
 </div>
-</div>
-<div class='paper-box-text' markdown="1">
 
-
-[**RMFDnet: Redundant and Missing Feature Decoupling Network for Salient Object Detection**](https://authors.elsevier.com/c/1j~wP3OWJ98gqo)
-
-
-**Engineering Applications of Artificial Intelligence**
-
-
-Qianwei Zhou, Jintao Wang, **Jiaqi Li**, Chen Zhou, Haigen Hu, Keli Hu
-
-
-<strong><span class='show_paper_citations' data='ru2ps-0AAAAJ:ZeXyd9-uunAC'></span></strong>
-
-
-- Auxiliary decoders decouple redundant/missing features for better refinement and prediction.
-
-
-</div>
-</div>
-
-
-<div class='paper-box'>
-<div class='paper-box-image'>
-<div>
-<div class="badge">IEEE International Conference</div>
-<img src='images/image_gmm_dtw.png' alt="GMM-DTW" width="300px">
-</div>
-</div>
-<div class='paper-box-text' markdown="1">
-
-
-[**Hot Topics Clustering based on Gaussian Mixture Model with built-in DTW**](https://ieeexplore.ieee.org/abstract/document/10348277)
-
-
-**IEEE International Conference on Pattern Recognition and Machine Learning (PRML 2023)**
-
-
-Chenggang Lu, **Jiaqi Li**
-
-
-[**Project**](https://github.com/JiaqiLi404/gmm_dtw) <strong><span class='show_paper_citations' data='ru2ps-0AAAAJ:7PzlFSSx8tAC'></span></strong>
-
-
-- A GMM with improved built-in DTW for length-varying time-series clustering without dimensional explosion.
-
-
-</div>
-</div>
-
-
-
-# 🎖 Selected Projects
-
-
-- *2024.10* **A Human-AI Interaction Platform for Co-speech Gesture Understanding in Business Pitches**
-- Automated co-speech gesture recognition + behavior psychology for business pitch understanding.
-- Scalable annotation + human-AI interaction.
-
-
-- *2024.02* [**I AM DIRECTOR**](https://www.iamdirector.cn/home)
-- [**Code**](https://github.com/JiaqiLi404/IAmDirector-Text2Video-NextJS-Client)
-- AI-driven platform for movie/video script generation.
-
-
-- *2024.09* **RoomAssignment: A gaming platform for Human-LLM interaction**
-- Memory + prompt modules for compressing game information for GPT agents.
-- Multi-agent collaboration observation with role prompts.
-
-
-> Full list: move each project into `_portfolio/` (recommended), then link `/portfolio/`.
-
-
-# 📖 Education
-- *2024.09 - Now*, **University of Warwick** — PhD in Computer Science
-- *2022.09 - 2023.12*, **The University of Hong Kong** — MSc in Computer Science
-- *2018.09 - 2022.06*, **Zhejiang University of Technology** — BSc (Math), Minor in CS (Dissertation: Excellent)
-
-
-# 💬 Patents & Software
-- [**A method for calibrating the longitude and latitude of aerial image pixels**](https://patents.google.com/patent/CN115457124A), 2022, CN115457124A
-- [**A Remote Ischemic Preconditioning Training System and Method**](https://patents.google.com/patent/CN108461158A), 2021, CN108461158A (Co-inventor)
-- [**A Passenger Seat Belt Status Monitoring System**](https://patents.google.com/patent/CN107512239A), 2018, CN107512239A
-- Software Copyright: [**RR Interval Extraction... & Heart Disease Diagnosis APP...**](https://github.com/JiaqiLi404/Android_openwrt_controller), 2021, No. 7255144 (Co-inventor)
-- Software Copyright: Meeting Affairs Management Software, 2021, No. 7278724
-- Software Copyright: Exam Management Software, 2021, No. 7278723
-- Software Copyright: Electric Power Monitoring Software, 2021, No. 7278722
-
-
-# 💻 Internships
-- *Aug. 2023 - May 2024*, **HKUST** — Research Assistant
-- Mitigate hallucinations in LLMs; develop an investment report analysis platform.
-- *Oct. 2021 – Jun. 2022*, Hangzhou Markov Technology Co., Ltd. — Full-stack Engineer
-- *Sep. 2020 - Feb. 2021*, Hangzhou Fenghui Information Technology Co., Ltd. — R&D Assistant
-- *Jul. 2020 - Sep. 2020*, Lishui Honeycomb Network Technology Co., Ltd. — Technical Department
-- *Dec. 2019 - Jan. 2020*, Zhejiang Red Dot Intelligent Technology Co., Ltd. — Academician Workstation
+<section class="home-card">
+  <h2>Patents</h2>
+  <div class="detail-stack">
+    <div class="detail-item">
+      <strong><a href="https://patents.google.com/patent/CN115457124A">A method for calibrating the longitude and latitude of aerial image pixels</a></strong>
+      <span>Patent No. CN115457124A</span>
+    </div>
+    <div class="detail-item">
+      <strong><a href="https://patents.google.com/patent/CN107512239A">A Remote Ischemic Preconditioning Training System and Method</a></strong>
+      <span>Patent No. CN107512239A, co-inventor</span>
+    </div>
+    <div class="detail-item">
+      <strong><a href="https://patents.google.com/patent/CN108461158A">A Passenger Seat Belt Status Monitoring System</a></strong>
+      <span>Patent No. CN108461158A</span>
+    </div>
+  </div>
+</section>

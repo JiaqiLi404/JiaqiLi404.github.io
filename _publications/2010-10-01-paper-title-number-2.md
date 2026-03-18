@@ -1,14 +1,12 @@
 ---
-title: "Paper Title Number 2"
+title: "Why Learn What Physics Already Knows? Realizing Agile mmWave-based Human Pose Estimation via Physics-Guided Preprocessing"
 collection: publications
-category: manuscripts
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides2.pdf'
-paperurl: 'https://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+category: conferences
+permalink: /publication/physics-guided-mmwave-pose-estimation/
+excerpt: 'Uses physics-guided preprocessing for more agile and reliable mmWave-based human pose estimation.'
+date: 2026-01-01
+venue: 'IEEE International Conference on Multimedia and Expo (ICME)'
+citation: 'Zheng, S., Li, J., Ni, M., et al. (2026). &quot;Why Learn What Physics Already Knows? Realizing Agile mmWave-based Human Pose Estimation via Physics-Guided Preprocessing.&quot; <i>IEEE International Conference on Multimedia and Expo</i>.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+This conference paper presents a physics-guided preprocessing pipeline for agile mmWave-based human pose estimation.

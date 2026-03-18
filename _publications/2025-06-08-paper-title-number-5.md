@@ -1,13 +1,13 @@
 ---
-title: "Paper Title Number 5, with math $$E=mc^2$$"
+title: "Know the Unknown: An Uncertainty-Sensitive Method for LLM Instruction Tuning"
 collection: publications
 category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+permalink: /publication/know-the-unknown/
+excerpt: 'Synthesizes training data to strengthen uncertainty-aware rejection in instruction tuning.'
+date: 2025-05-01
+venue: 'Findings of the Association for Computational Linguistics (ACL Findings)'
+paperurl: 'https://aclanthology.org/2025.findings-acl.153'
+citation: 'Li, J., Tang, Y., & Yang, Y. (2025). &quot;Know the Unknown: An Uncertainty-Sensitive Method for LLM Instruction Tuning.&quot; <i>Findings of the Association for Computational Linguistics</i>.'
 ---
 
-Using [MathJax](https://www.mathjax.org/) in the description is supported - $$E=mc^2$$ - however, the use must be mindful that the default delimiters are `$$...$$` and `\\[...\\]` which differs from the `$...$` that is typically expected.
+This paper proposes an uncertainty-sensitive instruction tuning framework that improves rejection of questions beyond the model's knowledge boundary.
