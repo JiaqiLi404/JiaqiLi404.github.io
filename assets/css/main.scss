@@ -361,13 +361,17 @@ a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: fit-content;
-    padding: 0.28rem 0.7rem;
-    border-radius: 999px;
+    width: 5.2rem;
+    height: 5.2rem;
+    padding: 0.5rem;
+    border-radius: 50%;
     background: #edf3ea;
     color: #315649;
     font-size: 0.82rem;
     font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    white-space: normal;
 }
 
 .publication-list {
@@ -600,6 +604,23 @@ a {
     border-radius: 999px;
 }
 
+.greedy-nav .visible-links a:before {
+    height: 2px !important;
+    bottom: 0.2rem !important;
+    background: var(--custom-accent) !important;
+}
+
+.greedy-nav .visible-links .selected a {
+    background: transparent !important;
+}
+
+.greedy-nav .visible-links .selected a:before,
+.greedy-nav .visible-links .persist.selected a:before {
+    -webkit-transform: scaleX(1) !important;
+        -ms-transform: scaleX(1) !important;
+            transform: scaleX(1) !important;
+}
+
 .greedy-nav .visible-links #theme-toggle a {
     width: 2.2rem;
     height: 2.2rem;
@@ -627,6 +648,7 @@ a {
 .greedy-nav .hidden-links {
     background: var(--custom-panel-bg);
     border-color: var(--custom-border);
+    z-index: 80;
 }
 
 .archive__item,
@@ -651,6 +673,28 @@ a {
     border: 0 !important;
     box-shadow: none !important;
     padding: 0 !important;
+}
+
+.sidebar,
+.author-profile-card,
+.author__urls-wrapper {
+    position: relative;
+    overflow: visible !important;
+}
+
+.author__urls-wrapper {
+    z-index: 40;
+}
+
+.author__urls {
+    background: var(--custom-panel-bg) !important;
+    border-color: var(--custom-border) !important;
+    box-shadow: var(--custom-shadow) !important;
+    z-index: 90 !important;
+}
+
+.author__urls:after {
+    border-color: var(--custom-panel-bg) transparent !important;
 }
 
 .author__avatar {
