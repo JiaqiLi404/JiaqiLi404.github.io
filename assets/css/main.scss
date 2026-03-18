@@ -359,7 +359,7 @@ a {
 
 .timeline__date {
     display: inline-flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     width: fit-content;
     padding: 0.28rem 0.7rem;
@@ -553,7 +553,6 @@ a {
     background: transparent !important;
 }
 
-.masthead__inner-wrap,
 .masthead__menu,
 .masthead__menu ul,
 .masthead__menu-item,
@@ -564,7 +563,8 @@ a {
 }
 
 .masthead__inner-wrap {
-    padding: 0.55rem 1rem !important;
+    padding: 0.75rem 1rem !important;
+    background: transparent !important;
 }
 
 .greedy-nav,
@@ -573,14 +573,16 @@ a {
 }
 
 .greedy-nav {
-    display: block;
-    align-items: initial;
-    min-width: 250px;
-    padding: 0 0.35rem;
-    background: var(--custom-nav-bg) !important;
-    border: 0 !important;
-    border-radius: 0;
-    box-shadow: none;
+    display: flex !important;
+    align-items: center;
+    min-width: 0;
+    width: 100%;
+    padding: 0.15rem 0.75rem;
+    background: var(--custom-masthead-bg) !important;
+    border: 1px solid var(--custom-border) !important;
+    border-radius: 22px;
+    box-shadow: 0 14px 30px rgba(34, 48, 43, 0.08);
+    backdrop-filter: blur(14px);
 }
 
 .greedy-nav a,
@@ -589,8 +591,13 @@ a {
     color: var(--custom-heading);
 }
 
+.greedy-nav .visible-links {
+    background: transparent !important;
+}
+
 .greedy-nav .visible-links a {
     padding: 0.8rem 0.8rem;
+    border-radius: 999px;
 }
 
 .greedy-nav .visible-links #theme-toggle a {
@@ -610,7 +617,7 @@ a {
 
 .greedy-nav .visible-links li:first-child a,
 .greedy-nav .visible-links li:not(#theme-toggle) a {
-    margin: 0 1rem 0 0;
+    margin: 0 0.2rem 0 0;
 }
 
 .greedy-nav .hidden-links {

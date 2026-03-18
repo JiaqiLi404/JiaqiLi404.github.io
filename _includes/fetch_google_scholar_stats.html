@@ -1,5 +1,36 @@
 <script>
   document.addEventListener("DOMContentLoaded", function () {
+    function loadJson(urls) {
+      if (!urls.length) {
+        return Promise.reject(new Error("No Google Scholar data URL available"));
+      }
+
+      var url = urls[0];
+      return fetch(url)
+        .then(function (response) {
+          if (!response.ok) {
+            throw new Error("Failed to load Google Scholar stats");
+          }
+          return response.json();
+        })
+        .catch(function () {
+          return loadJson(urls.slice(1));
+        });
+    }
+
+    function getTotalCitations(data) {
+      if (data && data.citedby !== undefined) {
+        return data.citedby;
+      }
+
+      var citedByTable = (((data || {}).cited_by || {}).table) || [];
+      if (citedByTable.length && citedByTable[0].citations) {
+        return citedByTable[0].citations.all || 0;
+      }
+
+      return undefined;
+    }
+
     function normalizeTitle(title) {
       return (title || "")
         .toLowerCase()
@@ -7,6 +38,28 @@
         .replace(/[^a-z0-9]+/g, " ")
         .replace(/\s+/g, " ")
         .trim();
+    }
+
+    function buildPublicationMap(data) {
+      var publications = data.publications || {};
+      if (Object.keys(publications).length > 0) {
+        return publications;
+      }
+
+      var articles = data.articles || [];
+      var publicationMap = {};
+      articles.forEach(function (article) {
+        var citationId = article.citation_id || article.author_pub_id;
+        if (!citationId) {
+          return;
+        }
+
+        if (article.num_citations === undefined) {
+          article.num_citations = ((article.cited_by || {}).value) || 0;
+        }
+        publicationMap[citationId] = article;
+      });
+      return publicationMap;
     }
 
     function buildTitleIndex(publications) {
@@ -41,23 +94,19 @@
       return null;
     }
 
+    var rawDataUrl = "https://raw.githubusercontent.com/{{ site.repository }}/google-scholar-stats/gs_data.json";
+    var cdnDataUrl = "https://cdn.jsdelivr.net/gh/{{ site.repository }}@google-scholar-stats/gs_data.json";
     {% if site.google_scholar_stats_use_cdn %}
-    var gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/{{ site.repository }}@";
+    var dataUrls = [cdnDataUrl, rawDataUrl];
     {% else %}
-    var gsDataBaseUrl = "https://raw.githubusercontent.com/{{ site.repository }}/";
+    var dataUrls = [rawDataUrl, cdnDataUrl];
     {% endif %}
 
-    fetch(gsDataBaseUrl + "google-scholar-stats/gs_data.json")
-      .then(function (response) {
-        if (!response.ok) {
-          throw new Error("Failed to load Google Scholar stats");
-        }
-        return response.json();
-      })
+    loadJson(dataUrls)
       .then(function (data) {
-        var totalCitation = data.citedby;
+        var totalCitation = getTotalCitations(data);
         var totalCitElement = document.getElementById("total_cit");
-        var publications = data.publications || {};
+        var publications = buildPublicationMap(data || {});
         var titleIndex = buildTitleIndex(publications);
 
         if (totalCitElement && totalCitation !== undefined) {
@@ -81,7 +130,7 @@
           }
 
           var numCitations = publication.num_citations;
-          if (numCitations && Number(numCitations) > 0) {
+          if (numCitations !== undefined && Number(numCitations) >= 0) {
             element.textContent = "Citations: " + numCitations;
             element.classList.add("citation-stat");
           }

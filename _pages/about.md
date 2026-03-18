@@ -28,15 +28,13 @@ redirect_from:
   <section class="home-card">
     <h2>About</h2>
     <p>
-      I am a PhD student in Computer Science at the <strong>University of Warwick</strong>,
-      supervised by <strong>Yu Guan</strong> and advised by <strong>Victor Sanchez</strong>
-      and <strong>Weiren Yu</strong>. Previously, I completed an MSc in Computer Science
+      I am a PhD candidate in Computer Science at the <strong>University of Warwick</strong>,
+      supervised by <strong>Yu Guan</strong>. Previously, I completed an MSc in Computer Science
       at <strong>The University of Hong Kong</strong> and a BSc in Information and Computing Science,
-      with a minor in Computer Science and Technology, at <strong>Zhejiang University of Technology</strong>.
+      with a minor in Computer Science and Technology.
     </p>
     <p>
-      My recent work spans multimodal video understanding, trustworthy instruction tuning,
-      temporal grounding, and physics-guided human pose estimation.
+      My recent work spans multimodal video understanding, temporal grounding, and trustworthy instruction tuning.
     </p>
   </section>
 
