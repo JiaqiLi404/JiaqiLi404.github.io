@@ -715,6 +715,15 @@ a {
     border-color: var(--custom-panel-bg) transparent !important;
 }
 
+@include breakpoint($large) {
+    .author__urls {
+        background: transparent !important;
+        border: 0 !important;
+        box-shadow: none !important;
+        z-index: auto !important;
+    }
+}
+
 .author__avatar {
     display: flex !important;
     align-items: center;
