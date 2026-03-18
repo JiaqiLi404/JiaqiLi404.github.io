@@ -1,12 +1,13 @@
 ---
 title: "Generating Multi-Modal Knowledge Clues as an Image: Towards Improving Image-Sequence Reasoning with Assisted Visual Input"
 collection: publications
-category: manuscripts
 permalink: /publication/generating-multimodal-knowledge-clues/
-excerpt: 'Transforms knowledge clues into assisted visual input for stronger image-sequence reasoning.'
+order: 9
+excerpt: "Generates multimodal knowledge clues as an image to strengthen image-sequence reasoning with assisted visual input."
 date: 2026-01-01
-venue: 'IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)'
+venue: "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2026"
+authors: "Guanghui Ye, Huan Zhao, Yixian Shen, Jiaqi Li, Fengnan Li, Zhihua Jiang, Keqin Li"
 citation: 'Ye, G., Zhao, H., Shen, Y., Li, J., Li, F., Jiang, Z., & Li, K. (2026). &quot;Generating Multi-Modal Knowledge Clues as an Image: Towards Improving Image-Sequence Reasoning with Assisted Visual Input.&quot; <i>IEEE Transactions on Circuits and Systems for Video Technology</i>.'
 ---
 
-This journal paper studies how multimodal knowledge clues can be rendered as assisted visual input to improve image-sequence reasoning.
+Listed in the CV as a 2026 TCSVT paper on improving image-sequence reasoning with assisted multimodal visual clues.

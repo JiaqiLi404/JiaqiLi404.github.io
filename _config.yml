@@ -30,9 +30,9 @@ author:
   bio              : "PhD Student in Computer Science"
   location         : "Coventry, United Kingdom"
   employer         : "University of Warwick"
-  uri              : "https://jiaqili404.github.io/"
+  uri              : # "https://jiaqili404.github.io/"
   email            : "jiaqi.li.16@warwick.ac.uk"
-  phone            : "+44 7421051811"
+  phone            : # "+44 7421051811"
   cv               : "/Jiaqi_Li_CV.pdf"
 
   # Academic websites

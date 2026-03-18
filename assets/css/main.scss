@@ -159,6 +159,7 @@ a {
 
 .author__avatar {
     text-align: center;
+    margin-bottom: 1rem;
 
     img {
         max-width: 144px;
@@ -171,6 +172,10 @@ a {
 
 .author__content {
     padding-top: 0.75rem;
+}
+
+.author-profile-card {
+    padding: 1.35rem 1.5rem;
 }
 
 .sidebar .author__name {
@@ -518,9 +523,9 @@ html[data-theme="dark"] {
 }
 
 body {
-    background: var(--custom-page-gradient);
-    background-color: var(--custom-page-bg);
-    color: var(--custom-text);
+    background: var(--custom-page-gradient) !important;
+    background-color: var(--custom-page-bg) !important;
+    color: var(--custom-text) !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -573,22 +578,38 @@ a {
 
 .archive__item,
 .home-card,
+.publication-card,
+.highlight-pill,
+.author-profile-card {
+    background: var(--custom-panel-bg) !important;
+    border: 1px solid var(--custom-border) !important;
+    box-shadow: var(--custom-shadow) !important;
+}
+
+.archive__item,
+.home-card {
+    background: var(--custom-panel-bg) !important;
+    border-color: var(--custom-border) !important;
+    box-shadow: var(--custom-shadow) !important;
+}
+
 .sidebar > div[itemscope] {
-    background: var(--custom-panel-bg);
-    border-color: var(--custom-border);
-    box-shadow: var(--custom-shadow);
+    background: transparent !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    padding: 0 !important;
 }
 
 .home-hero {
-    background: var(--custom-hero-bg);
-    border-color: var(--custom-border);
-    box-shadow: var(--custom-shadow);
+    background: var(--custom-hero-bg) !important;
+    border-color: var(--custom-border) !important;
+    box-shadow: var(--custom-shadow) !important;
 }
 
 .publication-card,
 .highlight-pill {
-    background: var(--custom-panel-alt-bg);
-    border-color: var(--custom-border);
+    background: var(--custom-panel-alt-bg) !important;
+    border-color: var(--custom-border) !important;
 }
 
 .home-hero__eyebrow,
@@ -614,15 +635,15 @@ a {
 
 .author__urls-wrapper .btn,
 .home-btn--primary {
-    background: var(--custom-accent);
-    border-color: var(--custom-accent);
-    color: var(--custom-accent-contrast);
+    background: var(--custom-accent) !important;
+    border-color: var(--custom-accent) !important;
+    color: var(--custom-accent-contrast) !important;
 }
 
 .home-btn {
-    border-color: var(--custom-border);
-    color: var(--custom-heading);
-    background: transparent;
+    border-color: var(--custom-border) !important;
+    color: var(--custom-heading) !important;
+    background: transparent !important;
 }
 
 .timeline__item,
@@ -632,6 +653,17 @@ a {
 
 .timeline__date,
 .citation-stat {
-    background: var(--custom-chip-bg);
-    color: var(--custom-chip-text);
+    background: var(--custom-chip-bg) !important;
+    color: var(--custom-chip-text) !important;
+}
+
+.archive__item-authors {
+    margin: -0.2rem 0 0.7rem;
+    color: var(--custom-muted-strong) !important;
+    font-size: 0.97rem;
+}
+
+.page__footer,
+.page__footer footer {
+    background: transparent !important;
 }

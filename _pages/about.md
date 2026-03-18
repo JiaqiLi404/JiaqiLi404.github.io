@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+{% include base_path %}
+
 <section class="home-hero">
   <p class="home-hero__eyebrow">PhD Student in Computer Science - University of Warwick</p>
   <h1 class="home-hero__title">Jiaqi Li</h1>
@@ -119,49 +121,22 @@ redirect_from:
     <h2>Selected Publications</h2>
     <a href="/publications/">All publications</a>
   </div>
+  {% assign featured_publications = site.publications | sort: "order" | slice: 0, 4 %}
   <div class="publication-list">
+    {% for post in featured_publications %}
     <article class="publication-card">
-      <div class="publication-card__meta">ACL Findings 2025</div>
-      <h3>Know the Unknown: An Uncertainty-Sensitive Method for LLM Instruction Tuning</h3>
-      <p class="publication-card__authors"><strong>Jiaqi Li</strong>, Yixuan Tang, Yi Yang</p>
-      <p>
-        A fine-tuning framework that synthesizes training data to improve rejection of out-of-knowledge
-        questions without sacrificing in-domain instruction-following ability.
-      </p>
+      <div class="publication-card__meta">{{ post.venue }}</div>
+      <h3><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h3>
+      {% if post.authors %}<p class="publication-card__authors">{{ post.authors }}</p>{% endif %}
+      <p>{{ post.excerpt }}</p>
       <p class="publication-card__links">
-        <a href="https://aclanthology.org/2025.findings-acl.153">Paper</a>
-        <a href="https://github.com/JiaqiLi404/Know_the_Unknown">Code</a>
-        <span class="show_paper_citations" data="ru2ps-0AAAAJ:L8Ckcad2t8MC"></span>
+        <a href="{{ base_path }}{{ post.url }}">Details</a>
+        {% if post.paperurl %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}
+        {% if post.codeurl %}<a href="{{ post.codeurl }}">Code</a>{% endif %}
+        {% if post.google_scholar_citation_id %}<span class="show_paper_citations" data="{{ post.google_scholar_citation_id }}"></span>{% endif %}
       </p>
     </article>
-
-    <article class="publication-card">
-      <div class="publication-card__meta">Engineering Applications of Artificial Intelligence, 2025</div>
-      <h3>RMFDNet: Redundant and Missing Feature Decoupling Network for Salient Object Detection</h3>
-      <p class="publication-card__authors">Qianwei Zhou, Jintao Wang, <strong>Jiaqi Li</strong>, Chen Zhou, Haigen Hu, Keli Hu</p>
-      <p>
-        A salient object detection framework that decouples redundant and missing features through auxiliary decoders
-        for improved refinement and prediction.
-      </p>
-      <p class="publication-card__links">
-        <a href="https://authors.elsevier.com/c/1j~wP3OWJ98gqo">Paper</a>
-        <span class="show_paper_citations" data="ru2ps-0AAAAJ:ZeXyd9-uunAC"></span>
-      </p>
-    </article>
-
-    <article class="publication-card">
-      <div class="publication-card__meta">PRML 2023</div>
-      <h3>Hot Topic Clustering based on Gaussian Mixture Model built-in DTW</h3>
-      <p class="publication-card__authors">Chenggang Lu, <strong>Jiaqi Li</strong></p>
-      <p>
-        A Gaussian mixture model with built-in DTW for clustering variable-length time-series without dimensional explosion.
-      </p>
-      <p class="publication-card__links">
-        <a href="https://ieeexplore.ieee.org/abstract/document/10348277">Paper</a>
-        <a href="https://github.com/JiaqiLi404/gmm_dtw">Code</a>
-        <span class="show_paper_citations" data="ru2ps-0AAAAJ:7PzlFSSx8tAC"></span>
-      </p>
-    </article>
+    {% endfor %}
   </div>
 </section>
 
