@@ -573,10 +573,10 @@ a {
 }
 
 .greedy-nav {
-    display: inline-flex;
-    align-items: center;
-    min-width: auto;
-    padding: 0;
+    display: block;
+    align-items: initial;
+    min-width: 250px;
+    padding: 0 0.35rem;
     background: var(--custom-nav-bg) !important;
     border: 0 !important;
     border-radius: 0;
@@ -610,7 +610,11 @@ a {
 
 .greedy-nav .visible-links li:first-child a,
 .greedy-nav .visible-links li:not(#theme-toggle) a {
-    margin: 0 0.85rem 0 0;
+    margin: 0 1rem 0 0;
+}
+
+.greedy-nav .hidden-links {
+    min-width: 220px;
 }
 
 .greedy-nav .hidden-links {
