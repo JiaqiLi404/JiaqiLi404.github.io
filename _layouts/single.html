@@ -41,7 +41,11 @@ layout: default
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.venue and page.date %}
           <p>
-            Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}
+            {% if page.venue == "Under review" %}
+              <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}
+            {% else %}
+              Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}
+            {% endif %}
             <span class="show_paper_citations"{% if page.google_scholar_citation_id %} data="{{ page.google_scholar_citation_id }}"{% endif %} data-title="{{ page.title | escape }}"></span>
           </p>
         {% elsif page.date %}
