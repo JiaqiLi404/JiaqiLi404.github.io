@@ -7,7 +7,9 @@ show_on_homepage: true
 excerpt: "Targets modality bias in vision-language models for temporal action localization."
 date: 2026-12-31
 venue: "Association for Computational Linguistics (ACL)"
-authors: "Jiaqi Li, Wang Guangming, Zheng Suntian, et al."
+paperurl: "https://arxiv.org/pdf/2601.21078"
+codeurl: "https://github.com/JiaqiLi404/ActionVLM"
+authors: "Jiaqi Li, Guangming Wang, Shuntian Zheng, Minzhe Ni, Xiaoman Lu, Guanghui Ye, Yu Guan"
 citation: 'Li, J., Wang, G., Zheng, S., et al. (2026). &quot;Towards Mitigating Modality Bias in Vision-Language Models for Temporal Action Localization.&quot; ACL submission.'
 ---
 

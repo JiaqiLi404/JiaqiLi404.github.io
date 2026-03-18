@@ -7,7 +7,8 @@ show_on_homepage: true
 excerpt: "Studies physics-informed representation learning for mmWave-based human pose estimation."
 date: 2026-12-31
 venue: "Under review"
-authors: "Shuntian Zheng, Jiaqi Li, Guangming Wang, et al."
+authors: "Shuntian Zheng, Jiaqi Li, Guangming Wang, Minzhe Ni, Arnad Palit, Giovanni Montana, Yu Guan"
+paperurl: "https://arxiv.org/pdf/2512.23054"
 citation: 'Zheng, S., Li, J., Wang, G., et al. (2026). &quot;Person Parametric Physics-informed Representation for mmWave-based Human Pose Estimation.&quot; Under review.'
 ---
 

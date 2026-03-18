@@ -7,7 +7,8 @@ excerpt: "Decouples redundant and missing features through auxiliary decoders fo
 date: 2025-01-01
 venue: "Engineering Applications of Artificial Intelligence"
 authors: "Qianwei Zhou, Jintao Wang, Jiaqi Li, Chen Zhou, Haigen Hu, Keli Hu"
-paperurl: "https://authors.elsevier.com/c/1j~wP3OWJ98gqo"
+paperurl: "https://www.sciencedirect.com/science/article/pii/S0952197624016178"
+codeurl: "https://github.com/QianWeiZhou/RMFDNet"
 google_scholar_citation_id: "ru2ps-0AAAAJ:ZeXyd9-uunAC"
 citation: 'Zhou, Q., Wang, J., Li, J., Zhou, C., Hu, H., & Hu, K. (2025). &quot;RMFDNet: Redundant and Missing Feature Decoupling Network for Salient Object Detection.&quot; <i>Engineering Applications of Artificial Intelligence</i>.'
 ---
