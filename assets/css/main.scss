@@ -418,6 +418,22 @@ a {
     }
 }
 
+.publication-resource-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0.85rem 0 0 !important;
+    font-size: 0.95rem;
+
+    a {
+        text-decoration: none !important;
+    }
+}
+
+.show_paper_download {
+    display: inline-flex;
+}
+
 .citation-stat {
     display: inline-flex;
     align-items: center;

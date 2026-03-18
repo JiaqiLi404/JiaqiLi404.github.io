@@ -2,10 +2,11 @@
 title: "Know the Unknown: An Uncertainty-Sensitive Method for LLM Instruction Tuning"
 collection: publications
 permalink: /publication/know-the-unknown/
-order: 3
+order: 7
+show_on_homepage: true
 excerpt: "Synthesizes training data to improve rejection of out-of-knowledge questions without sacrificing instruction-following ability."
-date: 2025-05-01
-venue: "Findings of the Association for Computational Linguistics (ACL Findings), 2025"
+date: 2025-07-27
+venue: "Findings of the Association for Computational Linguistics: ACL"
 authors: "Jiaqi Li, Yixuan Tang, Yi Yang"
 paperurl: "https://aclanthology.org/2025.findings-acl.153"
 codeurl: "https://github.com/JiaqiLi404/Know_the_Unknown"

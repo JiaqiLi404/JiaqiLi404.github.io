@@ -2,10 +2,10 @@
 title: "Hot Topic Clustering based on Gaussian Mixture Model built-in DTW"
 collection: publications
 permalink: /publication/gmm-dtw-hot-topic-clustering/
-order: 7
+order: 3
 excerpt: "A Gaussian mixture model with built-in DTW for clustering variable-length time-series without dimensional explosion."
-date: 2023-11-01
-venue: "IEEE International Conference on Pattern Recognition and Machine Learning (PRML), 2023"
+date: 2023-08-04
+venue: "IEEE International Conference on Pattern Recognition and Machine Learning (PRML)"
 authors: "Chenggang Lu, Jiaqi Li"
 paperurl: "https://ieeexplore.ieee.org/abstract/document/10348277"
 codeurl: "https://github.com/JiaqiLi404/gmm_dtw"

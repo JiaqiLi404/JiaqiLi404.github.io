@@ -17,16 +17,6 @@ redirect_from:
     I work on long video understanding, multimodal models, video temporal grounding,
     embodied AI, robot task and motion planning, and human pose estimation.
   </p>
-
-[//]: # (  <div class="home-hero__actions">)
-
-[//]: # (    <a class="btn home-btn home-btn--primary" href="/Jiaqi_Li_CV.pdf">Download CV</a>)
-
-[//]: # (    <a class="btn home-btn" href="https://scholar.google.com/citations?view_op=list_works&amp;hl=en&amp;user=ru2ps-0AAAAJ">Google Scholar</a>)
-
-[//]: # (    <a class="btn home-btn" href="mailto:jiaqi.li.16@warwick.ac.uk">Email</a>)
-
-[//]: # (  </div>)
 </section>
 
 <div class="home-grid">
@@ -48,6 +38,7 @@ redirect_from:
       <li>Long video understanding</li>
       <li>Multimodal models</li>
       <li>Video temporal grounding</li>
+      <li>Temporal Action Localization</li>
       <li>Embodied AI</li>
       <li>Robot task and motion planning</li>
       <li>Human pose estimation</li>
@@ -64,18 +55,6 @@ redirect_from:
     <div class="highlight-pill">
       <strong>Total Citations</strong>
       <span><span id="total_cit">-</span> on Google Scholar</span>
-    </div>
-    <div class="highlight-pill">
-      <strong>ACL Findings 2025</strong>
-      <span>Instruction tuning with uncertainty-sensitive rejection</span>
-    </div>
-    <div class="highlight-pill">
-      <strong>Workshop Chair</strong>
-      <span>CVPR AI4RWC 2026</span>
-    </div>
-    <div class="highlight-pill">
-      <strong>Guest Lecture</strong>
-      <span>Video Forensics and Video Compression, Warwick, March 2026</span>
     </div>
     <div class="highlight-pill">
       <strong>Research Experience</strong>
@@ -112,7 +91,7 @@ redirect_from:
       <span class="timeline__date">2024-2025</span>
       <div>
         <strong>Research assistantship at Warwick</strong>
-        <p>Worked with Yu Guan on multimodal and video understanding research in Coventry.</p>
+        <p>Worked on multimodal and video understanding research at Warwick.</p>
       </div>
     </div>
   </div>
@@ -123,7 +102,7 @@ redirect_from:
     <h2>Selected Publications</h2>
     <a href="/publications/">All publications</a>
   </div>
-  {% assign featured_publications = site.publications | sort: "order" | slice: 0, 4 %}
+  {% assign featured_publications = site.publications | where: "show_on_homepage", true | sort: "order" | reverse %}
   <div class="publication-list">
     {% for post in featured_publications %}
     <article class="publication-card">
@@ -133,8 +112,12 @@ redirect_from:
       <p>{{ post.excerpt }}</p>
       <p class="publication-card__links">
         <a href="{{ base_path }}{{ post.url }}">Details</a>
-        {% if post.paperurl %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}
-        {% if post.codeurl %}<a href="{{ post.codeurl }}">Code</a>{% endif %}
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}">Download Paper</a>
+        {% else %}
+          <span class="show_paper_download"{% if post.google_scholar_citation_id %} data="{{ post.google_scholar_citation_id }}"{% endif %} data-title="{{ post.title | escape }}"></span>
+        {% endif %}
+        {% if post.codeurl %}<a href="{{ post.codeurl }}">Code Repository</a>{% endif %}
         <span class="show_paper_citations"{% if post.google_scholar_citation_id %} data="{{ post.google_scholar_citation_id }}"{% endif %} data-title="{{ post.title | escape }}"></span>
       </p>
     </article>

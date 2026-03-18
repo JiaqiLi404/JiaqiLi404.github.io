@@ -94,6 +94,13 @@
       return null;
     }
 
+    function createLink(label, href) {
+      var link = document.createElement("a");
+      link.href = href;
+      link.textContent = label;
+      return link;
+    }
+
     var rawDataUrl = "https://raw.githubusercontent.com/{{ site.repository }}/google-scholar-stats/gs_data.json";
     var cdnDataUrl = "https://cdn.jsdelivr.net/gh/{{ site.repository }}@google-scholar-stats/gs_data.json";
     {% if site.google_scholar_stats_use_cdn %}
@@ -139,6 +146,26 @@
             element.textContent = "Citations: " + citationValue;
             element.classList.add("citation-stat");
           }
+        });
+
+        var paperDownloadElements = document.getElementsByClassName("show_paper_download");
+        Array.prototype.forEach.call(paperDownloadElements, function (element) {
+          var paperId = element.getAttribute("data");
+          var paperTitle = element.getAttribute("data-title");
+          var publication = null;
+
+          if (paperId && publications[paperId]) {
+            publication = publications[paperId];
+          } else if (paperTitle) {
+            publication = matchByTitle(titleIndex, paperTitle);
+          }
+
+          if (!publication || !publication.link) {
+            return;
+          }
+
+          element.innerHTML = "";
+          element.appendChild(createLink("Download Paper", publication.link));
         });
       })
       .catch(function () {});
