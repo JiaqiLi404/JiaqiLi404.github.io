@@ -58,6 +58,10 @@ redirect_from:
   </div>
   <div class="highlight-grid">
     <div class="highlight-pill">
+      <strong>Total Citations</strong>
+      <span><span id="total_cit">-</span> on Google Scholar</span>
+    </div>
+    <div class="highlight-pill">
       <strong>ACL Findings 2025</strong>
       <span>Instruction tuning with uncertainty-sensitive rejection</span>
     </div>
@@ -127,6 +131,7 @@ redirect_from:
       <p class="publication-card__links">
         <a href="https://aclanthology.org/2025.findings-acl.153">Paper</a>
         <a href="https://github.com/JiaqiLi404/Know_the_Unknown">Code</a>
+        <span class="show_paper_citations" data="ru2ps-0AAAAJ:L8Ckcad2t8MC"></span>
       </p>
     </article>
 
@@ -140,6 +145,7 @@ redirect_from:
       </p>
       <p class="publication-card__links">
         <a href="https://authors.elsevier.com/c/1j~wP3OWJ98gqo">Paper</a>
+        <span class="show_paper_citations" data="ru2ps-0AAAAJ:ZeXyd9-uunAC"></span>
       </p>
     </article>
 
@@ -153,6 +159,7 @@ redirect_from:
       <p class="publication-card__links">
         <a href="https://ieeexplore.ieee.org/abstract/document/10348277">Paper</a>
         <a href="https://github.com/JiaqiLi404/gmm_dtw">Code</a>
+        <span class="show_paper_citations" data="ru2ps-0AAAAJ:7PzlFSSx8tAC"></span>
       </p>
     </article>
   </div>

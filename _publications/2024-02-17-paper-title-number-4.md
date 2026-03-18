@@ -7,6 +7,7 @@ excerpt: 'Decouples redundant and missing features for more effective salient ob
 date: 2025-01-01
 venue: 'Engineering Applications of Artificial Intelligence'
 paperurl: 'https://authors.elsevier.com/c/1j~wP3OWJ98gqo'
+google_scholar_citation_id: 'ru2ps-0AAAAJ:ZeXyd9-uunAC'
 citation: 'Zhou, Q., Wang, J., Li, J., Zhou, C., Hu, H., & Hu, K. (2025). &quot;RMFDNet: Redundant and Missing Feature Decoupling Network for Salient Object Detection.&quot; <i>Engineering Applications of Artificial Intelligence</i>.'
 ---
 

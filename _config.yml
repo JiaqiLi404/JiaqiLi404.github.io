@@ -17,13 +17,14 @@ url                      : https://JiaqiLi404.github.io # The base hostname & pr
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "JiaqiLi404/JiaqiLi404.github.io"
+google_scholar_stats_use_cdn : false
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "jiaqi-monogram.svg"
+  avatar           : "android-chrome-512x512.png"
   name             : "Jiaqi Li"
   pronouns         : # example: "she/her"
   bio              : "PhD Student in Computer Science"

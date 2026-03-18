@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+  <title id="title">Jiaqi Li monogram</title>
+  <desc id="desc">Decorative avatar with the initials JL.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f6f1e8"/>
+      <stop offset="100%" stop-color="#dfe8dd"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="320" rx="48" fill="url(#bg)"/>
+  <circle cx="250" cy="76" r="42" fill="#b7c8ba" opacity="0.55"/>
+  <circle cx="76" cy="248" r="54" fill="#d8c8aa" opacity="0.42"/>
+  <text x="50%" y="54%" text-anchor="middle" fill="#22352f" font-family="Georgia, 'Times New Roman', serif" font-size="112" letter-spacing="8">JL</text>
+</svg>

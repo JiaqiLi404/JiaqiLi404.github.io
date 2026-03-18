@@ -409,6 +409,18 @@ a {
     }
 }
 
+.citation-stat {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.2rem 0.65rem;
+    border-radius: 999px;
+    background: #edf3ea;
+    color: #315649;
+    font-size: 0.82rem;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
 .detail-stack {
     display: grid;
     gap: 1rem;
