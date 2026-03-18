@@ -23,7 +23,7 @@ redirect_from:
   <section class="home-card">
     <h2>About</h2>
     <p>
-      I am a PhD candidate in Computer Science at the <strong>University of Warwick</strong>. Previously, I completed an MSc in Computer Science
+      I am a PhD candidate in Computer Science at the <strong>University of Warwick</strong>, supervised by Prof. Guan Yu. Previously, I completed an MSc in Computer Science
       at <strong>The University of Hong Kong</strong> and a BSc in Information and Computing Science,
       with a minor in Computer Science and Technology.
     </p>
@@ -113,11 +113,11 @@ redirect_from:
       <p class="publication-card__links">
         <a href="{{ base_path }}{{ post.url }}">Details</a>
         {% if post.paperurl %}
-          <a href="{{ post.paperurl }}">Download Paper</a>
+          <a href="{{ post.paperurl }}">Paper</a>
         {% else %}
-          <span class="show_paper_download"{% if post.google_scholar_citation_id %} data="{{ post.google_scholar_citation_id }}"{% endif %} data-title="{{ post.title | escape }}"></span>
+          <span class="show_paper_download show_paper_download--compact"{% if post.google_scholar_citation_id %} data="{{ post.google_scholar_citation_id }}"{% endif %} data-title="{{ post.title | escape }}"></span>
         {% endif %}
-        {% if post.codeurl %}<a href="{{ post.codeurl }}">Code Repository</a>{% endif %}
+        {% if post.codeurl %}<a href="{{ post.codeurl }}">Code</a>{% endif %}
         <span class="show_paper_citations"{% if post.google_scholar_citation_id %} data="{{ post.google_scholar_citation_id }}"{% endif %} data-title="{{ post.title | escape }}"></span>
       </p>
     </article>

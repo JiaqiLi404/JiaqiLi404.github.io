@@ -164,8 +164,11 @@
             return;
           }
 
+          var label = element.classList.contains("show_paper_download--compact")
+            ? "Paper"
+            : "Download Paper";
           element.innerHTML = "";
-          element.appendChild(createLink("Download Paper", publication.link));
+          element.appendChild(createLink(label, publication.link));
         });
       })
       .catch(function () {});
