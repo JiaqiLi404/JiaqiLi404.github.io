@@ -69,6 +69,13 @@ redirect_from:
     <div class="timeline__item">
       <span class="timeline__date">Mar 2026</span>
       <div>
+        <strong>ICME 2026 paper accepted</strong>
+        <p>Our collaborative paper <em>Why Learn What Physics Already Knows? Realizing Agile mmWave-based Human Pose Estimation via Physics-Guided Preprocessing</em> was accepted to ICME 2026.</p>
+      </div>
+    </div>
+    <div class="timeline__item">
+      <span class="timeline__date">Mar 2026</span>
+      <div>
         <strong>Delivered a guest lecture</strong>
         <p>Invited talk on Video Forensics and Video Compression for CS355 Digital Forensics at the University of Warwick.</p>
       </div>
@@ -85,13 +92,6 @@ redirect_from:
       <div>
         <strong>ACL Findings paper accepted</strong>
         <p><em>Know the Unknown: An Uncertainty-Sensitive Method for LLM Instruction Tuning</em> was accepted to ACL Findings 2025.</p>
-      </div>
-    </div>
-    <div class="timeline__item">
-      <span class="timeline__date">2024-2025</span>
-      <div>
-        <strong>Research assistantship at Warwick</strong>
-        <p>Worked on multimodal and video understanding research at Warwick.</p>
       </div>
     </div>
   </div>
