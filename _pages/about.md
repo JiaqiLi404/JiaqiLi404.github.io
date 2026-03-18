@@ -11,25 +11,29 @@ redirect_from:
 {% include base_path %}
 
 <section class="home-hero">
-  <p class="home-hero__eyebrow">PhD Student in Computer Science - University of Warwick</p>
+  <p class="home-hero__eyebrow">PhD Candidate - University of Warwick</p>
   <h1 class="home-hero__title">Jiaqi Li</h1>
   <p class="home-hero__lead">
     I work on long video understanding, multimodal models, video temporal grounding,
     embodied AI, robot task and motion planning, and human pose estimation.
   </p>
-  <div class="home-hero__actions">
-    <a class="btn home-btn home-btn--primary" href="/Jiaqi_Li_CV.pdf">Download CV</a>
-    <a class="btn home-btn" href="https://scholar.google.com/citations?view_op=list_works&amp;hl=en&amp;user=ru2ps-0AAAAJ">Google Scholar</a>
-    <a class="btn home-btn" href="mailto:jiaqi.li.16@warwick.ac.uk">Email</a>
-  </div>
+
+[//]: # (  <div class="home-hero__actions">)
+
+[//]: # (    <a class="btn home-btn home-btn--primary" href="/Jiaqi_Li_CV.pdf">Download CV</a>)
+
+[//]: # (    <a class="btn home-btn" href="https://scholar.google.com/citations?view_op=list_works&amp;hl=en&amp;user=ru2ps-0AAAAJ">Google Scholar</a>)
+
+[//]: # (    <a class="btn home-btn" href="mailto:jiaqi.li.16@warwick.ac.uk">Email</a>)
+
+[//]: # (  </div>)
 </section>
 
 <div class="home-grid">
   <section class="home-card">
     <h2>About</h2>
     <p>
-      I am a PhD candidate in Computer Science at the <strong>University of Warwick</strong>,
-      supervised by <strong>Yu Guan</strong>. Previously, I completed an MSc in Computer Science
+      I am a PhD candidate in Computer Science at the <strong>University of Warwick</strong>. Previously, I completed an MSc in Computer Science
       at <strong>The University of Hong Kong</strong> and a BSc in Information and Computing Science,
       with a minor in Computer Science and Technology.
     </p>
