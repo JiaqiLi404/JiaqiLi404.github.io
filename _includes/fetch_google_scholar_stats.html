@@ -130,8 +130,13 @@
           }
 
           var numCitations = publication.num_citations;
-          if (numCitations !== undefined && Number(numCitations) >= 0) {
-            element.textContent = "Citations: " + numCitations;
+          if (numCitations === null || numCitations === undefined || numCitations === "") {
+            return;
+          }
+
+          var citationValue = Number(numCitations);
+          if (!Number.isNaN(citationValue) && citationValue >= 0) {
+            element.textContent = "Citations: " + citationValue;
             element.classList.add("citation-stat");
           }
         });
