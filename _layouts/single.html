@@ -47,6 +47,7 @@ layout: default
               Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}
             {% endif %}
             <span class="show_paper_citations"{% if page.google_scholar_citation_id %} data="{{ page.google_scholar_citation_id }}"{% endif %} data-title="{{ page.title | escape }}"></span>
+            {% include publication-highlight.html highlight=page.highlight %}
           </p>
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
@@ -65,6 +66,7 @@ layout: default
               <span class="show_paper_download"{% if page.google_scholar_citation_id %} data="{{ page.google_scholar_citation_id }}"{% endif %} data-title="{{ page.title | escape }}"></span>
             {% endif %}
             {% if page.codeurl %}<a href="{{ page.codeurl }}">Code Repository</a>{% endif %}
+            {% include publication-highlight.html highlight=page.highlight %}
             {% if page.slidesurl %}<a href="{{ page.slidesurl }}">Download Slides</a>{% endif %}
             {% if page.bibtexurl %}<a href="{{ page.bibtexurl }}">Download Bibtex</a>{% endif %}
           </p>

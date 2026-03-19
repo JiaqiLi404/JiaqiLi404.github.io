@@ -271,6 +271,11 @@ a {
 .home-card {
     margin-bottom: 1.25rem;
     padding: 1.5rem;
+
+    > h2 {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
 }
 
 .section-heading {
@@ -428,6 +433,19 @@ a {
     a {
         text-decoration: none !important;
     }
+}
+
+.publication-highlight {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.2rem 0.7rem;
+    border-radius: 999px;
+    background: #f1f1f1;
+    color: #111111;
+    font-size: 0.82rem;
+    font-weight: 700;
+    line-height: 1.2;
+    white-space: nowrap;
 }
 
 .show_paper_download {
@@ -672,13 +690,26 @@ a {
 }
 
 .greedy-nav .hidden-links {
+    padding: 0.4rem;
     min-width: 220px;
+    background: var(--custom-panel-bg) !important;
+    border: 1px solid var(--custom-border) !important;
+    border-radius: 18px;
+    box-shadow: var(--custom-shadow) !important;
+    backdrop-filter: blur(14px);
+    z-index: 500;
 }
 
-.greedy-nav .hidden-links {
-    background: var(--custom-panel-bg);
-    border-color: var(--custom-border);
-    z-index: 80;
+.greedy-nav .hidden-links a {
+    border-radius: 12px;
+}
+
+.greedy-nav .hidden-links:before {
+    border-color: var(--custom-border) transparent !important;
+}
+
+.greedy-nav .hidden-links:after {
+    border-color: var(--custom-panel-bg) transparent !important;
 }
 
 .archive__item,

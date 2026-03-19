@@ -1,0 +1,4 @@
+{% assign publication_highlight = include.highlight | default: "" | strip %}
+{% if publication_highlight != "" %}
+  <span class="publication-highlight">{{ publication_highlight }}</span>
+{% endif %}
