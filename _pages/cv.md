@@ -58,15 +58,12 @@ Academic Service
 Selected Publications
 ======
 
-* Jiaqi Li, Wang Guangming, Zheng Suntian, et al. "Towards Mitigating Modality Bias in Vision-Language Models for Temporal Action Localization." ACL, 2026.
-* Jiaqi Li, Shuntian Zheng, Yixian Shen, et al. "Keeping the Evidence Chain: Semantic Evidence Allocation for Training-Free Token Pruning in Video Temporal Grounding." Under review, 2026.
-* Jiaqi Li, Yixuan Tang, and Yi Yang. "Know the Unknown: An Uncertainty-Sensitive Method for LLM Instruction Tuning." Findings of ACL, 2025.
-* Shuntian Zheng, Jiaqi Li, Guangming Wang, et al. "Person Parametric Physics-informed Representation for mmWave-based Human Pose Estimation." Under review, 2026.
-* Shuntian Zheng, Jiaqi Li, Minzhe Ni, et al. "Why Learn What Physics Already Knows? Realizing Agile mmWave-based Human Pose Estimation via Physics-Guided Preprocessing." ICME, 2026.
-* Qianwei Zhou, Jintao Wang, Jiaqi Li, et al. "RMFDNet: Redundant and Missing Feature Decoupling Network for Salient Object Detection." Engineering Applications of Artificial Intelligence, 2025.
-* Chenggang Lu and Jiaqi Li. "Hot Topic Clustering based on Gaussian Mixture Model built-in DTW." PRML, 2023.
-* Guanghui Ye, Huan Zhao, Qin Zhu, Fengnan Li, Jiaqi Li, Yixian Shen, Zhonghao Ren, Zhihua Jiang. "Automatic and Reliable Faithfulness Evaluation for Scientific Text-to-Image Generation with LMMs." Under review, 2026.
-* Guanghui Ye, Huan Zhao, Yixian Shen, Jiaqi Li, Fengnan Li, Zhihua Jiang, Keqin Li. "Generating Multi-Modal Knowledge Clues as an Image: Towards Improving Image-Sequence Reasoning with Assisted Visual Input." IEEE Transactions on Circuits and Systems for Video Technology, 2026.
+{% assign featured_publications = site.publications | where: "show_on_homepage", true | sort: "order" | reverse %}
+<ul>
+{% for post in featured_publications %}
+  <li>{% include highlight-author-name.html authors=post.authors %}. "{{ post.title }}." {{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}.</li>
+{% endfor %}
+</ul>
 
 Patents
 ======
