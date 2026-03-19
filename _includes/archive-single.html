@@ -52,6 +52,7 @@
               Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
             {% endif %}
             <span class="show_paper_citations"{% if post.google_scholar_citation_id %} data="{{ post.google_scholar_citation_id }}"{% endif %} data-title="{{ post.title | escape }}"></span>
+            {% include publication-highlight.html highlight=post.highlight %}
           </p>
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
@@ -71,6 +72,7 @@
           <span class="show_paper_download"{% if post.google_scholar_citation_id %} data="{{ post.google_scholar_citation_id }}"{% endif %} data-title="{{ post.title | escape }}"></span>
         {% endif %}
         {% if post.codeurl %}<a href="{{ post.codeurl }}">Code Repository</a>{% endif %}
+        {% include publication-highlight.html highlight=post.highlight %}
         {% if post.slidesurl %}<a href="{{ post.slidesurl }}">Download Slides</a>{% endif %}
         {% if post.bibtexurl %}<a href="{{ post.bibtexurl }}">Download Bibtex</a>{% endif %}
       </p>

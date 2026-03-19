@@ -119,6 +119,7 @@ redirect_from:
         {% endif %}
         {% if post.codeurl %}<a href="{{ post.codeurl }}">Code</a>{% endif %}
         <span class="show_paper_citations"{% if post.google_scholar_citation_id %} data="{{ post.google_scholar_citation_id }}"{% endif %} data-title="{{ post.title | escape }}"></span>
+        {% include publication-highlight.html highlight=post.highlight %}
       </p>
     </article>
     {% endfor %}
