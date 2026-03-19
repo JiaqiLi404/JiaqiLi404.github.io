@@ -72,7 +72,6 @@
           <span class="show_paper_download"{% if post.google_scholar_citation_id %} data="{{ post.google_scholar_citation_id }}"{% endif %} data-title="{{ post.title | escape }}"></span>
         {% endif %}
         {% if post.codeurl %}<a href="{{ post.codeurl }}">Code Repository</a>{% endif %}
-        {% include publication-highlight.html highlight=post.highlight %}
         {% if post.slidesurl %}<a href="{{ post.slidesurl }}">Download Slides</a>{% endif %}
         {% if post.bibtexurl %}<a href="{{ post.bibtexurl }}">Download Bibtex</a>{% endif %}
       </p>

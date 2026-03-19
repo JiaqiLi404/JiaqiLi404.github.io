@@ -66,7 +66,6 @@ layout: default
               <span class="show_paper_download"{% if page.google_scholar_citation_id %} data="{{ page.google_scholar_citation_id }}"{% endif %} data-title="{{ page.title | escape }}"></span>
             {% endif %}
             {% if page.codeurl %}<a href="{{ page.codeurl }}">Code Repository</a>{% endif %}
-            {% include publication-highlight.html highlight=page.highlight %}
             {% if page.slidesurl %}<a href="{{ page.slidesurl }}">Download Slides</a>{% endif %}
             {% if page.bibtexurl %}<a href="{{ page.bibtexurl }}">Download Bibtex</a>{% endif %}
           </p>
