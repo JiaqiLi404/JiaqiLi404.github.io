@@ -58,7 +58,7 @@ Academic Service
 Selected Publications
 ======
 
-{% assign featured_publications = site.publications | where: "show_on_homepage", true | sort: "order" | reverse %}
+{% assign featured_publications = site.publications | sort: "order" | reverse %}
 <ul>
 {% for post in featured_publications %}
   <li>{% include highlight-author-name.html authors=post.authors %}. "{{ post.title }}." {{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}.</li>
