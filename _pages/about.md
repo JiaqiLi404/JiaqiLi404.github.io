@@ -106,7 +106,7 @@ redirect_from:
   <div class="publication-list">
     {% for post in featured_publications %}
     <article class="publication-card">
-      <div class="publication-card__meta">{{ post.venue }}</div>
+      <div class="publication-card__meta">{{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}</div>
       <h3><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h3>
       {% if post.authors %}<p class="publication-card__authors">{% include highlight-author-name.html authors=post.authors %}</p>{% endif %}
       <p>{{ post.excerpt }}</p>
