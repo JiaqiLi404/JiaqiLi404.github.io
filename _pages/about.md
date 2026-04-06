@@ -67,24 +67,24 @@ redirect_from:
   <h2>News</h2>
   <div class="timeline">
     <div class="timeline__item">
-      <span class="timeline__date">Mar 2026</span>
+      <span class="timeline__date">2026</span>
       <div>
-        <strong>ICME 2026 paper accepted</strong>
-        <p>Our collaborative paper <em>Why Learn What Physics Already Knows? Realizing Agile mmWave-based Human Pose Estimation via Physics-Guided Preprocessing</em> was accepted to ICME 2026.</p>
-      </div>
-    </div>
-    <div class="timeline__item">
-      <span class="timeline__date">Mar 2026</span>
-      <div>
-        <strong>Delivered a guest lecture</strong>
-        <p>Invited talk on Video Forensics and Video Compression for CS355 Digital Forensics at the University of Warwick.</p>
+        <strong>ACL 2026 papers accepted</strong>
+        <p>Our collaborative papers <em>Towards Mitigating Modality Bias in Vision-Language Models for Temporal Action Localization</em> and <em>Automatic and Reliable Faithfulness Evaluation for Scientific Text-to-Image Generation with LMMs</em> were accepted to ACL 2026.</p>
       </div>
     </div>
     <div class="timeline__item">
       <span class="timeline__date">2026</span>
       <div>
-        <strong>Expanded academic service</strong>
-        <p>Serving as Workshop Program Chair for CVPR AI4RWC 2026 and reviewer for ICML, ACL ARR, and IJCAI.</p>
+        <strong>IMWUT paper accepted</strong>
+        <p>Our collaborative paper <em>Person Parametric Physics-informed Representation for mmWave-based Human Pose Estimation</em> was accepted to IMWUT.</p>
+      </div>
+    </div>
+    <div class="timeline__item">
+      <span class="timeline__date">Mar 2026</span>
+      <div>
+        <strong>ICME 2026 paper accepted</strong>
+        <p>Our collaborative paper <em>Why Learn What Physics Already Knows? Realizing Agile mmWave-based Human Pose Estimation via Physics-Guided Preprocessing</em> was accepted to ICME 2026.</p>
       </div>
     </div>
     <div class="timeline__item">
