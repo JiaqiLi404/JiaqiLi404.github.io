@@ -14,8 +14,7 @@ redirect_from:
   <p class="home-hero__eyebrow">PhD Candidate - University of Warwick</p>
   <h1 class="home-hero__title">Jiaqi Li</h1>
   <p class="home-hero__lead">
-    I work on long video understanding, multimodal models, video temporal grounding,
-    embodied AI, robot task and motion planning, and human pose estimation.
+      My recent work spans multimodal video understanding, temporal grounding, human pose estimation, and embodied AI.
   </p>
 </section>
 
@@ -26,9 +25,6 @@ redirect_from:
       I am a PhD candidate in Computer Science at the <strong>University of Warwick</strong>, supervised by Prof. Guan Yu. Previously, I completed an MSc in Computer Science
       at <strong>The University of Hong Kong</strong> and a BSc in Information and Computing Science,
       with a minor in Computer Science and Technology.
-    </p>
-    <p>
-      My recent work spans multimodal video understanding, temporal grounding, and trustworthy instruction tuning.
     </p>
   </section>
 
@@ -63,7 +59,7 @@ redirect_from:
   </div>
 </section>
 
-<section class="home-card">
+<section class="home-card home-news">
   <h2>News</h2>
   <div class="timeline">
     <div class="timeline__item">

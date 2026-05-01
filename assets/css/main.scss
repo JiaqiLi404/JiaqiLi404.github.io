@@ -381,6 +381,44 @@ a {
     white-space: normal;
 }
 
+.home-news {
+    > h2 {
+        margin-bottom: 0.65rem;
+    }
+
+    .timeline {
+        gap: 0.45rem;
+    }
+
+    .timeline__item {
+        gap: 0.4rem;
+        padding-bottom: 0.55rem;
+
+        @include breakpoint($medium) {
+            grid-template-columns: 82px minmax(0, 1fr);
+        }
+
+        p {
+            margin-top: 0.1rem !important;
+            font-size: 0.76rem !important;
+            line-height: 1.22 !important;
+        }
+
+        strong {
+            font-size: 0.94rem;
+            line-height: 1.25;
+        }
+    }
+
+    .timeline__date {
+        width: 4rem;
+        height: 4rem;
+        padding: 0.35rem;
+        font-size: 0.68rem;
+        line-height: 1.12;
+    }
+}
+
 .publication-list {
     display: grid;
     gap: 1rem;
