@@ -70,10 +70,10 @@ redirect_from:
       </div>
     </div>
     <div class="timeline__item">
-      <span class="timeline__date">2026</span>
+      <span class="timeline__date">April 2026</span>
       <div>
         <strong>ACL 2026 papers accepted</strong>
-        <p>Our collaborative papers <em>Towards Mitigating Modality Bias in Vision-Language Models for Temporal Action Localization</em> and <em>Automatic and Reliable Faithfulness Evaluation for Scientific Text-to-Image Generation with LMMs</em> were accepted to ACL 2026.</p>
+        <p><em>Towards Mitigating Modality Bias in Vision-Language Models for Temporal Action Localization</em> and a collaborative paper were accepted to ACL 2026.</p>
       </div>
     </div>
     <div class="timeline__item">
@@ -105,7 +105,7 @@ redirect_from:
       <div class="publication-card__meta">{{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}</div>
       <h3><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h3>
       {% if post.authors %}<p class="publication-card__authors">{% include highlight-author-name.html authors=post.authors %}</p>{% endif %}
-      <p>{{ post.excerpt }}</p>
+      <p class="publication-card__excerpt">{{ post.excerpt }}</p>
       <p class="publication-card__links">
         <a href="{{ base_path }}{{ post.url }}">Details</a>
         {% if post.paperurl %}
