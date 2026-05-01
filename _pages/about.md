@@ -67,6 +67,13 @@ redirect_from:
   <h2>News</h2>
   <div class="timeline">
     <div class="timeline__item">
+      <span class="timeline__date">May 2026</span>
+      <div>
+        <strong>ICML 2026 paper accepted</strong>
+        <p>Our collaborative paper <em>Doppler Prompting for Stable mmWave-based Human Pose Estimation</em> is accepted to ICML 2026.</p>
+      </div>
+    </div>
+    <div class="timeline__item">
       <span class="timeline__date">2026</span>
       <div>
         <strong>ACL 2026 papers accepted</strong>
@@ -78,13 +85,6 @@ redirect_from:
       <div>
         <strong>IMWUT paper accepted</strong>
         <p>Our collaborative paper <em>Person Parametric Physics-informed Representation for mmWave-based Human Pose Estimation</em> was accepted to IMWUT.</p>
-      </div>
-    </div>
-    <div class="timeline__item">
-      <span class="timeline__date">Mar 2026</span>
-      <div>
-        <strong>ICME 2026 paper accepted</strong>
-        <p>Our collaborative paper <em>Why Learn What Physics Already Knows? Realizing Agile mmWave-based Human Pose Estimation via Physics-Guided Preprocessing</em> was accepted to ICME 2026.</p>
       </div>
     </div>
     <div class="timeline__item">
