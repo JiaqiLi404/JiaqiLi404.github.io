@@ -296,6 +296,10 @@ a {
     margin-bottom: 0;
 }
 
+.home-grid--intro {
+    margin-top: 0.6rem;
+}
+
 .section-heading {
     display: flex;
     align-items: center;
@@ -891,6 +895,7 @@ a {
 .publication-card__meta,
 .timeline__item p,
 .publication-card__excerpt,
+.page__content .publication-card__excerpt,
 .detail-item span,
 .highlight-pill span,
 .author__bio {

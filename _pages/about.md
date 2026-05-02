@@ -18,7 +18,7 @@ redirect_from:
   </p>
 </section>
 
-<div class="home-grid">
+<div class="home-grid home-grid--intro">
   <section class="home-card">
     <h2>About</h2>
     <p>
