@@ -36,7 +36,6 @@ redirect_from:
       <li>Video temporal grounding</li>
       <li>Temporal Action Localization</li>
       <li>Embodied AI</li>
-      <li>Robot task and motion planning</li>
       <li>Human pose estimation</li>
     </ul>
   </section>

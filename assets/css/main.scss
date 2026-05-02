@@ -214,7 +214,7 @@ a {
     position: relative;
     overflow: hidden;
     margin-bottom: 0.65rem;
-    padding: 2.25rem 2.25rem 0.75rem;
+    padding: 2.25rem 2.25rem 1rem;
     border: 1px solid rgba(34, 48, 43, 0.1);
     border-radius: 28px;
     background:
@@ -247,7 +247,7 @@ a {
 }
 
 .page__content .home-hero__lead {
-    margin: 1.75rem 0 0 !important;
+    margin: 1.45rem 0 0 !important;
     line-height: 1.35;
 }
 
@@ -477,13 +477,15 @@ a {
 .publication-card__excerpt {
     margin-bottom: 0.45rem !important;
     font-size: 0.82rem !important;
-    line-height: 1.2 !important;
+    line-height: 1.32 !important;
+    color: #66766f;
 }
 
 .page__content .publication-card__excerpt {
     margin: 0 0 0.45rem !important;
     font-size: 0.82rem !important;
-    line-height: 1.2 !important;
+    line-height: 1.32 !important;
+    color: #66766f;
 }
 
 .publication-card__links {
