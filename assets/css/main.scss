@@ -275,7 +275,7 @@ a {
 .home-grid {
     display: grid;
     gap: 1.25rem;
-    margin: 1.25rem 0;
+    margin: 0 0 1.25rem;
 
     @include breakpoint($medium) {
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -290,6 +290,10 @@ a {
         margin-top: 0;
         margin-bottom: 1rem;
     }
+}
+
+.home-grid .home-card {
+    margin-bottom: 0;
 }
 
 .section-heading {
@@ -478,14 +482,14 @@ a {
     margin-bottom: 0.45rem !important;
     font-size: 0.82rem !important;
     line-height: 1.32 !important;
-    color: #66766f;
+    color: #5a6c64;
 }
 
 .page__content .publication-card__excerpt {
     margin: 0 0 0.45rem !important;
     font-size: 0.82rem !important;
     line-height: 1.32 !important;
-    color: #66766f;
+    color: #5a6c64;
 }
 
 .publication-card__links {
@@ -886,6 +890,7 @@ a {
 .home-hero__eyebrow,
 .publication-card__meta,
 .timeline__item p,
+.publication-card__excerpt,
 .detail-item span,
 .highlight-pill span,
 .author__bio {
