@@ -50,7 +50,7 @@ redirect_from:
   <div class="highlight-grid">
     <div class="highlight-pill">
       <strong>Total Citations</strong>
-      <span><span id="total_cit">-</span> on Google Scholar</span>
+      <span><span id="total_cit">-</span></span>
     </div>
     <div class="highlight-pill">
       <strong>Research Experience</strong>
