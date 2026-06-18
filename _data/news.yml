@@ -1,0 +1,24 @@
+- index: 1
+  date: "May 2025"
+  title: "ACL Findings paper accepted"
+  content: "<em>Know the Unknown: An Uncertainty-Sensitive Method for LLM Instruction Tuning</em> was accepted to ACL Findings 2025."
+
+- index: 2
+  date: "2026"
+  title: "IMWUT paper accepted"
+  content: "Our collaborative paper <em>Person Parametric Physics-informed Representation for mmWave-based Human Pose Estimation</em> was accepted to IMWUT."
+
+- index: 3
+  date: "April 2026"
+  title: "ACL 2026 papers accepted"
+  content: "<em>Towards Mitigating Modality Bias in Vision-Language Models for Temporal Action Localization</em> and a collaborative paper were accepted to ACL 2026."
+
+- index: 4
+  date: "May 2026"
+  title: "ICML 2026 paper accepted"
+  content: "Our collaborative paper <em>Doppler Prompting for Stable mmWave-based Human Pose Estimation</em> is accepted to ICML 2026."
+
+- index: 5
+  date: "June 2026"
+  title: "ECCV 2026 paper accepted"
+  content: "<em>Keeping the Evidence Chain: Semantic Evidence Allocation for Training-Free Token Pruning in Video Temporal Grounding</em> is accepted to ECCV 2026."

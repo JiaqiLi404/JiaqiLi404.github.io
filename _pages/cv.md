@@ -35,7 +35,7 @@ Research Experience
 ======
 
 * **Research Assistant**, University of Warwick, Coventry, United Kingdom  
-  Dec 2024 - Mar 2025  
+  Dec 2024 - Mar 2025; Jun 2026 - Sep 2026<br>
   Advisor: Yu Guan
 * **Research Assistant**, The Hong Kong University of Science and Technology, Hong Kong, China  
   Oct 2023 - May 2024  
@@ -53,7 +53,7 @@ Academic Service
 * **Workshop Program Chair**  
   CVPR International Workshop on Vision Intelligence for Real-world Challenges (AI4RWC) 2026
 * **Conference Reviewer**  
-  IJCAI 2025, 2026; ICCV 2025; AAAI 2025; ICML 2026; ACL ARR 2026
+  IJCAI 2025, 2026; ICCV 2025; AAAI 2025; ICML 2026; ACL ARR 2026; NIPS 2026; ECCV 2026
 
 Selected Publications
 ======

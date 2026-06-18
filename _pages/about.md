@@ -14,7 +14,7 @@ redirect_from:
   <p class="home-hero__eyebrow">PhD Candidate - University of Warwick</p>
   <h1 class="home-hero__title">Jiaqi Li</h1>
   <p class="home-hero__lead">
-      My recent work spans multimodal video understanding, temporal grounding, human pose estimation, and embodied AI.
+      My recent work spans vision-language-action generation (Embodied AI) and video temporal grounding for human actions.
   </p>
 </section>
 
@@ -31,12 +31,12 @@ redirect_from:
   <section class="home-card">
     <h2>Research Interests</h2>
     <ul class="compact-list">
-      <li>Long video understanding</li>
-      <li>Multimodal models</li>
-      <li>Video temporal grounding</li>
-      <li>Temporal Action Localization</li>
+      <li>Action Understanding and Generation</li>
       <li>Embodied AI</li>
-      <li>Human pose estimation</li>
+      <li>Vision-Language-Action</li>
+      <li>Video Temporal Grounding</li>
+      <li>Temporal Action Localization</li>
+      <li>Vision-Language Models</li>
     </ul>
   </section>
 </div>
@@ -60,35 +60,17 @@ redirect_from:
 
 <section class="home-card home-news">
   <h2>News</h2>
+  {% assign latest_news = site.data.news | sort: "index" | reverse %}
   <div class="timeline">
+    {% for item in latest_news limit: 4 %}
     <div class="timeline__item">
-      <span class="timeline__date">May 2026</span>
+      <span class="timeline__date">{{ item.date }}</span>
       <div>
-        <strong>ICML 2026 paper accepted</strong>
-        <p>Our collaborative paper <em>Doppler Prompting for Stable mmWave-based Human Pose Estimation</em> is accepted to ICML 2026.</p>
+        <strong>{{ item.title }}</strong>
+        <p>{{ item.content }}</p>
       </div>
     </div>
-    <div class="timeline__item">
-      <span class="timeline__date">April 2026</span>
-      <div>
-        <strong>ACL 2026 papers accepted</strong>
-        <p><em>Towards Mitigating Modality Bias in Vision-Language Models for Temporal Action Localization</em> and a collaborative paper were accepted to ACL 2026.</p>
-      </div>
-    </div>
-    <div class="timeline__item">
-      <span class="timeline__date">2026</span>
-      <div>
-        <strong>IMWUT paper accepted</strong>
-        <p>Our collaborative paper <em>Person Parametric Physics-informed Representation for mmWave-based Human Pose Estimation</em> was accepted to IMWUT.</p>
-      </div>
-    </div>
-    <div class="timeline__item">
-      <span class="timeline__date">May 2025</span>
-      <div>
-        <strong>ACL Findings paper accepted</strong>
-        <p><em>Know the Unknown: An Uncertainty-Sensitive Method for LLM Instruction Tuning</em> was accepted to ACL Findings 2025.</p>
-      </div>
-    </div>
+    {% endfor %}
   </div>
 </section>
 
@@ -145,7 +127,7 @@ redirect_from:
     <div class="detail-stack">
       <div class="detail-item">
         <strong>Research Assistant, University of Warwick</strong>
-        <span>Dec 2024 - Mar 2025</span>
+        <span>Dec 2024 - Mar 2025; Jun 2026 - Sep 2026</span>
       </div>
       <div class="detail-item">
         <strong>Research Assistant, HKUST</strong>
@@ -153,7 +135,7 @@ redirect_from:
       </div>
       <div class="detail-item">
         <strong>Conference Reviewing</strong>
-        <span>IJCAI 2025/2026, ICCV 2025, AAAI 2025, ICML 2026, ACL ARR 2026</span>
+        <span>IJCAI 2025/2026, ICCV 2025, AAAI 2025, ICML 2026, ACL ARR 2026, NIPS 2026, ECCV 2026</span>
       </div>
     </div>
   </section>
