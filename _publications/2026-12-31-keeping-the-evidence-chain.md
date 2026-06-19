@@ -7,6 +7,8 @@ show_on_homepage: true
 excerpt: "SemVID is a training-free VTG token pruning framework that preserves both boundary-critical evidence and cross-frame reasoning."
 date: 2026-12-31
 venue: "European Conference on Computer Vision (ECCV)"
+venue_short: "ECCV"
+google_scholar_citation_id: "ru2ps-0AAAAJ:R3hNpaxXUhUC"
 authors: "Jiaqi Li, Shuntian Zheng, Yixian Shen, Jia-Hong Huang, Xiaoman Lu, Minzhe Ni, Yu Guan"
 paperurl: "https://arxiv.org/pdf/2603.05663"
 codeurl: "https://github.com/JiaqiLi404/SemVID"

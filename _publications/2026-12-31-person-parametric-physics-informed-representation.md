@@ -7,6 +7,8 @@ show_on_homepage: true
 excerpt: "This paper proposes a new input paradigm for mmWave-based human pose estimation, which models human as an Gaussian ensemble enriched with electromagnetic and kinematic parameters."
 date: 2026-12-31
 venue: "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)"
+venue_short: "IMWUT"
+google_scholar_citation_id: "ru2ps-0AAAAJ:TQgYirikUcIC"
 authors: "Shuntian Zheng, Jiaqi Li, Guangming Wang, Minzhe Ni, Arnad Palit, Giovanni Montana, Yu Guan"
 paperurl: "https://arxiv.org/pdf/2512.23054"
 citation: 'Zheng, S., Li, J., Wang, G., et al. (2026). &quot;Person Parametric Physics-informed Representation for mmWave-based Human Pose Estimation.&quot; <i>Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)</i>.'

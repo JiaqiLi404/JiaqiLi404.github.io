@@ -7,6 +7,7 @@ show_on_homepage: true
 excerpt: "A novel fine-tuning framework to automatically synthesize training data tailored for rejecting the questions exceeds the knowledge without compromising on other tasks."
 date: 2025-07-27
 venue: "Findings of the Association for Computational Linguistics: ACL"
+venue_short: "ACL Findings"
 authors: "Jiaqi Li, Yixuan Tang, Yi Yang"
 paperurl: "https://aclanthology.org/2025.findings-acl.153"
 codeurl: "https://github.com/JiaqiLi404/Know_the_Unknown"

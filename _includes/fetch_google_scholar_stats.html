@@ -120,6 +120,14 @@
           totalCitElement.textContent = totalCitation;
         }
 
+        var totalPapersElement = document.getElementById("total_papers");
+        if (totalPapersElement) {
+          var paperCount = Object.keys(publications).length;
+          if (paperCount > 0) {
+            totalPapersElement.textContent = paperCount;
+          }
+        }
+
         var citationElements = document.getElementsByClassName("show_paper_citations");
         Array.prototype.forEach.call(citationElements, function (element) {
           var paperId = element.getAttribute("data");

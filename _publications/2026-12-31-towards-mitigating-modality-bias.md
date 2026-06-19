@@ -7,6 +7,8 @@ show_on_homepage: true
 excerpt: "We propose ActionVLM, a vision-language framework for temporal action localization that uses Language Advantage to adaptively weight language, mitigating language shortcuts and grounding localization in visual evidence."
 date: 2026-12-31
 venue: "Association for Computational Linguistics (ACL)"
+venue_short: "ACL"
+google_scholar_citation_id: "ru2ps-0AAAAJ:e5wmG9Sq2KIC"
 paperurl: "https://arxiv.org/pdf/2601.21078"
 codeurl: "https://github.com/JiaqiLi404/ActionVLM"
 authors: "Jiaqi Li, Guangming Wang, Shuntian Zheng, Minzhe Ni, Xiaoman Lu, Guanghui Ye, Yu Guan"

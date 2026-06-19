@@ -7,6 +7,8 @@ show_on_homepage: true
 excerpt: "We improve mmWave human pose stability by treating Doppler as a confidence-gated motion prompt that selectively conditions spatial magnitude, reducing spurious motion artifacts and velocity error across single- and multi-person benchmarks."
 date: 2026-12-31
 venue: "International Conference on Machine Learning (ICML)"
+venue_short: "ICML"
+google_scholar_citation_id: "ru2ps-0AAAAJ:4JMBOYKVnBMC"
 authors: "Shuntian Zheng, Jiaqi Li, Xiaoman Lu, et al."
 citation: 'Zheng, S., Li, J., Lu, X., et al. (2026). &quot;Doppler Prompting for Stable mmWave-based Human Pose Estimation.&quot; <i>International Conference on Machine Learning (ICML)</i>.'
 ---

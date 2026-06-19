@@ -16,6 +16,10 @@ package-lock.json
 /vendor/
 .bundle/
 
+# Ignore the standalone homepage redesign preview (local visual review only)
+preview-home.html
+.claude/launch.json
+
 # Ignore folders related to IDEs
 .vscode/
 
