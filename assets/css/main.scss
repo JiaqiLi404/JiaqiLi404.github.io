@@ -183,6 +183,14 @@ html[data-theme="dark"] {
 
 html {
     scroll-behavior: smooth;
+    // The theme sets `html { background-color: var(--global-bg-color) }`, which
+    // blocks the body background from propagating to the canvas. Paint the page
+    // gradient on the root too so short pages (e.g. /teaching/) never reveal the
+    // theme's solid colour below the content / behind the footer.
+    background: var(--custom-page-gradient) !important;
+    background-color: var(--custom-page-bg) !important;
+    background-attachment: fixed;
+    min-height: 100%;
 }
 
 body {
@@ -1180,6 +1188,11 @@ a {
 .page__footer,
 .page__footer footer {
     background: transparent !important;
+}
+
+.page__footer {
+    border-top-color: var(--custom-border) !important;
+    color: var(--custom-muted) !important;
 }
 
 /* =========================================================================
