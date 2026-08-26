@@ -62,16 +62,47 @@
       return publicationMap;
     }
 
+    function citationCount(publication) {
+      var value = (publication || {}).num_citations;
+      if (value === null || value === undefined || value === "") {
+        return -1;
+      }
+      var parsed = Number(value);
+      return isNaN(parsed) ? -1 : parsed;
+    }
+
     function buildTitleIndex(publications) {
       var index = {};
       Object.keys(publications || {}).forEach(function (key) {
         var publication = publications[key] || {};
         var normalized = normalizeTitle(publication.title);
-        if (normalized && !index[normalized]) {
+        if (!normalized) {
+          return;
+        }
+        // Google Scholar sometimes holds duplicate records for one paper, where
+        // one twin carries the citations and the other is an empty stub. Keep
+        // whichever record actually has data.
+        if (!index[normalized] || citationCount(publication) > citationCount(index[normalized])) {
           index[normalized] = publication;
         }
       });
       return index;
+    }
+
+    // A pinned citation id can point at the empty twin of a duplicated record,
+    // so always consider the title match as well instead of trusting the id alone.
+    function collectCandidates(publications, titleIndex, paperId, paperTitle) {
+      var candidates = [];
+      if (paperId && publications[paperId]) {
+        candidates.push(publications[paperId]);
+      }
+      if (paperTitle) {
+        var byTitle = matchByTitle(titleIndex, paperTitle);
+        if (byTitle && candidates.indexOf(byTitle) === -1) {
+          candidates.push(byTitle);
+        }
+      }
+      return candidates;
     }
 
     function matchByTitle(titleIndex, rawTitle) {
@@ -122,7 +153,14 @@
 
         var totalPapersElement = document.getElementById("total_papers");
         if (totalPapersElement) {
-          var paperCount = Object.keys(publications).length;
+          var uniqueTitles = {};
+          Object.keys(publications).forEach(function (key) {
+            var normalized = normalizeTitle((publications[key] || {}).title);
+            if (normalized) {
+              uniqueTitles[normalized] = true;
+            }
+          });
+          var paperCount = Object.keys(uniqueTitles).length;
           if (paperCount > 0) {
             totalPapersElement.textContent = paperCount;
           }
@@ -134,26 +172,21 @@
           var paperTitle = element.getAttribute("data-title");
           var publication = null;
 
-          if (paperId && publications[paperId]) {
-            publication = publications[paperId];
-          } else if (paperTitle) {
-            publication = matchByTitle(titleIndex, paperTitle);
-          }
+          var citationValue = -1;
+          collectCandidates(publications, titleIndex, paperId, paperTitle).forEach(function (candidate) {
+            var count = citationCount(candidate);
+            if (count > citationValue) {
+              citationValue = count;
+              publication = candidate;
+            }
+          });
 
-          if (!publication) {
+          if (!publication || citationValue < 0) {
             return;
           }
 
-          var numCitations = publication.num_citations;
-          if (numCitations === null || numCitations === undefined || numCitations === "") {
-            return;
-          }
-
-          var citationValue = Number(numCitations);
-          if (!Number.isNaN(citationValue) && citationValue >= 0) {
-            element.textContent = "Citations: " + citationValue;
-            element.classList.add("citation-stat");
-          }
+          element.textContent = "Citations: " + citationValue;
+          element.classList.add("citation-stat");
         });
 
         var paperDownloadElements = document.getElementsByClassName("show_paper_download");
@@ -162,11 +195,13 @@
           var paperTitle = element.getAttribute("data-title");
           var publication = null;
 
-          if (paperId && publications[paperId]) {
-            publication = publications[paperId];
-          } else if (paperTitle) {
-            publication = matchByTitle(titleIndex, paperTitle);
-          }
+          collectCandidates(publications, titleIndex, paperId, paperTitle).some(function (candidate) {
+            if (candidate && candidate.link) {
+              publication = candidate;
+              return true;
+            }
+            return false;
+          });
 
           if (!publication || !publication.link) {
             return;
