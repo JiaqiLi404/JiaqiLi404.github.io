@@ -1,0 +1,487 @@
+{
+  "search_metadata": {
+    "id": "6a9bd9e58da5eae8561b5eb9",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/FpiekiRgX8IutEdGNnLW5g_m5sPHbqsnyQkwm-F6z3M/6a9bd9e58da5eae8561b5eb9.json",
+    "markdown_endpoint": "https://serpapi.com/searches/FpiekiRgX8IutEdGNnLW5g_m5sPHbqsnyQkwm-F6z3M/6a9bd9e58da5eae8561b5eb9.md",
+    "created_at": "2026-09-05 08:59:17 UTC",
+    "processed_at": "2026-09-05 08:59:17 UTC",
+    "google_scholar_author_url": "https://scholar.google.com/citations?user=ru2ps-0AAAAJ&hl=en",
+    "raw_html_file": "https://serpapi.com/searches/FpiekiRgX8IutEdGNnLW5g_m5sPHbqsnyQkwm-F6z3M/6a9bd9e58da5eae8561b5eb9.html",
+    "total_time_taken": 2.02
+  },
+  "search_parameters": {
+    "engine": "google_scholar_author",
+    "author_id": "ru2ps-0AAAAJ",
+    "hl": "en"
+  },
+  "author": {
+    "name": "Jiaqi Li",
+    "affiliations": "University of Warwick",
+    "email": "Verified email at warwick.ac.uk",
+    "website": "https://jiaqili404.github.io/",
+    "interests": [
+      {
+        "title": "Multi-Modality",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:multi_modality",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Amulti_modality"
+      },
+      {
+        "title": "Video Understanding",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:video_understanding",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Avideo_understanding"
+      },
+      {
+        "title": "Human Action Analysis",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:human_action_analysis",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Ahuman_action_analysis"
+      }
+    ],
+    "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=ru2ps-0AAAAJ&citpid=3"
+  },
+  "articles": [
+    {
+      "title": "Know the unknown: An uncertainty-sensitive method for llm instruction tuning",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:L8Ckcad2t8MC",
+      "citation_id": "ru2ps-0AAAAJ:L8Ckcad2t8MC",
+      "authors": "J Li, Y Tang, Y Yang",
+      "publication": "ACL Findings 2025, 2024",
+      "cited_by": {
+        "value": 27,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14802735383593174481,11141058214859375398",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14802735383593174481%2C11141058214859375398&engine=google_scholar&hl=en",
+        "cites_id": "14802735383593174481,11141058214859375398"
+      },
+      "year": "2024",
+      "num_citations": 27
+    },
+    {
+      "title": "RMFDNet: Redundant and missing feature decoupling network for salient object detection",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:ZeXyd9-uunAC",
+      "citation_id": "ru2ps-0AAAAJ:ZeXyd9-uunAC",
+      "authors": "Q Zhou, J Wang, J Li, C Zhou, H Hu, K Hu",
+      "publication": "Engineering Applications of Artificial Intelligence 139, 109459, 2025",
+      "cited_by": {
+        "value": 16,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8967240130802824932",
+        "serpapi_link": "https://serpapi.com/search.json?cites=8967240130802824932&engine=google_scholar&hl=en",
+        "cites_id": "8967240130802824932"
+      },
+      "year": "2025",
+      "num_citations": 16
+    },
+    {
+      "title": "Person parametric physics-informed representation for mmwave-based human pose estimation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:TFP_iSt0sucC",
+      "citation_id": "ru2ps-0AAAAJ:TFP_iSt0sucC",
+      "authors": "S Zheng, J Li, G Wang, M Ni, A Palit, G Montana, Y Guan",
+      "publication": "IMWUT 2026, 2026",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16311287845298859678",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16311287845298859678&engine=google_scholar&hl=en",
+        "cites_id": "16311287845298859678"
+      },
+      "year": "2026",
+      "num_citations": 5
+    },
+    {
+      "title": "Keeping the Evidence Chain: Semantic Evidence Allocation for Training-Free Token Pruning in Video Temporal Grounding",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:R3hNpaxXUhUC",
+      "citation_id": "ru2ps-0AAAAJ:R3hNpaxXUhUC",
+      "authors": "J Li, S Zheng, Y Shen, JH Huang, X Lu, M Ni, Y Guan",
+      "publication": "ECCV 2026, 2026",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8762843260922283335",
+        "serpapi_link": "https://serpapi.com/search.json?cites=8762843260922283335&engine=google_scholar&hl=en",
+        "cites_id": "8762843260922283335"
+      },
+      "year": "2026",
+      "num_citations": 4
+    },
+    {
+      "title": "Generating multi-modal knowledge clues as an image: Towards improving image-sequence reasoning with assisted visual input",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:RHpTSmoSYBkC",
+      "citation_id": "ru2ps-0AAAAJ:RHpTSmoSYBkC",
+      "authors": "G Ye, H Zhao, Y Shen, J Li, F Li, Z Jiang, K Li",
+      "publication": "IEEE Transactions on Circuits and Systems for Video Technology, 2026",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16303422771829224306",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16303422771829224306&engine=google_scholar&hl=en",
+        "cites_id": "16303422771829224306"
+      },
+      "year": "2026",
+      "num_citations": 2
+    },
+    {
+      "title": "Why Learn What Physics Already Knows? Realizing Agile mmWave-based Human Pose Estimation via Physics-Guided Preprocessing",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:_Qo2XoVZTnwC",
+      "citation_id": "ru2ps-0AAAAJ:_Qo2XoVZTnwC",
+      "authors": "S Zheng, J Li, M Ni, X Lu, Y Guan",
+      "publication": "ICME 2026, 2026",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3452844125176103261",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3452844125176103261&engine=google_scholar&hl=en",
+        "cites_id": "3452844125176103261"
+      },
+      "year": "2026",
+      "num_citations": 2
+    },
+    {
+      "title": "Doppler Prompting for Stable mmWave-based Human Pose Estimation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:4JMBOYKVnBMC",
+      "citation_id": "ru2ps-0AAAAJ:4JMBOYKVnBMC",
+      "authors": "S Zheng, J Li, X Lu, S He, Y Guan",
+      "publication": "ICML 2026, 2026",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9887631782889666084",
+        "serpapi_link": "https://serpapi.com/search.json?cites=9887631782889666084&engine=google_scholar&hl=en",
+        "cites_id": "9887631782889666084"
+      },
+      "year": "2026",
+      "num_citations": 1
+    },
+    {
+      "title": "A Two-Stage Motion-Aware Framework for mmWave-based Human Mesh Recovery",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:j3f4tGmQtD8C",
+      "citation_id": "ru2ps-0AAAAJ:j3f4tGmQtD8C",
+      "authors": "HH Pham, S Zheng, J Li, Y Guan",
+      "publication": "arXiv preprint arXiv:2605.08530, 2026",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3307418138877053098",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3307418138877053098&engine=google_scholar&hl=en",
+        "cites_id": "3307418138877053098"
+      },
+      "year": "2026",
+      "num_citations": 1
+    },
+    {
+      "title": "Towards Mitigating Modality Bias in Vision-Language Models for Temporal Action Localization",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:e5wmG9Sq2KIC",
+      "citation_id": "ru2ps-0AAAAJ:e5wmG9Sq2KIC",
+      "authors": "J Li, G Wang, S Zheng, M Ni, X Lu, G Ye, Y Guan",
+      "publication": "ACL 2026, 2026",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12726670295196044885",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12726670295196044885&engine=google_scholar&hl=en",
+        "cites_id": "12726670295196044885"
+      },
+      "year": "2026",
+      "num_citations": 1
+    },
+    {
+      "title": "Differentiable Physics-Driven Human Representation for Millimeter-Wave Based Pose Estimation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:bEWYMUwI8FkC",
+      "citation_id": "ru2ps-0AAAAJ:bEWYMUwI8FkC",
+      "authors": "S Zheng, G Wang, J Li, M Ni, Y Guan",
+      "publication": "arXiv e-prints, arXiv: 2512.23054, 2025",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3702527265570107538",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3702527265570107538&engine=google_scholar&hl=en",
+        "cites_id": "3702527265570107538"
+      },
+      "year": "2025",
+      "num_citations": 1
+    },
+    {
+      "title": "Hot Topic Clustering based on Gaussian Mixture Model built-in DTW",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:7PzlFSSx8tAC",
+      "citation_id": "ru2ps-0AAAAJ:7PzlFSSx8tAC",
+      "authors": "C Lu, J Li",
+      "publication": "2023 IEEE 4th International Conference on Pattern Recognition and Machine …, 2023",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14966223610775135751",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14966223610775135751&engine=google_scholar&hl=en",
+        "cites_id": "14966223610775135751"
+      },
+      "year": "2023",
+      "num_citations": 1
+    },
+    {
+      "title": "Physics-Bounded mmWave Sensing for Schedulable, Privacy-Preserving Human Pose Estimation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:isC4tDSrTZIC",
+      "citation_id": "ru2ps-0AAAAJ:isC4tDSrTZIC",
+      "authors": "S Zheng, H He, J Li, X Lu, D Kim, JH Choi, J Zeng, S He, Y Guan",
+      "publication": "arXiv preprint arXiv:2608.14176, 2026",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2026",
+      "num_citations": null
+    },
+    {
+      "title": "Automatic and Reliable Evaluation for Academic Caption-to-Figure Generation with LMMs",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:iH-uZ7U-co4C",
+      "citation_id": "ru2ps-0AAAAJ:iH-uZ7U-co4C",
+      "authors": "G Ye, H Zhao, Q Zhu, F Li, J Li, Y Shen, Z Ren, Z Jiang",
+      "publication": "ACL 2026, 2026",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2026",
+      "num_citations": null
+    }
+  ],
+  "cited_by": {
+    "table": [
+      {
+        "citations": {
+          "all": 61,
+          "since_2021": 61
+        }
+      },
+      {
+        "h_index": {
+          "all": 4,
+          "since_2021": 4
+        }
+      },
+      {
+        "i10_index": {
+          "all": 2,
+          "since_2021": 2
+        }
+      }
+    ],
+    "graph": [
+      {
+        "year": 2024,
+        "citations": 4
+      },
+      {
+        "year": 2025,
+        "citations": 21
+      },
+      {
+        "year": 2026,
+        "citations": 36
+      }
+    ]
+  },
+  "public_access": {
+    "link": "https://scholar.google.com/citations?view_op=list_mandates&hl=en&user=ru2ps-0AAAAJ",
+    "available": 0,
+    "not_available": 1
+  },
+  "co_authors": [
+    {
+      "name": "shuntian zheng",
+      "link": "https://scholar.google.com/citations?user=rH0tMkwAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=rH0tMkwAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "rH0tMkwAAAAJ",
+      "affiliations": "university of warwick, computer science department",
+      "email": "Verified email at warwick.ac.uk",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=rH0tMkwAAAAJ&citpid=2"
+    },
+    {
+      "name": "Yu Guan",
+      "link": "https://scholar.google.com/citations?user=uNe0xYkAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=uNe0xYkAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "uNe0xYkAAAAJ",
+      "affiliations": "Associate Professor, University of Warwick, UK",
+      "email": "Verified email at warwick.ac.uk",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=uNe0xYkAAAAJ&citpid=15"
+    }
+  ],
+  "updated": "2026-09-05T08:59:19.467030+00:00",
+  "publications": {
+    "ru2ps-0AAAAJ:L8Ckcad2t8MC": {
+      "title": "Know the unknown: An uncertainty-sensitive method for llm instruction tuning",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:L8Ckcad2t8MC",
+      "citation_id": "ru2ps-0AAAAJ:L8Ckcad2t8MC",
+      "authors": "J Li, Y Tang, Y Yang",
+      "publication": "ACL Findings 2025, 2024",
+      "cited_by": {
+        "value": 27,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14802735383593174481,11141058214859375398",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14802735383593174481%2C11141058214859375398&engine=google_scholar&hl=en",
+        "cites_id": "14802735383593174481,11141058214859375398"
+      },
+      "year": "2024",
+      "num_citations": 27
+    },
+    "ru2ps-0AAAAJ:ZeXyd9-uunAC": {
+      "title": "RMFDNet: Redundant and missing feature decoupling network for salient object detection",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:ZeXyd9-uunAC",
+      "citation_id": "ru2ps-0AAAAJ:ZeXyd9-uunAC",
+      "authors": "Q Zhou, J Wang, J Li, C Zhou, H Hu, K Hu",
+      "publication": "Engineering Applications of Artificial Intelligence 139, 109459, 2025",
+      "cited_by": {
+        "value": 16,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8967240130802824932",
+        "serpapi_link": "https://serpapi.com/search.json?cites=8967240130802824932&engine=google_scholar&hl=en",
+        "cites_id": "8967240130802824932"
+      },
+      "year": "2025",
+      "num_citations": 16
+    },
+    "ru2ps-0AAAAJ:TFP_iSt0sucC": {
+      "title": "Person parametric physics-informed representation for mmwave-based human pose estimation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:TFP_iSt0sucC",
+      "citation_id": "ru2ps-0AAAAJ:TFP_iSt0sucC",
+      "authors": "S Zheng, J Li, G Wang, M Ni, A Palit, G Montana, Y Guan",
+      "publication": "IMWUT 2026, 2026",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16311287845298859678",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16311287845298859678&engine=google_scholar&hl=en",
+        "cites_id": "16311287845298859678"
+      },
+      "year": "2026",
+      "num_citations": 5
+    },
+    "ru2ps-0AAAAJ:R3hNpaxXUhUC": {
+      "title": "Keeping the Evidence Chain: Semantic Evidence Allocation for Training-Free Token Pruning in Video Temporal Grounding",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:R3hNpaxXUhUC",
+      "citation_id": "ru2ps-0AAAAJ:R3hNpaxXUhUC",
+      "authors": "J Li, S Zheng, Y Shen, JH Huang, X Lu, M Ni, Y Guan",
+      "publication": "ECCV 2026, 2026",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8762843260922283335",
+        "serpapi_link": "https://serpapi.com/search.json?cites=8762843260922283335&engine=google_scholar&hl=en",
+        "cites_id": "8762843260922283335"
+      },
+      "year": "2026",
+      "num_citations": 4
+    },
+    "ru2ps-0AAAAJ:RHpTSmoSYBkC": {
+      "title": "Generating multi-modal knowledge clues as an image: Towards improving image-sequence reasoning with assisted visual input",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:RHpTSmoSYBkC",
+      "citation_id": "ru2ps-0AAAAJ:RHpTSmoSYBkC",
+      "authors": "G Ye, H Zhao, Y Shen, J Li, F Li, Z Jiang, K Li",
+      "publication": "IEEE Transactions on Circuits and Systems for Video Technology, 2026",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16303422771829224306",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16303422771829224306&engine=google_scholar&hl=en",
+        "cites_id": "16303422771829224306"
+      },
+      "year": "2026",
+      "num_citations": 2
+    },
+    "ru2ps-0AAAAJ:_Qo2XoVZTnwC": {
+      "title": "Why Learn What Physics Already Knows? Realizing Agile mmWave-based Human Pose Estimation via Physics-Guided Preprocessing",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:_Qo2XoVZTnwC",
+      "citation_id": "ru2ps-0AAAAJ:_Qo2XoVZTnwC",
+      "authors": "S Zheng, J Li, M Ni, X Lu, Y Guan",
+      "publication": "ICME 2026, 2026",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3452844125176103261",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3452844125176103261&engine=google_scholar&hl=en",
+        "cites_id": "3452844125176103261"
+      },
+      "year": "2026",
+      "num_citations": 2
+    },
+    "ru2ps-0AAAAJ:4JMBOYKVnBMC": {
+      "title": "Doppler Prompting for Stable mmWave-based Human Pose Estimation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:4JMBOYKVnBMC",
+      "citation_id": "ru2ps-0AAAAJ:4JMBOYKVnBMC",
+      "authors": "S Zheng, J Li, X Lu, S He, Y Guan",
+      "publication": "ICML 2026, 2026",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9887631782889666084",
+        "serpapi_link": "https://serpapi.com/search.json?cites=9887631782889666084&engine=google_scholar&hl=en",
+        "cites_id": "9887631782889666084"
+      },
+      "year": "2026",
+      "num_citations": 1
+    },
+    "ru2ps-0AAAAJ:j3f4tGmQtD8C": {
+      "title": "A Two-Stage Motion-Aware Framework for mmWave-based Human Mesh Recovery",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:j3f4tGmQtD8C",
+      "citation_id": "ru2ps-0AAAAJ:j3f4tGmQtD8C",
+      "authors": "HH Pham, S Zheng, J Li, Y Guan",
+      "publication": "arXiv preprint arXiv:2605.08530, 2026",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3307418138877053098",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3307418138877053098&engine=google_scholar&hl=en",
+        "cites_id": "3307418138877053098"
+      },
+      "year": "2026",
+      "num_citations": 1
+    },
+    "ru2ps-0AAAAJ:e5wmG9Sq2KIC": {
+      "title": "Towards Mitigating Modality Bias in Vision-Language Models for Temporal Action Localization",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:e5wmG9Sq2KIC",
+      "citation_id": "ru2ps-0AAAAJ:e5wmG9Sq2KIC",
+      "authors": "J Li, G Wang, S Zheng, M Ni, X Lu, G Ye, Y Guan",
+      "publication": "ACL 2026, 2026",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12726670295196044885",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12726670295196044885&engine=google_scholar&hl=en",
+        "cites_id": "12726670295196044885"
+      },
+      "year": "2026",
+      "num_citations": 1
+    },
+    "ru2ps-0AAAAJ:bEWYMUwI8FkC": {
+      "title": "Differentiable Physics-Driven Human Representation for Millimeter-Wave Based Pose Estimation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:bEWYMUwI8FkC",
+      "citation_id": "ru2ps-0AAAAJ:bEWYMUwI8FkC",
+      "authors": "S Zheng, G Wang, J Li, M Ni, Y Guan",
+      "publication": "arXiv e-prints, arXiv: 2512.23054, 2025",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3702527265570107538",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3702527265570107538&engine=google_scholar&hl=en",
+        "cites_id": "3702527265570107538"
+      },
+      "year": "2025",
+      "num_citations": 1
+    },
+    "ru2ps-0AAAAJ:7PzlFSSx8tAC": {
+      "title": "Hot Topic Clustering based on Gaussian Mixture Model built-in DTW",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:7PzlFSSx8tAC",
+      "citation_id": "ru2ps-0AAAAJ:7PzlFSSx8tAC",
+      "authors": "C Lu, J Li",
+      "publication": "2023 IEEE 4th International Conference on Pattern Recognition and Machine …, 2023",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14966223610775135751",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14966223610775135751&engine=google_scholar&hl=en",
+        "cites_id": "14966223610775135751"
+      },
+      "year": "2023",
+      "num_citations": 1
+    },
+    "ru2ps-0AAAAJ:isC4tDSrTZIC": {
+      "title": "Physics-Bounded mmWave Sensing for Schedulable, Privacy-Preserving Human Pose Estimation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:isC4tDSrTZIC",
+      "citation_id": "ru2ps-0AAAAJ:isC4tDSrTZIC",
+      "authors": "S Zheng, H He, J Li, X Lu, D Kim, JH Choi, J Zeng, S He, Y Guan",
+      "publication": "arXiv preprint arXiv:2608.14176, 2026",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2026",
+      "num_citations": null
+    },
+    "ru2ps-0AAAAJ:iH-uZ7U-co4C": {
+      "title": "Automatic and Reliable Evaluation for Academic Caption-to-Figure Generation with LMMs",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ru2ps-0AAAAJ&citation_for_view=ru2ps-0AAAAJ:iH-uZ7U-co4C",
+      "citation_id": "ru2ps-0AAAAJ:iH-uZ7U-co4C",
+      "authors": "G Ye, H Zhao, Q Zhu, F Li, J Li, Y Shen, Z Ren, Z Jiang",
+      "publication": "ACL 2026, 2026",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2026",
+      "num_citations": null
+    }
+  },
+  "citedby": 61
+}
