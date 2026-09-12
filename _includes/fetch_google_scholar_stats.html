@@ -79,9 +79,11 @@
         if (!normalized) {
           return;
         }
-        // Google Scholar sometimes holds duplicate records for one paper, where
-        // one twin carries the citations and the other is an empty stub. Keep
-        // whichever record actually has data.
+        /* Google Scholar sometimes holds duplicate records for one paper, where
+           one twin carries the citations and the other is an empty stub. Keep
+           whichever record actually has data.
+           NOTE: block comments only in this file. The `compress` layout strips
+           newlines, so a // comment would swallow the rest of the script. */
         if (!index[normalized] || citationCount(publication) > citationCount(index[normalized])) {
           index[normalized] = publication;
         }
@@ -89,8 +91,8 @@
       return index;
     }
 
-    // A pinned citation id can point at the empty twin of a duplicated record,
-    // so always consider the title match as well instead of trusting the id alone.
+    /* A pinned citation id can point at the empty twin of a duplicated record,
+       so always consider the title match as well instead of trusting the id alone. */
     function collectCandidates(publications, titleIndex, paperId, paperTitle) {
       var candidates = [];
       if (paperId && publications[paperId]) {
