@@ -1,0 +1,55 @@
+{% assign paper = include.paper %}
+{% assign heading_level = include.heading_level | default: 3 %}
+{% assign venue = paper.venue_short | default: paper.venue %}
+{% assign venue_class = '' %}
+{% if paper.venue contains 'Computer Vision' %}
+  {% assign venue_class = ' venue-badge--cv' %}
+{% elsif paper.venue contains 'Machine Learning' %}
+  {% assign venue_class = ' venue-badge--ml' %}
+{% elsif paper.venue contains 'Computational Linguistics' %}
+  {% assign venue_class = ' venue-badge--nlp' %}
+{% elsif paper.venue contains 'Ubiquitous' %}
+  {% assign venue_class = ' venue-badge--ubi' %}
+{% endif %}
+
+{% assign card_authors = paper.authors %}
+{% assign author_names = card_authors | split: ',' %}
+{% if author_names.size > 3 and site.author.name %}
+  {% for author_name in author_names limit: 3 %}
+    {% assign trimmed_name = author_name | strip %}
+    {% if trimmed_name == site.author.name %}
+      {% assign card_authors = author_names | slice: 0, 3 | join: ',' | append: ', et al.' %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% assign summary = paper.excerpt %}
+{% if include.homepage %}
+  {% assign summary = paper.homepage_summary | default: summary %}
+{% endif %}
+
+<article class="publication-card{% if include.homepage and paper.project_name %} publication-card--featured{% endif %}"{% if include.homepage and paper.project_name %} id="{{ paper.project_name | slugify }}"{% endif %}>
+  <div class="publication-card__body">
+    <div class="publication-card__meta">
+      {% if venue %}
+        <span class="venue-badge{{ venue_class }}" title="{{ paper.venue | escape }}">{{ venue | escape }}{% if paper.date %} {{ paper.date | date: "%Y" }}{% endif %}</span>
+      {% endif %}
+      {% include publication-highlight.html highlight=paper.highlight %}
+    </div>
+    <h{{ heading_level }} class="publication-card__title"><a href="{{ paper.url | relative_url }}">{{ paper.title | escape }}</a></h{{ heading_level }}>
+    {% if card_authors %}<p class="publication-card__authors">{% include highlight-author-name.html authors=card_authors %}</p>{% endif %}
+    {% if summary %}<p class="publication-card__excerpt">{{ summary | markdownify | strip_html }}</p>{% endif %}
+    <div class="publication-card__links">
+      {% if paper.paperurl %}
+        <a href="{{ paper.paperurl }}">Paper</a>
+      {% else %}
+        <span class="show_paper_download show_paper_download--compact"{% if paper.google_scholar_citation_id %} data="{{ paper.google_scholar_citation_id }}"{% endif %} data-title="{{ paper.title | escape }}"></span>
+      {% endif %}
+      {% if paper.codeurl %}<a href="{{ paper.codeurl }}">Code</a>{% endif %}
+      {% if paper.slidesurl %}<a href="{{ paper.slidesurl }}">Slides</a>{% endif %}
+      {% if paper.bibtexurl %}<a href="{{ paper.bibtexurl }}">BibTeX</a>{% endif %}
+      <span class="show_paper_citations"{% if paper.google_scholar_citation_id %} data="{{ paper.google_scholar_citation_id }}"{% endif %} data-title="{{ paper.title | escape }}"></span>
+    </div>
+  </div>
+</article>

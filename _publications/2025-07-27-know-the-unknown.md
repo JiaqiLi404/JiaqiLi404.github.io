@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/know-the-unknown/
 order: 7
 show_on_homepage: true
+homepage_summary: "We train language models to recognize when they lack the knowledge to answer a question and say so."
 excerpt: "A novel fine-tuning framework to automatically synthesize training data tailored for rejecting the questions exceeds the knowledge without compromising on other tasks."
 date: 2025-07-27
 venue: "Findings of the Association for Computational Linguistics: ACL"

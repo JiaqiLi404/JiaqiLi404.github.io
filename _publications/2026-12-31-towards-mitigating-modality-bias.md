@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/towards-mitigating-modality-bias/
 order: 9
 show_on_homepage: true
+project_name: "ActionVLM"
 excerpt: "We propose ActionVLM, a vision-language framework for temporal action localization that uses Language Advantage to adaptively weight language, mitigating language shortcuts and grounding localization in visual evidence."
 date: 2026-12-31
 venue: "Association for Computational Linguistics (ACL)"
@@ -13,6 +14,7 @@ paperurl: "https://arxiv.org/pdf/2601.21078"
 codeurl: "https://github.com/JiaqiLi404/ActionVLM"
 authors: "Jiaqi Li, Guangming Wang, Shuntian Zheng, Minzhe Ni, Xiaoman Lu, Guanghui Ye, Yu Guan"
 highlight: "Oral, Top 1% Overall Assessment"
+homepage_summary: "ActionVLM reduces language bias by estimating how much language adds to the visual evidence for an action."
 citation: 'Li, J., Wang, G., Zheng, S., et al. (2026). &quot;Towards Mitigating Modality Bias in Vision-Language Models for Temporal Action Localization.&quot; ACL submission.'
 ---
 

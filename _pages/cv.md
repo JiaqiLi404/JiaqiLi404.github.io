@@ -3,14 +3,14 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
+archive_class: cv-archive
 redirect_from:
   - /resume
 ---
 
-Download PDF: [Jiaqi_Li_CV.pdf](/Jiaqi_Li_CV.pdf)
+<a class="cv-download" href="{{ site.author.cv | relative_url }}">Download CV (PDF) <span aria-hidden="true">&darr;</span></a>
 
-Education
-======
+## Education
 
 * **University of Warwick**, Coventry, United Kingdom  
   PhD in Computer Science, 2024 - present  
@@ -21,8 +21,7 @@ Education
   BSc in Information and Computing Science, 2018 - 2022  
   Minor: Computer Science and Technology
 
-Research Interests
-======
+## Research Interests
 
 * Long video understanding
 * Multimodal models
@@ -30,9 +29,9 @@ Research Interests
 * Embodied AI
 * Robot task and motion planning
 * Human pose estimation
+{: .cv-interests }
 
-Research Experience
-======
+## Research Experience
 
 * **Research Assistant**, University of Warwick, Coventry, United Kingdom  
   Dec 2024 - Mar 2025; Jun 2026 - Sep 2026<br>
@@ -41,22 +40,19 @@ Research Experience
   Oct 2023 - May 2024  
   Advisors: Yi Yang, Zhitao Yin
 
-Teaching and Invited Talk
-======
+## Teaching and Invited Talk
 
 * **Guest Lecture**, Video Forensics and Video Compression  
   CS355 Digital Forensics, University of Warwick, March 2026
 
-Academic Service
-======
+## Academic Service
 
 * **Workshop Program Chair**  
   CVPR International Workshop on Vision Intelligence for Real-world Challenges (AI4RWC) 2026
 * **Conference Reviewer**  
   IJCAI 2025, 2026; ICCV 2025; AAAI 2025; ICML 2026; ACL ARR 2026; NIPS 2026; ECCV 2026
 
-Selected Publications
-======
+## Selected Publications
 
 {% assign featured_publications = site.publications | sort: "order" | reverse %}
 <ul>
@@ -65,8 +61,7 @@ Selected Publications
 {% endfor %}
 </ul>
 
-Patents
-======
+## Patents
 
 * A method for calibrating the longitude and latitude of aerial image pixels. Patent No. CN115457124A.
 * A Remote Ischemic Preconditioning Training System and Method. Patent No. CN107512239A. Co-inventor.

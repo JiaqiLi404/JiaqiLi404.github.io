@@ -135,7 +135,8 @@ $(document).ready(function () {
   });
 
   // Init smooth scroll, this needs to be slightly more than then fixed masthead height
-  $("a").smoothScroll({
+  // Research links use native hash navigation and CSS scroll margins.
+  $("a:not(.focus-card__work)").smoothScroll({
     offset: -scssMastheadHeight,
     preventDefault: false,
   });

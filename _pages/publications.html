@@ -6,12 +6,12 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">Selected papers and recent work. A full list is also available on <a href="{{site.author.googlescholar}}">Google Scholar</a>.</div>
+  <p class="publications-intro">Selected papers and recent work. A full list is also available on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
 {% endif %}
 
-{% include base_path %}
-
 {% assign sorted_publications = site.publications | sort: "order" | reverse %}
-{% for post in sorted_publications %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="publication-list">
+  {% for paper in sorted_publications %}
+    {% include publication-card.html paper=paper heading_level=2 %}
+  {% endfor %}
+</div>

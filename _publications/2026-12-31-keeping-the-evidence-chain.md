@@ -4,6 +4,8 @@ collection: publications
 permalink: /publication/keeping-the-evidence-chain/
 order: 8
 show_on_homepage: true
+project_name: "SemVID"
+homepage_summary: "With 12.5% of the visual tokens, SemVID retained up to 95.4% of the original localization score (mIoU) and processed inputs up to 5.8× faster."
 excerpt: "SemVID is a training-free VTG token pruning framework that preserves both boundary-critical evidence and cross-frame reasoning."
 date: 2026-12-31
 venue: "European Conference on Computer Vision (ECCV)"
