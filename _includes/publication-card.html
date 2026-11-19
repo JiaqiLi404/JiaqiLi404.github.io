@@ -29,7 +29,9 @@
   {% assign summary = paper.homepage_summary | default: summary %}
 {% endif %}
 
-<article class="publication-card{% if include.homepage and paper.project_name %} publication-card--featured{% endif %}"{% if include.homepage and paper.project_name %} id="{{ paper.project_name | slugify }}"{% endif %}>
+<article class="publication-card{% if include.homepage and paper.project_name %} publication-card--featured{% endif %}"
+  {% if include.homepage and paper.project_name %}id="{{ paper.project_name | slugify }}"{% endif %}
+  {% if include.filterable and paper.publication_group %}data-publication-group="{{ paper.publication_group | strip | escape }}" data-publication-date="{{ paper.date | date: '%Y-%m-%d' }}"{% endif %}>
   <div class="publication-card__body">
     <div class="publication-card__meta">
       {% if venue %}

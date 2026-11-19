@@ -9,6 +9,7 @@ excerpt: "A novel fine-tuning framework to automatically synthesize training dat
 date: 2025-07-27
 venue: "Findings of the Association for Computational Linguistics: ACL"
 venue_short: "ACL Findings"
+publication_group: "ACL"
 authors: "Jiaqi Li, Yixuan Tang, Yi Yang"
 paperurl: "https://aclanthology.org/2025.findings-acl.153"
 codeurl: "https://github.com/JiaqiLi404/Know_the_Unknown"

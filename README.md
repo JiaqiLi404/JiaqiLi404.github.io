@@ -15,6 +15,10 @@
 
 See more info at https://academicpages.github.io/
 
+### Publications filter
+
+In `_publications`, set `publication_group` to the conference acronym (without a year) when adding an accepted paper. For example, use `ACL` for both ACL and ACL Findings, or `Others` for venues that should share that option. Leave the field out for papers that should only appear under **All publications**. The filter builds its options from the papers and sorts conference groups by paper count, then by their newest `date`.
+
 ### Additional Tutorials
 
 Additional tutorials for working with the Academic Pages template can be found at the following sites:

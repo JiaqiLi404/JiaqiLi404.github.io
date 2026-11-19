@@ -9,6 +9,7 @@ excerpt: "We propose ActionVLM, a vision-language framework for temporal action 
 date: 2026-12-31
 venue: "Association for Computational Linguistics (ACL)"
 venue_short: "ACL"
+publication_group: "ACL"
 google_scholar_citation_id: "ru2ps-0AAAAJ:e5wmG9Sq2KIC"
 paperurl: "https://arxiv.org/pdf/2601.21078"
 codeurl: "https://github.com/JiaqiLi404/ActionVLM"

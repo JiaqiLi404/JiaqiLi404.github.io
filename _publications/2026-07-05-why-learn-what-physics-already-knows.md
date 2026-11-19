@@ -6,6 +6,7 @@ order: 5
 excerpt: "We propose a lightweight mmWave pose estimation framework that exploits physical priors to reduce parameters by 55.7%–88.9% while maintaining competitive accuracy and enabling real-time Raspberry Pi deployment."
 date: 2026-07-05
 venue: "IEEE International Conference on Multimedia and Expo (ICME)"
+publication_group: "ICME"
 google_scholar_citation_id: "ru2ps-0AAAAJ:_Qo2XoVZTnwC"
 paperurl: "https://arxiv.org/pdf/2603.08236"
 authors: "Shuntian Zheng, Jiaqi Li, Minzhe Ni, Xiaoman Lu, Yu Guan"

@@ -6,6 +6,7 @@ order: 3
 excerpt: "A Gaussian mixture model with built-in DTW for clustering variable-length time-series without dimensional explosion."
 date: 2023-08-04
 venue: "IEEE International Conference on Pattern Recognition and Machine Learning (PRML)"
+publication_group: "Others"
 authors: "Chenggang Lu, Jiaqi Li"
 paperurl: "https://ieeexplore.ieee.org/abstract/document/10348277"
 codeurl: "https://github.com/JiaqiLi404/gmm_dtw"

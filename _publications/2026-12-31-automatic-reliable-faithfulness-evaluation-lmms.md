@@ -6,6 +6,7 @@ order: 2
 excerpt: "The first automatic faithfulness evaluation metric specifically designed for scientific image tasks."
 date: 2026-12-31
 venue: "Association for Computational Linguistics (ACL)"
+publication_group: "ACL"
 authors: "Guanghui Ye, Huan Zhao, Qin Zhu, Fengnan Li, Jiaqi Li, Yixian Shen, Zhonghao Ren, Zhihua Jiang"
 citation: 'Ye, G., Zhao, H., Zhu, Q., Li, F., Li, J., Shen, Y., Ren, Z., & Jiang, Z. (2026). &quot;Automatic and Reliable Faithfulness Evaluation for Scientific Text-to-Image Generation with LMMs.&quot; <i>Association for Computational Linguistics (ACL)</i>.'
 ---
