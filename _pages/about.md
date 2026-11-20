@@ -182,12 +182,12 @@ redirect_from:
         <span>CVPR International Workshop on Vision Intelligence for Real-world Challenges (AI4RWC), 2026</span>
       </div>
       <div class="detail-item">
-        <strong>Conference Reviewer &middot; 2026</strong>
-        <span>IJCAI, ICML, ACL ARR, NeurIPS, ECCV</span>
+        <strong>Conference Reviewer &middot; 2027</strong>
+        <span>AAAI, ICLR, CVPR</span>
       </div>
       <div class="detail-item">
-        <strong>Conference Reviewer &middot; 2025</strong>
-        <span>IJCAI, ICCV, AAAI</span>
+        <strong>Conference Reviewer &middot; 2026</strong>
+        <span>IJCAI, ICML, ACL ARR, NeurIPS, ECCV</span>
       </div>
     </div>
   </section>

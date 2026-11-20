@@ -49,8 +49,12 @@ redirect_from:
 
 * **Workshop Program Chair**  
   CVPR International Workshop on Vision Intelligence for Real-world Challenges (AI4RWC) 2026
-* **Conference Reviewer**  
-  IJCAI 2025, 2026; ICCV 2025; AAAI 2025; ICML 2026; ACL ARR 2026; NIPS 2026; ECCV 2026
+* **Conference Reviewer · 2027**<br>
+  AAAI, ICLR, CVPR
+* **Conference Reviewer · 2026**<br>
+  IJCAI, ICML, ACL ARR, NIPS, ECCV
+* **Conference Reviewer · 2025**<br>
+  IJCAI, ICCV, AAAI
 
 ## Selected Publications
 
