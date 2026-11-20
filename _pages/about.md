@@ -13,7 +13,7 @@ redirect_from:
 
 <section class="home-hero" aria-labelledby="research-statement">
   <div class="home-hero__text">
-    <h1 class="home-hero__title" id="research-statement">Trustworthy AI,<br><span class="home-hero__emphasis">grounded in evidence.</span></h1>
+    <h1 class="home-hero__title" id="research-statement"><span>Trustworthy AI,</span> <span class="home-hero__emphasis"><span class="home-hero__ink">grounded in evidence.</span></span></h1>
     <p class="home-hero__lead">
       I study how vision-language and vision-language-action models use the right evidence to reason and act.
     </p>
