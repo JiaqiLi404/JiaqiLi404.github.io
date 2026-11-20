@@ -537,12 +537,25 @@ a {
     }
 }
 
+.home-focus,
+.home-publications {
+    padding-block-start: clamp(1.55rem, 3.35vw, 2.3rem);
+}
+
+.home-focus > h2,
+.home-publications > .section-heading {
+    margin-block-end: clamp(0.85rem, 2.1vw, 1.25rem);
+}
+
+.home-focus > h2 {
+    transition-property: color;
+}
+
 .section-heading {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
     gap: 1rem;
-    margin-bottom: 1.1rem;
 
     h2 {
         margin: 0;
@@ -1428,6 +1441,18 @@ p.home-hero__affiliation {
         border-top: 0;
     }
 
+    .publication-card:focus-within {
+        background: var(--custom-panel-alt-bg);
+        box-shadow: 0 0 0 0.4rem var(--custom-panel-alt-bg);
+    }
+
+    @media (hover: hover) {
+        .publication-card:hover {
+            background: var(--custom-panel-alt-bg);
+            box-shadow: 0 0 0 0.4rem var(--custom-panel-alt-bg);
+        }
+    }
+
     .publication-card:first-child {
         padding-top: 0;
     }
@@ -1435,6 +1460,44 @@ p.home-hero__affiliation {
     .publication-card:last-child {
         border-bottom: 0;
         padding-bottom: 0;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .home-section-enter {
+        animation: home-section-enter 380ms ease-out;
+    }
+
+    @keyframes home-section-enter {
+        from {
+            opacity: 0.76;
+            transform: translateY(0.45rem);
+        }
+
+        to {
+            opacity: 1;
+            transform: none;
+        }
+    }
+
+    .home-publications .publication-card {
+        transition: background-color 160ms ease, box-shadow 160ms ease;
+    }
+
+    .home-publications .section-heading a span,
+    .home-hero__work span {
+        display: inline-block;
+        transition: transform 160ms ease;
+    }
+
+    .home-publications .section-heading a:hover span,
+    .home-publications .section-heading a:focus-visible span {
+        transform: translateX(0.22em);
+    }
+
+    .home-hero__work:hover span,
+    .home-hero__work:focus-visible span {
+        transform: translateY(0.22em);
     }
 }
 
@@ -1667,5 +1730,6 @@ p.home-hero__affiliation {
     .section-heading {
         align-items: flex-start;
         flex-direction: column;
+        gap: 0.45rem;
     }
 }
