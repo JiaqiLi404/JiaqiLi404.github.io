@@ -1049,6 +1049,7 @@ p.home-hero__affiliation {
    ========================================================================= */
 
 .focus-row {
+    position: relative;
     display: grid;
     align-items: start;
     gap: 0.55rem;
@@ -1084,6 +1085,10 @@ p.home-hero__affiliation {
     @include breakpoint($medium) {
         grid-template-columns: minmax(0, 0.94fr) minmax(0, 1.7fr);
         column-gap: 2rem;
+
+        .focus-row__body {
+            padding-inline-end: 2.25rem;
+        }
     }
 
     h3 {
@@ -1109,6 +1114,192 @@ p.home-hero__affiliation {
     font-weight: 700;
     letter-spacing: 0.12em;
     text-transform: uppercase;
+}
+
+.focus-comparison__toggle {
+    position: absolute;
+    inset-block-start: 1.03rem;
+    inset-inline-end: 0;
+    display: grid;
+    place-items: center;
+    width: 1.7rem;
+    height: 1.7rem;
+    border: 1px solid var(--custom-border);
+    border-radius: 4px;
+    color: var(--custom-muted-strong);
+    list-style: none;
+    cursor: pointer;
+
+    .focus-row:first-of-type & {
+        inset-block-start: 0;
+    }
+
+    &::-webkit-details-marker {
+        display: none;
+    }
+
+    &:hover,
+    .focus-comparison[open] & {
+        border-color: var(--custom-accent);
+        color: var(--custom-accent);
+    }
+
+    &:focus-visible {
+        outline: 2px solid var(--custom-accent);
+        outline-offset: 2px;
+    }
+}
+
+.focus-comparison__indicator {
+    width: 0;
+    height: 0;
+    margin-inline-start: 0.12rem;
+    border-block: 0.25rem solid transparent;
+    border-inline-start: 0.4rem solid currentColor;
+
+    .focus-comparison[open] & {
+        width: 0.52rem;
+        height: 0.52rem;
+        margin: 0;
+        border: 1px solid currentColor;
+    }
+}
+
+.focus-comparison .focus-comparison__panel {
+    display: block;
+    width: 100%;
+    max-width: 25rem;
+    margin: 0.75rem 0 0;
+    padding: 0.65rem;
+    border: 1px solid var(--custom-border-strong);
+    border-radius: 6px;
+    background: var(--custom-panel-bg);
+
+    @include breakpoint($medium) {
+        position: absolute;
+        z-index: 3;
+        inset-block-start: 100%;
+        inset-inline-end: 0;
+        margin: 0;
+        box-shadow: var(--custom-shadow);
+
+        .focus-row--preview-above & {
+            inset-block: auto 100%;
+        }
+    }
+}
+
+.focus-comparison__task {
+    display: block;
+    margin-bottom: 0.45rem;
+    color: var(--custom-heading);
+    font: 700 0.84rem/1.3 var(--font-sans);
+}
+
+.focus-comparison__drawing {
+    display: block;
+    width: 100%;
+    height: auto;
+
+    g {
+        stroke: currentColor;
+        stroke-width: 1.55;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+
+    text {
+        fill: currentColor;
+        stroke: none;
+        font: 700 9px var(--font-sans);
+        text-anchor: middle;
+    }
+
+    .comparison-quote {
+        font-size: 15px;
+    }
+}
+
+.comparison-scene {
+    fill: var(--custom-accent-soft);
+
+    &--grounded {
+        fill: var(--venue-ubi-bg);
+    }
+}
+
+.comparison-appearance { color: var(--custom-accent); }
+.comparison-context { color: var(--custom-muted); }
+.comparison-grounded { color: var(--venue-ubi-text); }
+.comparison-gripper,
+.comparison-lift { transform: translateY(-12px); }
+.comparison-standing { opacity: 0; }
+
+.focus-comparison .focus-comparison__caption {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 0.55rem;
+    margin: 0.28rem 0 0;
+    color: var(--custom-muted);
+    font: 400 0.73rem/1.4 var(--font-sans);
+
+    strong,
+    span {
+        display: block;
+    }
+
+    strong {
+        color: var(--custom-heading);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .focus-comparison[open] {
+        .focus-comparison__panel { animation: comparison-reveal 180ms ease-out; }
+        .comparison-miss { animation: comparison-miss 1.1s ease-in-out both; }
+        .comparison-gripper { animation: comparison-grasp 1.1s ease-in-out both; }
+        .comparison-lift { animation: comparison-lift 1.1s ease-in-out both; }
+        .comparison-confirm { animation: comparison-reveal 320ms 650ms ease-out both; }
+        .comparison-redundancy { animation: comparison-redundancy 900ms ease-out both; }
+        .comparison-standing { animation: comparison-standing 950ms ease-out both; }
+        .comparison-sitting { animation: comparison-sitting 950ms ease-out both; }
+    }
+
+    @keyframes comparison-reveal {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
+    @keyframes comparison-miss {
+        0%, 15%, 100% { transform: translateY(0); }
+        48%, 56% { transform: translateY(19px); }
+    }
+
+    @keyframes comparison-grasp {
+        0%, 15% { transform: translateY(0); }
+        48%, 56% { transform: translateY(12px); }
+        90%, 100% { transform: translateY(-12px); }
+    }
+
+    @keyframes comparison-lift {
+        0%, 56% { transform: translateY(0); }
+        90%, 100% { transform: translateY(-12px); }
+    }
+
+    @keyframes comparison-redundancy {
+        from { opacity: 1; }
+        to { opacity: 0.6; }
+    }
+
+    @keyframes comparison-standing {
+        0%, 35% { opacity: 1; }
+        55%, 100% { opacity: 0; }
+    }
+
+    @keyframes comparison-sitting {
+        0%, 35% { opacity: 0; }
+        55%, 100% { opacity: 1; }
+    }
 }
 
 .page__content .tag-row {

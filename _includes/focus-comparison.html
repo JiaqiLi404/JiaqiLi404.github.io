@@ -1,0 +1,98 @@
+<details class="focus-comparison">
+  <summary class="focus-comparison__toggle" title="Preview comparison">
+    <span class="sr-only">Preview {{ include.topic | escape }} comparison</span>
+    <span class="focus-comparison__indicator" aria-hidden="true"></span>
+  </summary>
+  <figure class="focus-comparison__panel">
+    <strong class="focus-comparison__task">{{ include.task | escape }}</strong>
+    <svg class="focus-comparison__drawing" viewBox="0 0 320 94" fill="none" aria-hidden="true" focusable="false">
+      <rect class="comparison-scene" width="155" height="94" rx="4" />
+      <rect class="comparison-scene comparison-scene--grounded" x="165" width="155" height="94" rx="4" />
+      {% case include.topic %}
+      {% when 'geometry' %}
+      <defs>
+        <path id="demo-mug" d="M0 0h27v21a5 5 0 0 1-5 5H5a5 5 0 0 1-5-5Zm27 4h6a5 5 0 0 1 0 10h-6" />
+        <path id="demo-gripper" d="M0 0v17m0 0-11 8v12m11-20 11 8v12" />
+        <g id="demo-kitchen">
+          <path d="M12 77h131v8H12Zm2-3V39h18m-18 14h18m-9-14v36m0-21h9" fill="currentColor" fill-opacity="0.08" />
+          <ellipse cx="46" cy="74" rx="16" ry="3" fill="currentColor" fill-opacity="0.26" />
+          <path d="m37 73 4 2m1-3 5 3m2-3 6 3" />
+        </g>
+      </defs>
+      <g class="comparison-context" opacity="0.7"><use href="#demo-kitchen" /><use href="#demo-kitchen" x="165" /></g>
+      <g class="comparison-appearance">
+        <use href="#demo-mug" x="85" y="50" fill="currentColor" fill-opacity="0.26" />
+        <g class="comparison-miss"><use href="#demo-gripper" x="46" y="15" stroke-width="2.5" /></g>
+        <path class="comparison-confirm" d="m40 56 12 12m0-12L40 68" stroke-width="2.4" />
+      </g>
+      <g class="comparison-grounded" transform="translate(165)">
+        <g class="comparison-lift">
+          <use href="#demo-mug" x="85" y="50" fill="currentColor" fill-opacity="0.3" />
+          <path d="M82 47h33l11 5v15l-11 12H82Z" stroke-width="2.5" stroke-dasharray="0.1 3.5" />
+        </g>
+        <g class="comparison-gripper"><use href="#demo-gripper" x="98" y="15" stroke-width="2.5" /></g>
+        <path class="comparison-confirm" d="m128 24 4 4 8-10" stroke-width="2.4" />
+      </g>
+      {% when 'motion' %}
+      <defs>
+        <g id="demo-doorframe">
+          <rect x="0" y="0" width="32" height="42" rx="2" fill="currentColor" fill-opacity="0.06" />
+          <path d="M7 35h18M9 35V9h14v26" />
+        </g>
+        <g id="demo-door-shut">
+          <use href="#demo-doorframe" />
+          <path d="M9 9h14v26H9Z" fill="currentColor" fill-opacity="0.2" />
+          <path d="M20 23h.1" stroke-width="2.5" />
+        </g>
+        <g id="demo-door-open">
+          <use href="#demo-doorframe" />
+          <path d="M9 9 23 13v18L9 35Z" fill="currentColor" fill-opacity="0.35" />
+          <path d="M20 23h.1" stroke-width="2.5" />
+        </g>
+      </defs>
+      <g class="comparison-context comparison-redundancy">
+        <use href="#demo-door-shut" x="6" y="24" /><use href="#demo-door-shut" x="43" y="24" /><use href="#demo-door-shut" x="80" y="24" />
+        <text x="22" y="80">0s</text><text x="59" y="80">1s</text><text x="96" y="80">2s</text>
+      </g>
+      <g class="comparison-appearance">
+        <use href="#demo-door-open" x="117" y="24" /><text x="133" y="80">3s</text>
+      </g>
+      <g class="comparison-grounded" transform="translate(165)">
+        <use href="#demo-door-shut" x="20" y="24" /><text x="36" y="80">2s</text>
+        <path d="M64 44h24m-5-5 5 5-5 5" />
+        <g class="comparison-confirm"><use href="#demo-door-open" x="103" y="24" /><text x="119" y="80">3s</text></g>
+      </g>
+      {% when 'modality' %}
+      <g class="comparison-appearance">
+        <path d="M21 22h76a6 6 0 0 1 6 6v24a6 6 0 0 1-6 6H51L37 69V58H21a6 6 0 0 1-6-6V28a6 6 0 0 1 6-6Z" fill="currentColor" fill-opacity="0.08" />
+        <text class="comparison-quote" x="59" y="46">Jump!</text>
+        <path class="comparison-confirm" d="m118 34 15 15m0-15-15 15" stroke-width="2.8" />
+      </g>
+      <g class="comparison-grounded" transform="translate(165)">
+        <path d="M15 27V17h12m101 0h12v10m0 39v10h-12m-101 0H15V66" opacity="0.5" />
+        <path d="M44 35v18h27v19m-27-19v19" stroke-width="3" />
+        <g class="comparison-standing">
+          <circle cx="79" cy="28" r="6" fill="currentColor" /><path d="M78 38v15m0 0-6 16m6-16 7 16M78 40l-9 9" stroke-width="4" />
+        </g>
+        <g class="comparison-sitting">
+          <circle cx="58" cy="33" r="6" fill="currentColor" /><path d="m59 43 2 11h19v13m-18-11 15 2m-16-13 14 5" stroke-width="4" />
+        </g>
+        <path class="comparison-confirm" d="m103 41 6 6 10-13" stroke-width="2.8" />
+      </g>
+      {% endcase %}
+    </svg>
+    <figcaption class="focus-comparison__caption">
+      {% case include.topic %}
+      {% when 'geometry' %}
+      <div><strong>Appearance shortcut</strong><span>Aims at the patterned coaster.</span></div>
+      <div><strong>Point-cloud geometry</strong><span>Finds the mug by shape and lifts it.</span></div>
+      {% when 'motion' %}
+      <div><strong>Unfiltered video</strong><span>Several frames show the same closed door.</span></div>
+      <div><strong>Motion-aware compression</strong><span>Keep the before and after: the door opens at 3s.</span></div>
+      {% when 'modality' %}
+      <div><strong>Language shortcut</strong><span>The text says “jump,” so the model predicts a jump.</span></div>
+      <div><strong>Visual evidence</strong><span>The video shows the person sitting down.</span></div>
+      {% endcase %}
+    </figcaption>
+  </figure>
+</details>

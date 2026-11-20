@@ -48,17 +48,21 @@ redirect_from:
       <span class="focus-row__signal"><span class="evidence-glyph evidence-glyph--geometry" aria-hidden="true"></span>Geometry</span>
       <h3>Embodied AI &amp; VLA</h3>
     </div>
-    <p>Color and texture in a robot's visual input can be misleading artifacts, since they rarely affect how an object should be grasped but can substantially reduce model robustness. We study how to ground grasp decisions in <strong>geometric evidence</strong> from shape, pose, and spatial relationships.</p>
+    <div class="focus-row__body">
+      <p>Color and texture in a robot's visual input can be misleading artifacts, since they rarely affect how an object should be grasped but can substantially reduce model robustness. We study how to ground grasp decisions in <strong>geometric evidence</strong> from shape, pose, and spatial relationships.</p>
+      {% include focus-comparison.html topic="geometry" task="Lift the mug in a new kitchen" %}
+    </div>
   </article>
   <article class="focus-row" id="motion">
     <div class="focus-row__heading">
       <span class="focus-row__signal"><span class="evidence-glyph evidence-glyph--motion" aria-hidden="true"></span>Motion</span>
       <h3>Video Compression &amp; Efficient VLM</h3>
     </div>
-    <div>
+    <div class="focus-row__body">
       <p>Video is highly redundant. We ground video compression in the few tokens that carry evidence for reasoning and find that <strong>motion cues</strong> are especially informative.</p>
       {% assign semvid = site.publications | where: "project_name", "SemVID" | first %}
       {% if semvid %}<a class="focus-card__work" href="#{{ semvid.project_name | slugify }}">{{ semvid.project_name | escape }} ({{ semvid.venue_short | escape }}{{ semvid.date | date: "%y" }}) <span aria-hidden="true">&darr;</span></a>{% endif %}
+      {% include focus-comparison.html topic="motion" task="Find when the door opens" %}
     </div>
   </article>
   <article class="focus-row" id="modality">
@@ -66,10 +70,11 @@ redirect_from:
       <span class="focus-row__signal"><span class="evidence-glyph evidence-glyph--modality" aria-hidden="true"></span>Modality</span>
       <h3>Multimodal &amp; Video Understanding</h3>
     </div>
-    <div>
+    <div class="focus-row__body">
       <p>VLMs can rely on language cues even when the answer depends on the image or video. We study how to ground their reasoning in <strong>visual evidence</strong>.</p>
       {% assign actionvlm = site.publications | where: "project_name", "ActionVLM" | first %}
       {% if actionvlm %}<a class="focus-card__work" href="#{{ actionvlm.project_name | slugify }}">{{ actionvlm.project_name | escape }} ({{ actionvlm.venue_short | escape }}{{ actionvlm.date | date: "%y" }}) <span aria-hidden="true">&darr;</span></a>{% endif %}
+      {% include focus-comparison.html topic="modality" task="What did the person do?" %}
     </div>
   </article>
   <ul class="tag-row" aria-label="Research keywords">
